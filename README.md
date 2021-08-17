@@ -1,1 +1,1 @@
-# exiftool-bingings
+# exiftool-bindings
