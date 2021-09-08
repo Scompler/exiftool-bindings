@@ -1,0 +1,2411 @@
+en:
+  matadata:
+    iptc:
+      object_type_reference: Object Type Reference
+      object_attribute_reference: Object Attribute Reference
+      object_name: Object Name
+      edit_status: Edit Status
+      subject_reference: Subject Reference
+      category: Category
+      supplemental_categories: Supplemental Categories
+      fixture_identifier: Fixture Identifier
+      keywords: Keywords
+      content_location_code: Content Location Code
+      content_location_name: Content Location Name
+      release_time: Release Time
+      expiration_time: Expiration Time
+      special_instructions: Special Instructions
+      reference_service: Reference Service
+      time_created: Time Created
+      digital_creation_time: Digital Creation Time
+      originating_program: Originating Program
+      program_version: Program Version
+      object_cycle: Object Cycle
+      object_cycle_values:
+        a: Morning
+        b: Both Morning and Evening
+        p: Evening
+      by_line: By-line
+      by_line_title: By-line Title
+      city: City
+      sub_location: Sub-location
+      province_state: Province-State
+      country_primary_location_code: Country-Primary Location Code
+      country_primary_location_name: Country-Primary Location Name
+      original_transmission_reference: Original Transmission Reference
+      headline: Headline
+      credit: Credit
+      source: Source
+      copyright_notice: Copyright Notice
+      contact: Contact
+      caption_abstract: Caption-Abstract
+      local_caption: Local Caption
+      writer_editor: Writer-Editor
+      image_type: Image Type
+      image_orientation: Image Orientation
+      image_orientation_values:
+        L: Landscape
+        P: Portrait
+        S: Square
+      language_identifier: Language Identifier
+      audio_type: Audio Type
+      audio_type_values:
+        0T: Text Only
+        1A: Mono Actuality
+        1C: Mono Question and Answer Session
+        1M: Mono Music
+        1Q: Mono Response to a Question
+        1R: Mono Raw Sound
+        1S: Mono Scener
+        1V: Mono Voicer
+        1W: Mono Wrap
+        2A: Stereo Actuality
+        2C: Stereo Question and Answer Session
+        2M: Stereo Music
+        2Q: Stereo Response to a Question
+        2R: Stereo Raw Sound
+        2S: Stereo Scener
+        2V: Stereo Voicer
+        2W: Stereo Wrap
+      audio_outcue: Audio Outcue
+      job_id: Job ID
+      master_document_id: Master Document ID
+      short_document_id: Short Document ID
+      unique_document_id: Unique Document ID
+      owner_id: Owner ID
+      prefs: Prefs
+      classify_state: Classify State
+      similarity_index: Similarity Index
+      document_notes: Document Notes
+      document_history: Document History
+      exif_camera_info: Exif Camera Info
+      catalog_sets: Catalog Sets
+      iptc_picture_number: IPTC Picture Number
+    exif:
+      interop_index: Interoperability Index
+      interop_index_values:
+        R03: R03 - DCF option file (Adobe RGB)
+        R98: R98 - DCF basic file (sRGB)
+        THM: THM - DCF thumbnail file
+      processing_software: Processing Software
+      old_subfile_type: Old Subfile Type
+      old_subfile_type_values:
+        '1': Full-resolution image
+        '2': Reduced-resolution image
+        '3': Single page of multi-page image
+      bits_per_sample: Bits Per Sample
+      compression: Compression
+      compression_values:
+        '1': Uncompressed
+        '2': CCITT 1D
+        '3': T4/Group 3 Fax
+        '4': T6/Group 4 Fax
+        '5': LZW
+        '6': JPEG (old-style)
+        '7': JPEG
+        '8': Adobe Deflate
+        '9': JBIG B&W
+        '10': JBIG Color
+        '99': JPEG
+        '262': Kodak 262
+        '32766': Next
+        '32767': Sony ARW Compressed
+        '32769': Packed RAW
+        '32770': Samsung SRW Compressed
+        '32771': CCIRLEW
+        '32772': Samsung SRW Compressed 2
+        '32773': PackBits
+        '32809': Thunderscan
+        '32867': Kodak KDC Compressed
+        '32895': IT8CTPAD
+        '32896': IT8LW
+        '32897': IT8MP
+        '32898': IT8BL
+        '32908': PixarFilm
+        '32909': PixarLog
+        '32946': Deflate
+        '32947': DCS
+        '33003': Aperio JPEG 2000 YCbCr
+        '33005': Aperio JPEG 2000 RGB
+        '34661': JBIG
+        '34676': SGILog
+        '34677': SGILog24
+        '34712': JPEG 2000
+        '34713': Nikon NEF Compressed
+        '34715': JBIG2 TIFF FX
+        '34718': Microsoft Document Imaging (MDI) Binary Level Codec
+        '34719': Microsoft Document Imaging (MDI) Progressive Transform Codec
+        '34720': Microsoft Document Imaging (MDI) Vector
+        '34887': ESRI Lerc
+        '34892': Lossy JPEG
+        '34925': LZMA2
+        '34926': Zstd
+        '34927': WebP
+        '34933': PNG
+        '34934': JPEG XR
+        '65000': Kodak DCR Compressed
+        '65535': Pentax PEF Compressed
+      photometric_interpretation: Photometric Interpretation
+      photometric_interpretation_values:
+        '0': WhiteIsZero
+        '1': BlackIsZero
+        '2': RGB
+        '3': RGB Palette
+        '4': Transparency Mask
+        '5': CMYK
+        '6': YCbCr
+        '8': CIELab
+        '9': ICCLab
+        '10': ITULab
+        '32803': Color Filter Array
+        '32844': Pixar LogL
+        '32845': Pixar LogLuv
+        '32892': Sequential Color Filter
+        '34892': Linear Raw
+        '51177': Depth Map
+      thresholding: Thresholding
+      thresholding_values:
+        '1': No dithering or halftoning
+        '2': Ordered dither or halftone
+        '3': Randomized dither
+      cell_width: Cell Width
+      cell_length: Cell Length
+      fill_order: Fill Order
+      fill_order_values:
+        '1': Normal
+        '2': Reversed
+      document_name: Document Name
+      image_description: Image Description
+      make: Make
+      model: Camera Model Name
+      orientation: Orientation
+      orientation_values:
+        '1': Horizontal (normal)
+        '2': Mirror horizontal
+        '3': Rotate 180
+        '4': Mirror vertical
+        '5': Mirror horizontal and rotate 270 CW
+        '6': Rotate 90 CW
+        '7': Mirror horizontal and rotate 90 CW
+        '8': Rotate 270 CW
+      samples_per_pixel: Samples Per Pixel
+      min_sample_value: Min Sample Value
+      max_sample_value: Max Sample Value
+      x_resolution: X Resolution
+      y_resolution: Y Resolution
+      planar_configuration: Planar Configuration
+      planar_configuration_values:
+        '1': Chunky
+        '2': Planar
+      page_name: Page Name
+      x_position: X Position
+      y_position: Y Position
+      gray_response_unit: Gray Response Unit
+      gray_response_unit_values:
+        '1': '0.1'
+        '2': '0.001'
+        '3': '0.0001'
+        '4': '1e-05'
+        '5': '1e-06'
+      resolution_unit: Resolution Unit
+      resolution_unit_values:
+        '1': None
+        '2': inches
+        '3': cm
+      page_number: Page Number
+      transfer_function: Transfer Function
+      software: Software
+      modify_date: Modify Date
+      artist: Artist
+      host_computer: Host Computer
+      predictor: Predictor
+      predictor_values:
+        '1': None
+        '2': Horizontal differencing
+        '3': Floating point
+        '34892': Horizontal difference X2
+        '34893': Horizontal difference X4
+        '34894': Floating point X2
+        '34895': Floating point X4
+      white_point: White Point
+      primary_chromaticities: Primary Chromaticities
+      halftone_hints: Halftone Hints
+      ink_set: Ink Set
+      ink_set_values:
+        '1': CMYK
+        '2': Not CMYK
+      target_printer: Target Printer
+      y_cb_cr_coefficients: Y Cb Cr Coefficients
+      y_cb_cr_sub_sampling: Y Cb Cr Sub Sampling
+      y_cb_cr_sub_sampling_values:
+        1 1: YCbCr4:4:4 (1 1)
+        1 2: YCbCr4:4:0 (1 2)
+        1 4: YCbCr4:4:1 (1 4)
+        2 1: YCbCr4:2:2 (2 1)
+        2 2: YCbCr4:2:0 (2 2)
+        2 4: YCbCr4:2:1 (2 4)
+        4 1: YCbCr4:1:1 (4 1)
+        4 2: YCbCr4:1:0 (4 2)
+      y_cb_cr_positioning: Y Cb Cr Positioning
+      y_cb_cr_positioning_values:
+        '1': Centered
+        '2': Co-sited
+      reference_black_white: Reference Black White
+      related_image_file_format: Related Image File Format
+      related_image_width: Related Image Width
+      related_image_height: Related Image Height
+      rating: Rating
+      rating_percent: Rating Percent
+      vignetting_correction: Vignetting Correction
+      vignetting_correction_values:
+        '256': 'Off'
+        '257': Auto
+        '272': Auto (ILCE-1)
+        '511': No correction params available
+      vignetting_corr_params: Vignetting Corr Params
+      chromatic_aberration_correction: Chromatic Aberration Correction
+      chromatic_aberration_correction_values:
+        '0': 'Off'
+        '1': Auto
+        '255': No correction params available
+      chromatic_aberration_corr_params: Chromatic Aberration Corr Params
+      distortion_correction: Distortion Correction
+      distortion_correction_values:
+        '0': 'Off'
+        '1': Auto
+        '17': Auto fixed by lens
+        '255': No correction params available
+      distortion_corr_params: Distortion Corr Params
+      cfa_repeat_pattern_dim: CFA Repeat Pattern Dim
+      copyright: Copyright
+      exposure_time: Exposure Time
+      f_number: F Number
+      sem_info: SEM Info
+      geo_tiff_directory: Geo Tiff Directory
+      geo_tiff_ascii_params: Geo Tiff Ascii Params
+      exposure_program: Exposure Program
+      exposure_program_values:
+        '0': Not Defined
+        '1': Manual
+        '2': Program AE
+        '3': Aperture-priority AE
+        '4': Shutter speed priority AE
+        '5': Creative (Slow speed)
+        '6': Action (High speed)
+        '7': Portrait
+        '8': Landscape
+        '9': Bulb
+      spectral_sensitivity: Spectral Sensitivity
+      iso: ISO
+      time_zone_offset: Time Zone Offset
+      self_timer_mode: Self Timer Mode
+      sensitivity_type: Sensitivity Type
+      sensitivity_type_values:
+        '0': Unknown
+        '1': Standard Output Sensitivity
+        '2': Recommended Exposure Index
+        '3': ISO Speed
+        '4': Standard Output Sensitivity and Recommended Exposure Index
+        '5': Standard Output Sensitivity and ISO Speed
+        '6': Recommended Exposure Index and ISO Speed
+        '7': Standard Output Sensitivity, Recommended Exposure Index and ISO Speed
+      date_time_original: Date/Time Original
+      create_date: Create Date
+      offset_time: Offset Time
+      offset_time_original: Offset Time Original
+      offset_time_digitized: Offset Time Digitized
+      compressed_bits_per_pixel: Compressed Bits Per Pixel
+      shutter_speed_value: Shutter Speed Value
+      aperture_value: Aperture Value
+      brightness_value: Brightness Value
+      exposure_compensation: Exposure Compensation
+      max_aperture_value: Max Aperture Value
+      subject_distance: Subject Distance
+      metering_mode: Metering Mode
+      metering_mode_values:
+        '0': Unknown
+        '1': Average
+        '2': Center-weighted average
+        '3': Spot
+        '4': Multi-spot
+        '5': Multi-segment
+        '6': Partial
+        '255': Other
+      light_source: Light Source
+      light_source_values:
+        '0': Unknown
+        '1': Daylight
+        '2': Fluorescent
+        '3': Tungsten (Incandescent)
+        '4': Flash
+        '9': Fine Weather
+        '10': Cloudy
+        '11': Shade
+        '12': Daylight Fluorescent
+        '13': Day White Fluorescent
+        '14': Cool White Fluorescent
+        '15': White Fluorescent
+        '16': Warm White Fluorescent
+        '17': Standard Light A
+        '18': Standard Light B
+        '19': Standard Light C
+        '20': D55
+        '21': D65
+        '22': D75
+        '23': D50
+        '24': ISO Studio Tungsten
+        '255': Other
+      flash: Flash
+      flash_values:
+        '0': No Flash
+        '1': Fired
+        '5': Fired, Return not detected
+        '7': Fired, Return detected
+        '8': On, Did not fire
+        '9': On, Fired
+        '13': On, Return not detected
+        '15': On, Return detected
+        '16': Off, Did not fire
+        '20': Off, Did not fire, Return not detected
+        '24': Auto, Did not fire
+        '25': Auto, Fired
+        '29': Auto, Fired, Return not detected
+        '31': Auto, Fired, Return detected
+        '32': No flash function
+        '48': Off, No flash function
+        '65': Fired, Red-eye reduction
+        '69': Fired, Red-eye reduction, Return not detected
+        '71': Fired, Red-eye reduction, Return detected
+        '73': On, Red-eye reduction
+        '77': On, Red-eye reduction, Return not detected
+        '79': On, Red-eye reduction, Return detected
+        '80': Off, Red-eye reduction
+        '88': Auto, Did not fire, Red-eye reduction
+        '89': Auto, Fired, Red-eye reduction
+        '93': Auto, Fired, Red-eye reduction, Return not detected
+        '95': Auto, Fired, Red-eye reduction, Return detected
+      focal_length: Focal Length
+      security_classification: Security Classification
+      security_classification_values:
+        C: Confidential
+        R: Restricted
+        S: Secret
+        T: Top Secret
+        U: Unclassified
+      image_history: Image History
+      subject_area: Subject Area
+      sub_sec_time: Sub Sec Time
+      sub_sec_time_original: Sub Sec Time Original
+      sub_sec_time_digitized: Sub Sec Time Digitized
+      ambient_temperature: Ambient Temperature
+      humidity: Humidity
+      pressure: Pressure
+      water_depth: Water Depth
+      acceleration: Acceleration
+      camera_elevation_angle: Camera Elevation Angle
+      color_space: Color Space
+      color_space_values:
+        '1': sRGB
+        '2': Adobe RGB
+        '65533': Wide Gamut RGB
+        '65534': ICC Profile
+        '65535': Uncalibrated
+      exif_image_width: Exif Image Width
+      exif_image_height: Exif Image Height
+      related_sound_file: Related Sound File
+      flash_energy: Flash Energy
+      focal_plane_x_resolution: Focal Plane X Resolution
+      focal_plane_y_resolution: Focal Plane Y Resolution
+      focal_plane_resolution_unit: Focal Plane Resolution Unit
+      focal_plane_resolution_unit_values:
+        '1': None
+        '2': inches
+        '3': cm
+        '4': mm
+        '5': um
+      subject_location: Subject Location
+      exposure_index: Exposure Index
+      sensing_method: Sensing Method
+      sensing_method_values:
+        '1': Not defined
+        '2': One-chip color area
+        '3': Two-chip color area
+        '4': Three-chip color area
+        '5': Color sequential area
+        '7': Trilinear
+        '8': Color sequential linear
+      custom_rendered: Custom Rendered
+      custom_rendered_values:
+        '0': Normal
+        '1': Custom
+        '2': HDR (no original saved)
+        '3': HDR (original saved)
+        '4': Original (for HDR)
+        '6': Panorama
+        '7': Portrait HDR
+        '8': Portrait
+      exposure_mode: Exposure Mode
+      exposure_mode_values:
+        '0': Auto
+        '1': Manual
+        '2': Auto bracket
+      white_balance: White Balance
+      white_balance_values:
+        '0': Auto
+        '1': Manual
+      digital_zoom_ratio: Digital Zoom Ratio
+      focal_length_in_35_mm_format: Focal Length In 35mm Format
+      scene_capture_type: Scene Capture Type
+      scene_capture_type_values:
+        '0': Standard
+        '1': Landscape
+        '2': Portrait
+        '3': Night
+        '4': Other
+      gain_control: Gain Control
+      gain_control_values:
+        '0': None
+        '1': Low gain up
+        '2': High gain up
+        '3': Low gain down
+        '4': High gain down
+      contrast: Contrast
+      contrast_values:
+        '0': Normal
+        '1': Low
+        '2': High
+      saturation: Saturation
+      saturation_values:
+        '0': Normal
+        '1': Low
+        '2': High
+      sharpness: Sharpness
+      sharpness_values:
+        '0': Normal
+        '1': Soft
+        '2': Hard
+      subject_distance_range: Subject Distance Range
+      subject_distance_range_values:
+        '0': Unknown
+        '1': Macro
+        '2': Close
+        '3': Distant
+      image_unique_id: Image Unique ID
+      owner_name: Owner Name
+      serial_number: Serial Number
+      lens_info: Lens Info
+      lens_make: Lens Make
+      lens_model: Lens Model
+      lens_serial_number: Lens Serial Number
+      composite_image: Composite Image
+      composite_image_values:
+        '0': Unknown
+        '1': Not a Composite Image
+        '2': General Composite Image
+        '3': Composite Image Captured While Shooting
+      composite_image_count: Composite Image Count
+      gdal_metadata: GDAL Metadata
+      gdal_no_data: GDAL No Data
+      gamma: Gamma
+      unique_camera_model: Unique Camera Model
+      localized_camera_model: Localized Camera Model
+      linearization_table: Linearization Table
+      black_level_repeat_dim: Black Level Repeat Dim
+      black_level: Black Level
+      black_level_delta_h: Black Level Delta H
+      black_level_delta_v: Black Level Delta V
+      default_scale: Default Scale
+      color_matrix_1: Color Matrix 1
+      color_matrix_2: Color Matrix 2
+      camera_calibration_1: Camera Calibration 1
+      camera_calibration_2: Camera Calibration 2
+      reduction_matrix_1: Reduction Matrix 1
+      reduction_matrix_2: Reduction Matrix 2
+      analog_balance: Analog Balance
+      as_shot_neutral: As Shot Neutral
+      as_shot_white_xy: As Shot White XY
+      baseline_exposure: Baseline Exposure
+      baseline_noise: Baseline Noise
+      baseline_sharpness: Baseline Sharpness
+      linear_response_limit: Linear Response Limit
+      camera_serial_number: Camera Serial Number
+      dng_lens_info: DNG Lens Info
+      chroma_blur_radius: Chroma Blur Radius
+      anti_alias_strength: Anti Alias Strength
+      shadow_scale: Shadow Scale
+      maker_note_safety: Maker Note Safety
+      maker_note_safety_values:
+        '0': Unsafe
+        '1': Safe
+      calibration_illuminant_1: Calibration Illuminant 1
+      calibration_illuminant_1_values:
+        '0': Unknown
+        '1': Daylight
+        '2': Fluorescent
+        '3': Tungsten (Incandescent)
+        '4': Flash
+        '9': Fine Weather
+        '10': Cloudy
+        '11': Shade
+        '12': Daylight Fluorescent
+        '13': Day White Fluorescent
+        '14': Cool White Fluorescent
+        '15': White Fluorescent
+        '16': Warm White Fluorescent
+        '17': Standard Light A
+        '18': Standard Light B
+        '19': Standard Light C
+        '20': D55
+        '21': D65
+        '22': D75
+        '23': D50
+        '24': ISO Studio Tungsten
+        '255': Other
+      calibration_illuminant_2: Calibration Illuminant 2
+      calibration_illuminant_2_values:
+        '0': Unknown
+        '1': Daylight
+        '2': Fluorescent
+        '3': Tungsten (Incandescent)
+        '4': Flash
+        '9': Fine Weather
+        '10': Cloudy
+        '11': Shade
+        '12': Daylight Fluorescent
+        '13': Day White Fluorescent
+        '14': Cool White Fluorescent
+        '15': White Fluorescent
+        '16': Warm White Fluorescent
+        '17': Standard Light A
+        '18': Standard Light B
+        '19': Standard Light C
+        '20': D55
+        '21': D65
+        '22': D75
+        '23': D50
+        '24': ISO Studio Tungsten
+        '255': Other
+      best_quality_scale: Best Quality Scale
+      original_raw_file_name: Original Raw File Name
+      as_shot_pre_profile_matrix: As Shot Pre Profile Matrix
+      current_pre_profile_matrix: Current Pre Profile Matrix
+      colorimetric_reference: Colorimetric Reference
+      camera_calibration_sig: Camera Calibration Sig
+      profile_calibration_sig: Profile Calibration Sig
+      as_shot_profile_name: As Shot Profile Name
+      noise_reduction_applied: Noise Reduction Applied
+      profile_name: Profile Name
+      profile_copyright: Profile Copyright
+      forward_matrix_1: Forward Matrix 1
+      forward_matrix_2: Forward Matrix 2
+      preview_application_name: Preview Application Name
+      preview_application_version: Preview Application Version
+      preview_settings_name: Preview Settings Name
+      preview_date_time: Preview Date Time
+      frame_rate: Frame Rate
+      t_stop: T Stop
+      reel_name: Reel Name
+      original_default_crop_size: Original Default Crop Size
+      camera_label: Camera Label
+      baseline_exposure_offset: Baseline Exposure Offset
+      default_user_crop: Default User Crop
+      depth_format: Depth Format
+      depth_format_values:
+        '0': Unknown
+        '1': Linear
+        '2': Inverse
+      depth_near: Depth Near
+      depth_far: Depth Far
+      depth_units: Depth Units
+      depth_units_values:
+        '0': Unknown
+        '1': Meters
+      depth_measure_type: Depth Measure Type
+      depth_measure_type_values:
+        '0': Unknown
+        '1': Optical Axis
+        '2': Optical Ray
+      enhance_params: Enhance Params
+      lens: Lens
+      raw_file: Raw File
+      converter: Converter
+      exposure: Exposure
+      shadows: Shadows
+      brightness: Brightness
+      smoothness: Smoothness
+      moire_filter: Moire Filter
+      gps_latitude_ref: GPS Latitude Ref
+      gps_latitude_ref_values:
+        'N': North
+        S: South
+      gps_latitude: GPS Latitude
+      gps_longitude_ref: GPS Longitude Ref
+      gps_longitude_ref_values:
+        E: East
+        W: West
+      gps_longitude: GPS Longitude
+      gps_altitude: GPS Altitude
+      gps_time_stamp: GPS Time Stamp
+      gps_satellites: GPS Satellites
+      gps_status: GPS Status
+      gps_status_values:
+        A: Measurement Active
+        V: Measurement Void
+      gps_measure_mode: GPS Measure Mode
+      gps_measure_mode_values:
+        '2': 2-Dimensional Measurement
+        '3': 3-Dimensional Measurement
+      gpsdop: GPS Dilution Of Precision
+      gps_speed_ref: GPS Speed Ref
+      gps_speed_ref_values:
+        K: km/h
+        M: mph
+        'N': knots
+      gps_speed: GPS Speed
+      gps_track_ref: GPS Track Ref
+      gps_track_ref_values:
+        M: Magnetic North
+        T: True North
+      gps_track: GPS Track
+      gps_img_direction_ref: GPS Img Direction Ref
+      gps_img_direction_ref_values:
+        M: Magnetic North
+        T: True North
+      gps_img_direction: GPS Img Direction
+      gps_map_datum: GPS Map Datum
+      gps_dest_latitude_ref: GPS Dest Latitude Ref
+      gps_dest_latitude_ref_values:
+        'N': North
+        S: South
+      gps_dest_latitude: GPS Dest Latitude
+      gps_dest_longitude_ref: GPS Dest Longitude Ref
+      gps_dest_longitude_ref_values:
+        E: East
+        W: West
+      gps_dest_longitude: GPS Dest Longitude
+      gps_dest_bearing_ref: GPS Dest Bearing Ref
+      gps_dest_bearing_ref_values:
+        M: Magnetic North
+        T: True North
+      gps_dest_bearing: GPS Dest Bearing
+      gps_dest_distance_ref: GPS Dest Distance Ref
+      gps_dest_distance_ref_values:
+        K: Kilometers
+        M: Miles
+        'N': Nautical Miles
+      gps_dest_distance: GPS Dest Distance
+      gps_date_stamp: GPS Date Stamp
+      gps_differential: GPS Differential
+      gps_differential_values:
+        '0': No Correction
+        '1': Differential Corrected
+      gpsh_positioning_error: GPS Horizontal Positioning Error
+    xmp:
+      app_info_application: App Info Application
+      app_info_item_uri: App Info Item URI
+      app_info_version: App Info Version
+      camera_app_info_application: Camera App Info Application
+      camera_app_info_item_uri: Camera App Info Item URI
+      camera_app_info_version: Camera App Info Version
+      camera_depth_map_confidence_uri: Camera Depth Map Confidence URI
+      camera_depth_map_depth_uri: Camera Depth Map Depth URI
+      camera_depth_map_far: Camera Depth Map Far
+      camera_depth_map_focal_table: Camera Depth Map Focal Table
+      camera_depth_map_focal_table_entry_count: Camera Depth Map Focal Table Entry Count
+      camera_depth_map_format: Camera Depth Map Format
+      camera_depth_map_item_semantic: Camera Depth Map Item Semantic
+      camera_depth_map_measure_type: Camera Depth Map Measure Type
+      camera_depth_map_near: Camera Depth Map Near
+      camera_depth_map_software: Camera Depth Map Software
+      camera_depth_map_units: Camera Depth Map Units
+      camera_image_item_semantic: Camera Image Item Semantic
+      camera_image_item_uri: Camera Image Item URI
+      camera_imaging_model_distortion: Camera Imaging Model Distortion
+      camera_imaging_model_distortion_count: Camera Imaging Model Distortion Count
+      camera_imaging_model_focal_length_x: Camera Imaging Model Focal Length X
+      camera_imaging_model_focal_length_y: Camera Imaging Model Focal Length Y
+      camera_imaging_model_image_height: Camera Imaging Model Image Height
+      camera_imaging_model_image_width: Camera Imaging Model Image Width
+      camera_imaging_model_pixel_aspect_ratio: Camera Imaging Model Pixel Aspect Ratio
+      camera_imaging_model_principal_point_x: Camera Imaging Model Principal Point X
+      camera_imaging_model_principal_point_y: Camera Imaging Model Principal Point Y
+      camera_imaging_model_skew: Camera Imaging Model Skew
+      camera_light_estimate_color_correction_b: Camera Light Estimate Color Correction B
+      camera_light_estimate_color_correction_g: Camera Light Estimate Color Correction G
+      camera_light_estimate_color_correction_r: Camera Light Estimate Color Correction R
+      camera_light_estimate_pixel_intensity: Camera Light Estimate Pixel Intensity
+      camera_point_cloud_metric: Camera Point Cloud Metric
+      camera_point_cloud_point_cloud: Camera Point Cloud Point Cloud
+      camera_point_cloud_points: Camera Point Cloud Points
+      camera_pose_position_x: Camera Pose Position X
+      camera_pose_position_y: Camera Pose Position Y
+      camera_pose_position_z: Camera Pose Position Z
+      camera_pose_rotation_w: Camera Pose Rotation W
+      camera_pose_rotation_x: Camera Pose Rotation X
+      camera_pose_rotation_y: Camera Pose Rotation Y
+      camera_pose_rotation_z: Camera Pose Rotation Z
+      camera_pose_timestamp: Camera Pose Timestamp
+      camera_trait: Camera Trait
+      camera_vendor_info_manufacturer: Camera Vendor Info Manufacturer
+      camera_vendor_info_model: Camera Vendor Info Model
+      camera_vendor_info_notes: Camera Vendor Info Notes
+      container_directory_item_data_uri: Container Directory Item Data URI
+      container_directory_item_length: Container Directory Item Length
+      container_directory_item_mime: Container Directory Item Mime
+      container_directory_item_padding: Container Directory Item Padding
+      earth_pos_altitude: Earth Pos Altitude
+      earth_pos_latitude: Earth Pos Latitude
+      earth_pos_longitude: Earth Pos Longitude
+      earth_pos_rotation_w: Earth Pos Rotation W
+      earth_pos_rotation_x: Earth Pos Rotation X
+      earth_pos_rotation_y: Earth Pos Rotation Y
+      earth_pos_rotation_z: Earth Pos Rotation Z
+      earth_pos_timestamp: Earth Pos Timestamp
+      plane_boundary: Plane Boundary
+      plane_boundary_vertex_count: Plane Boundary Vertex Count
+      plane_extent_x: Plane Extent X
+      plane_extent_z: Plane Extent Z
+      plane_pose_position_x: Plane Pose Position X
+      plane_pose_position_y: Plane Pose Position Y
+      plane_pose_position_z: Plane Pose Position Z
+      plane_pose_rotation_w: Plane Pose Rotation W
+      plane_pose_rotation_x: Plane Pose Rotation X
+      plane_pose_rotation_y: Plane Pose Rotation Y
+      plane_pose_rotation_z: Plane Pose Rotation Z
+      plane_pose_timestamp: Plane Pose Timestamp
+      pose_position_x: Pose Position X
+      pose_position_y: Pose Position Y
+      pose_position_z: Pose Position Z
+      pose_rotation_w: Pose Rotation W
+      pose_rotation_x: Pose Rotation X
+      pose_rotation_y: Pose Rotation Y
+      pose_rotation_z: Pose Rotation Z
+      pose_timestamp: Pose Timestamp
+      profile_camera_indices: Profile Camera Indices
+      profile_type: Profile Type
+      vendor_info_manufacturer: Vendor Info Manufacturer
+      vendor_info_model: Vendor Info Model
+      vendor_info_notes: Vendor Info Notes
+      approximate_focus_distance: Approximate Focus Distance
+      distortion_correction_already_applied: Distortion Correction Already Applied
+      firmware: Firmware
+      flash_compensation: Flash Compensation
+      image_number: Image Number
+      is_merged_hdr: Is Merged HDR
+      is_merged_panorama: Is Merged Panorama
+      lateral_chromatic_aberration_correction_already_applied: Lateral Chromatic Aberration Correction Already Applied
+      lens: Lens
+      lens_distort_info: Lens Distort Info
+      lens_id: Lens ID
+      lens_info: Lens Info
+      lens_serial_number: Lens Serial Number
+      owner_name: Owner Name
+      serial_number: Serial Number
+      vignette_correction_already_applied: Vignette Correction Already Applied
+      attribution_name: Attribution Name
+      attribution_url: Attribution URL
+      deprecated_on: Deprecated On
+      jurisdiction: Jurisdiction
+      legal_code: Legal Code
+      license: License
+      more_permissions: More Permissions
+      permits: Permits
+      permits_values:
+        cc:DerivativeWorks: Derivative Works
+        cc:Distribution: Distribution
+        cc:Reproduction: Reproduction
+        cc:Sharing: Sharing
+      prohibits: Prohibits
+      prohibits_values:
+        cc:CommercialUse: Commercial Use
+        cc:HighIncomeNationUse: High Income Nation Use
+      requires: Requires
+      requires_values:
+        cc:Attribution: Attribution
+        cc:Copyleft: Copyleft
+        cc:LesserCopyleft: Lesser Copyleft
+        cc:Notice: Notice
+        cc:ShareAlike: Share Alike
+        cc:SourceCode: Source Code
+      use_guidelines: Use Guidelines
+      contributor: Contributor
+      coverage: Coverage
+      creator: Creator
+      date: Date
+      format: Format
+      identifier: Identifier
+      language: Language
+      publisher: Publisher
+      relation: Relation
+      source: Source
+      subject: Subject
+      type: Type
+      aperture_value: Aperture Value
+      brightness_value: Brightness Value
+      cfa_pattern_columns: CFA Pattern Columns
+      cfa_pattern_rows: CFA Pattern Rows
+      cfa_pattern_values: CFA Pattern Values
+      color_space: Color Space
+      color_space_values:
+        '1': sRGB
+        '2': Adobe RGB
+        '65535': Uncalibrated
+      components_configuration: Components Configuration
+      components_configuration_values:
+        '0': '-'
+        '1': 'Y'
+        '2': Cb
+        '3': Cr
+        '4': R
+        '5': G
+        '6': B
+      compressed_bits_per_pixel: Compressed Bits Per Pixel
+      contrast: Contrast
+      contrast_values:
+        '0': Normal
+        '1': Low
+        '2': High
+      custom_rendered: Custom Rendered
+      custom_rendered_values:
+        '0': Normal
+        '1': Custom
+      date_time_digitized: Date/Time Digitized
+      date_time_original: Date/Time Original
+      device_setting_description_columns: Device Setting Description Columns
+      device_setting_description_rows: Device Setting Description Rows
+      device_setting_description_settings: Device Setting Description Settings
+      digital_zoom_ratio: Digital Zoom Ratio
+      exif_version: Exif Version
+      exposure_compensation: Exposure Compensation
+      exposure_index: Exposure Index
+      exposure_mode: Exposure Mode
+      exposure_mode_values:
+        '0': Auto
+        '1': Manual
+        '2': Auto bracket
+      exposure_program: Exposure Program
+      exposure_program_values:
+        '0': Not Defined
+        '1': Manual
+        '2': Program AE
+        '3': Aperture-priority AE
+        '4': Shutter speed priority AE
+        '5': Creative (Slow speed)
+        '6': Action (High speed)
+        '7': Portrait
+        '8': Landscape
+      exposure_time: Exposure Time
+      file_source: File Source
+      file_source_values:
+        '1': Film Scanner
+        '2': Reflection Print Scanner
+        '3': Digital Camera
+      flash_energy: Flash Energy
+      flash_fired: Flash Fired
+      flash_fired_values:
+        'False': 'False'
+        'True': 'True'
+      flash_function: Flash Function
+      flash_function_values:
+        'False': 'False'
+        'True': 'True'
+      flash_mode: Flash Mode
+      flash_mode_values:
+        '0': Unknown
+        '1': 'On'
+        '2': 'Off'
+        '3': Auto
+      flashpix_version: Flashpix Version
+      flash_red_eye_mode: Flash Red Eye Mode
+      flash_red_eye_mode_values:
+        'False': 'False'
+        'True': 'True'
+      flash_return: Flash Return
+      flash_return_values:
+        '0': No return detection
+        '2': Return not detected
+        '3': Return detected
+      f_number: F Number
+      focal_length: Focal Length
+      focal_length_in_35_mm_format: Focal Length In 35mm Format
+      focal_plane_resolution_unit: Focal Plane Resolution Unit
+      focal_plane_resolution_unit_values:
+        '1': None
+        '2': inches
+        '3': cm
+        '4': mm
+        '5': um
+      focal_plane_x_resolution: Focal Plane X Resolution
+      focal_plane_y_resolution: Focal Plane Y Resolution
+      gain_control: Gain Control
+      gain_control_values:
+        '0': None
+        '1': Low gain up
+        '2': High gain up
+        '3': Low gain down
+        '4': High gain down
+      gps_altitude: GPS Altitude
+      gps_altitude_ref: GPS Altitude Ref
+      gps_altitude_ref_values:
+        '0': Above Sea Level
+        '1': Below Sea Level
+      gps_area_information: GPS Area Information
+      gps_dest_bearing: GPS Dest Bearing
+      gps_dest_bearing_ref: GPS Dest Bearing Ref
+      gps_dest_bearing_ref_values:
+        M: Magnetic North
+        T: True North
+      gps_dest_distance: GPS Dest Distance
+      gps_dest_distance_ref: GPS Dest Distance Ref
+      gps_dest_distance_ref_values:
+        K: Kilometers
+        M: Miles
+        'N': Nautical Miles
+      gps_dest_latitude: GPS Dest Latitude
+      gps_dest_longitude: GPS Dest Longitude
+      gps_differential: GPS Differential
+      gps_differential_values:
+        '0': No Correction
+        '1': Differential Corrected
+      gpsdop: GPSDOP
+      gpsh_positioning_error: GPS Horizontal Positioning Error
+      gps_img_direction: GPS Img Direction
+      gps_img_direction_ref: GPS Img Direction Ref
+      gps_img_direction_ref_values:
+        M: Magnetic North
+        T: True North
+      gps_latitude: GPS Latitude
+      gps_longitude: GPS Longitude
+      gps_map_datum: GPS Map Datum
+      gps_measure_mode: GPS Measure Mode
+      gps_measure_mode_values:
+        '2': 2-Dimensional
+        '3': 3-Dimensional
+      gps_processing_method: GPS Processing Method
+      gps_satellites: GPS Satellites
+      gps_speed: GPS Speed
+      gps_speed_ref: GPS Speed Ref
+      gps_speed_ref_values:
+        K: km/h
+        M: mph
+        'N': knots
+      gps_status: GPS Status
+      gps_status_values:
+        A: Measurement Active
+        V: Measurement Void
+      gps_date_time: GPS Date/Time
+      gps_track: GPS Track
+      gps_track_ref: GPS Track Ref
+      gps_track_ref_values:
+        M: Magnetic North
+        T: True North
+      gps_version_id: GPS Version ID
+      image_unique_id: Image Unique ID
+      iso: ISO
+      light_source: Light Source
+      light_source_values:
+        '0': Unknown
+        '1': Daylight
+        '2': Fluorescent
+        '3': Tungsten (Incandescent)
+        '4': Flash
+        '9': Fine Weather
+        '10': Cloudy
+        '11': Shade
+        '12': Daylight Fluorescent
+        '13': Day White Fluorescent
+        '14': Cool White Fluorescent
+        '15': White Fluorescent
+        '16': Warm White Fluorescent
+        '17': Standard Light A
+        '18': Standard Light B
+        '19': Standard Light C
+        '20': D55
+        '21': D65
+        '22': D75
+        '23': D50
+        '24': ISO Studio Tungsten
+        '255': Other
+      maker_note: Maker Note
+      max_aperture_value: Max Aperture Value
+      metering_mode: Metering Mode
+      metering_mode_values:
+        '1': Average
+        '2': Center-weighted average
+        '3': Spot
+        '4': Multi-spot
+        '5': Multi-segment
+        '6': Partial
+        '255': Other
+      native_digest: Native Digest
+      oecf_columns: OECF Columns
+      oecf_names: OECF Names
+      oecf_rows: OECF Rows
+      oecf_values: OECF Values
+      exif_image_width: Exif Image Width
+      exif_image_height: Exif Image Height
+      related_sound_file: Related Sound File
+      saturation: Saturation
+      saturation_values:
+        '0': Normal
+        '1': Low
+        '2': High
+      scene_capture_type: Scene Capture Type
+      scene_capture_type_values:
+        '0': Standard
+        '1': Landscape
+        '2': Portrait
+        '3': Night
+      scene_type: Scene Type
+      scene_type_values:
+        '1': Directly photographed
+      sensing_method: Sensing Method
+      sensing_method_values:
+        '1': Monochrome area
+        '2': One-chip color area
+        '3': Two-chip color area
+        '4': Three-chip color area
+        '5': Color sequential area
+        '6': Monochrome linear
+        '7': Trilinear
+        '8': Color sequential linear
+      sharpness: Sharpness
+      sharpness_values:
+        '0': Normal
+        '1': Soft
+        '2': Hard
+      shutter_speed_value: Shutter Speed Value
+      spatial_frequency_response_columns: Spatial Frequency Response Columns
+      spatial_frequency_response_names: Spatial Frequency Response Names
+      spatial_frequency_response_rows: Spatial Frequency Response Rows
+      spatial_frequency_response_values: Spatial Frequency Response Values
+      spectral_sensitivity: Spectral Sensitivity
+      subject_area: Subject Area
+      subject_distance: Subject Distance
+      subject_distance_range: Subject Distance Range
+      subject_distance_range_values:
+        '0': Unknown
+        '1': Macro
+        '2': Close
+        '3': Distant
+      subject_location: Subject Location
+      white_balance: White Balance
+      white_balance_values:
+        '0': Auto
+        '1': Manual
+      acceleration: Acceleration
+      camera_elevation_angle: Camera Elevation Angle
+      composite_image: Composite Image
+      composite_image_values:
+        '0': Unknown
+        '1': Not a Composite Image
+        '2': General Composite Image
+        '3': Composite Image Captured While Shooting
+      composite_image_count: Composite Image Count
+      comp_image_max_exposure_all: Comp Image Max Exposure All
+      comp_image_max_exposure_used: Comp Image Max Exposure Used
+      comp_image_min_exposure_all: Comp Image Min Exposure All
+      comp_image_min_exposure_used: Comp Image Min Exposure Used
+      comp_image_images_per_sequence: Comp Image Images Per Sequence
+      comp_image_num_sequences: Comp Image Num Sequences
+      comp_image_sum_exposure_all: Comp Image Sum Exposure All
+      comp_image_sum_exposure_used: Comp Image Sum Exposure Used
+      comp_image_total_exposure_period: Comp Image Total Exposure Period
+      comp_image_values: Comp Image Values
+      gamma: Gamma
+      humidity: Humidity
+      interop_index: Interoperability Index
+      interop_index_values:
+        R03: R03 - DCF option file (Adobe RGB)
+        R98: R98 - DCF basic file (sRGB)
+        THM: THM - DCF thumbnail file
+      iso_speed: ISO Speed
+      iso_speed_latitudeyyy: ISO Speed Latitude yyy
+      iso_speed_latitudezzz: ISO Speed Latitude zzz
+      lens_make: Lens Make
+      lens_model: Lens Model
+      photographic_sensitivity: Photographic Sensitivity
+      pressure: Pressure
+      recommended_exposure_index: Recommended Exposure Index
+      sensitivity_type: Sensitivity Type
+      sensitivity_type_values:
+        '0': Unknown
+        '1': Standard Output Sensitivity
+        '2': Recommended Exposure Index
+        '3': ISO Speed
+        '4': Standard Output Sensitivity and Recommended Exposure Index
+        '5': Standard Output Sensitivity and ISO Speed
+        '6': Recommended Exposure Index and ISO Speed
+        '7': Standard Output Sensitivity, Recommended Exposure Index and ISO Speed
+      standard_output_sensitivity: Standard Output Sensitivity
+      ambient_temperature: Ambient Temperature
+      water_depth: Water Depth
+      app_version: App Version
+      image_ref: Image Ref
+      sub_version_file_name: Sub Version File Name
+      sub_version_reference: Sub Version Reference
+      label_name_1: Label Name 1
+      parent_reference_1: Parent Reference 1
+      reference_1: Reference 1
+      label_name_2: Label Name 2
+      parent_reference_2: Parent Reference 2
+      reference_2: Reference 2
+      label_name_3: Label Name 3
+      parent_reference_3: Parent Reference 3
+      reference_3: Reference 3
+      label_name_4: Label Name 4
+      parent_reference_4: Parent Reference 4
+      reference_4: Reference 4
+      label_name_5: Label Name 5
+      parent_reference_5: Parent Reference 5
+      reference_5: Reference 5
+      label_name_6: Label Name 6
+      parent_reference_6: Parent Reference 6
+      reference_6: Reference 6
+      time_stamp: Time Stamp
+      country_code: Country Code
+      creator_city: Creator City
+      creator_country: Creator Country
+      creator_address: Creator Address
+      creator_postal_code: Creator Postal Code
+      creator_region: Creator Region
+      creator_work_email: Creator Work Email
+      creator_work_telephone: Creator Work Telephone
+      creator_work_url: Creator Work URL
+      intellectual_genre: Intellectual Genre
+      location: Location
+      scene: Scene
+      subject_code: Subject Code
+      about_cv_term_cv_id: About Cv Term Cv Id
+      about_cv_term_id: About Cv Term Id
+      about_cv_term_refined_about: About Cv Term Refined About
+      additional_model_information: Additional Model Information
+      artwork_circa_date_created: Artwork Circa Date Created
+      artwork_copyright_notice: Artwork Copyright Notice
+      artwork_creator: Artwork Creator
+      artwork_creator_id: Artwork Creator ID
+      artwork_copyright_owner_id: Artwork Copyright Owner ID
+      artwork_copyright_owner_name: Artwork Copyright Owner Name
+      artwork_licensor_id: Artwork Licensor ID
+      artwork_licensor_name: Artwork Licensor Name
+      artwork_date_created: Artwork Date Created
+      artwork_source: Artwork Source
+      artwork_source_inventory_no: Artwork Source Inventory No
+      artwork_source_inv_url: Artwork Source Inv URL
+      artwork_style_period: Artwork Style Period
+      audio_bitrate: Audio Bitrate
+      audio_bitrate_mode: Audio Bitrate Mode
+      audio_bitrate_mode_values:
+        fixed: Fixed
+        variable: Variable
+      audio_bits_per_sample: Audio Bits Per Sample
+      audio_channel_count: Audio Channel Count
+      circa_date_created: Circa Date Created
+      container_format_identifier: Container Format Identifier
+      contributor_identifier: Contributor Identifier
+      contributor_role: Contributor Role
+      copyright_year: Copyright Year
+      creator_identifier: Creator Identifier
+      creator_role: Creator Role
+      controlled_vocabulary_term: Controlled Vocabulary Term
+      data_on_screen_region_d: Data On Screen Region D
+      data_on_screen_region_h: Data On Screen Region H
+      data_on_screen_region_text: Data On Screen Region Text
+      data_on_screen_region_unit: Data On Screen Region Unit
+      data_on_screen_region_w: Data On Screen Region W
+      data_on_screen_region_x: Data On Screen Region X
+      data_on_screen_region_y: Data On Screen Region Y
+      digital_image_guid: Digital Image GUID
+      digital_source_file_type: Digital Source File Type
+      digital_source_type: Digital Source Type
+      dopesheet_link_link: Dopesheet Link Link
+      dopesheet_link_link_qualifier: Dopesheet Link Link Qualifier
+      embedded_encoded_rights_expr: Embedded Encoded Rights Expr
+      embedded_encoded_rights_expr_type: Embedded Encoded Rights Expr Type
+      embedded_encoded_rights_expr_lang_id: Embedded Encoded Rights Expr Lang ID
+      episode_identifier: Episode Identifier
+      episode_name: Episode Name
+      episode_number: Episode Number
+      shown_event_identifier: Shown Event Identifier
+      external_metadata_link: External Metadata Link
+      feed_identifier: Feed Identifier
+      genre_cv_id: Genre Cv Id
+      genre_cv_term_id: Genre Cv Term Id
+      genre_cv_term_refined_about: Genre Cv Term Refined About
+      image_region_ctype_identifier: Image Region Ctype Identifier
+      image_region_boundary_h: Image Region Boundary H
+      image_region_boundary_rx: Image Region Boundary Rx
+      image_region_boundary_shape: Image Region Boundary Shape
+      image_region_boundary_shape_values:
+        circle: Circle
+        polygon: Polygon
+        rectangle: Rectangle
+      image_region_boundary_unit: Image Region Boundary Unit
+      image_region_boundary_unit_values:
+        pixel: Pixel
+        relative: Relative
+      image_region_boundary_vertices_x: Image Region Boundary Vertices X
+      image_region_boundary_vertices_y: Image Region Boundary Vertices Y
+      image_region_boundary_w: Image Region Boundary W
+      image_region_boundary_x: Image Region Boundary X
+      image_region_boundary_y: Image Region Boundary Y
+      image_region_id: Image Region ID
+      image_region_role_identifier: Image Region Role Identifier
+      iptc_last_edited: IPTC Last Edited
+      linked_encoded_rights_expr: Linked Encoded Rights Expr
+      linked_encoded_rights_expr_type: Linked Encoded Rights Expr Type
+      linked_encoded_rights_expr_lang_id: Linked Encoded Rights Expr Lang ID
+      location_created_city: Location Created City
+      location_created_country_code: Location Created Country Code
+      location_created_country_name: Location Created Country Name
+      location_created_gps_altitude: Location Created GPS Altitude
+      location_created_gps_latitude: Location Created GPS Latitude
+      location_created_gps_longitude: Location Created GPS Longitude
+      location_created_identifier: Location Created Identifier
+      location_created_location_id: Location Created Location Id
+      location_created_province_state: Location Created Province State
+      location_created_sublocation: Location Created Sublocation
+      location_created_world_region: Location Created World Region
+      location_shown_city: Location Shown City
+      location_shown_country_code: Location Shown Country Code
+      location_shown_country_name: Location Shown Country Name
+      location_shown_gps_altitude: Location Shown GPS Altitude
+      location_shown_gps_latitude: Location Shown GPS Latitude
+      location_shown_gps_longitude: Location Shown GPS Longitude
+      location_shown_identifier: Location Shown Identifier
+      location_shown_location_id: Location Shown Location Id
+      location_shown_province_state: Location Shown Province State
+      location_shown_sublocation: Location Shown Sublocation
+      location_shown_world_region: Location Shown World Region
+      max_avail_height: Max Avail Height
+      max_avail_width: Max Avail Width
+      model_age: Model Age
+      organisation_in_image_code: Organisation In Image Code
+      organisation_in_image_name: Organisation In Image Name
+      person_heard_identifier: Person Heard Identifier
+      person_in_image: Person In Image
+      person_in_image_cv_term_cv_id: Person In Image Cv Term Cv Id
+      person_in_image_cv_term_id: Person In Image Cv Term Id
+      person_in_image_cv_term_refined_about: Person In Image Cv Term Refined About
+      person_in_image_id: Person In Image Id
+      planning_ref_identifier: Planning Ref Identifier
+      planning_ref_role: Planning Ref Role
+      product_in_image_gtin: Product In Image GTIN
+      publication_event_date: Publication Event Date
+      publication_event_identifier: Publication Event Identifier
+      publication_event_name: Publication Event Name
+      rating_region_city: Rating Region City
+      rating_region_country_code: Rating Region Country Code
+      rating_region_country_name: Rating Region Country Name
+      rating_region_gps_altitude: Rating Region GPS Altitude
+      rating_region_gps_latitude: Rating Region GPS Latitude
+      rating_region_gps_longitude: Rating Region GPS Longitude
+      rating_region_identifier: Rating Region Identifier
+      rating_region_location_id: Rating Region Location Id
+      rating_region_province_state: Rating Region Province State
+      rating_region_sublocation: Rating Region Sublocation
+      rating_region_world_region: Rating Region World Region
+      rating_scale_max_value: Rating Scale Max Value
+      rating_scale_min_value: Rating Scale Min Value
+      rating_source_link: Rating Source Link
+      rating_value: Rating Value
+      rating_value_logo_link: Rating Value Logo Link
+      rec_device_att_lens_description: Rec Device Att Lens Description
+      rec_device_manufacturer: Rec Device Manufacturer
+      rec_device_model_name: Rec Device Model Name
+      rec_device_owners_device_id: Rec Device Owners Device Id
+      rec_device_serial_number: Rec Device Serial Number
+      registry_entry_role: Registry Entry Role
+      registry_item_id: Registry Item ID
+      registry_organisation_id: Registry Organisation ID
+      release_ready: Release Ready
+      season_identifier: Season Identifier
+      season_name: Season Name
+      season_number: Season Number
+      series_identifier: Series Identifier
+      series_name: Series Name
+      snapshot_format: Snapshot Format
+      snapshot_height_pixels: Snapshot Height Pixels
+      snapshot_image_role: Snapshot Image Role
+      snapshot_link: Snapshot Link
+      snapshot_link_qualifier: Snapshot Link Qualifier
+      snapshot_used_video_frame_time_format: Snapshot Used Video Frame Time Format
+      snapshot_used_video_frame_time_format_values:
+        23976Timecode: 23.976 fps
+        24Timecode: 24 fps
+        25Timecode: 25 fps
+        2997DropTimecode: 29.97 fps (drop)
+        2997NonDropTimecode: 29.97 fps (non-drop)
+        30Timecode: 30 fps
+        50Timecode: 50 fps
+        5994DropTimecode: 59.94 fps (drop)
+        5994NonDropTimecode: 59.94 fps (non-drop)
+        60Timecode: 60 fps
+      snapshot_used_video_frame_time_value: Snapshot Used Video Frame Time Value
+      snapshot_used_video_frame_value: Snapshot Used Video Frame Value
+      snapshot_width_pixels: Snapshot Width Pixels
+      storyline_identifier: Storyline Identifier
+      stream_ready: Stream Ready
+      stream_ready_values:
+        'false': 'False'
+        'true': 'True'
+        unknown: Unknown
+      style_period: Style Period
+      supply_chain_source_identifier: Supply Chain Source Identifier
+      temporal_coverage_from: Temporal Coverage From
+      temporal_coverage_to: Temporal Coverage To
+      transcript_link_link: Transcript Link Link
+      transcript_link_link_qualifier: Transcript Link Link Qualifier
+      video_bitrate: Video Bitrate
+      video_bitrate_mode: Video Bitrate Mode
+      video_bitrate_mode_values:
+        fixed: Fixed
+        variable: Variable
+      video_display_aspect_ratio: Video Display Aspect Ratio
+      video_encoding_profile: Video Encoding Profile
+      video_shot_type_identifier: Video Shot Type Identifier
+      video_streams_count: Video Streams Count
+      visual_color: Visual Color
+      visual_color_values:
+        bw-monochrome: Monochrome
+        colour: Color
+      workflow_tag_cv_id: Workflow Tag Cv Id
+      workflow_tag_cv_term_id: Workflow Tag Cv Term Id
+      workflow_tag_cv_term_refined_about: Workflow Tag Cv Term Refined About
+      author: Author
+      copyright: Copyright
+      creation_date: Creation Date
+      keywords: Keywords
+      marked: Marked
+      mod_date: Mod Date
+      pdf_version: PDF Version
+      producer: Producer
+      title: Title
+      trapped: Trapped
+      trapped_values:
+        'False': 'False'
+        'True': 'True'
+        Unknown: Unknown
+      artist: Artist
+      bits_per_sample: Bits Per Sample
+      compression: Compression
+      compression_values:
+        '1': Uncompressed
+        '2': CCITT 1D
+        '3': T4/Group 3 Fax
+        '4': T6/Group 4 Fax
+        '5': LZW
+        '6': JPEG (old-style)
+        '7': JPEG
+        '8': Adobe Deflate
+        '9': JBIG B&W
+        '10': JBIG Color
+        '99': JPEG
+        '262': Kodak 262
+        '32766': Next
+        '32767': Sony ARW Compressed
+        '32769': Packed RAW
+        '32770': Samsung SRW Compressed
+        '32771': CCIRLEW
+        '32772': Samsung SRW Compressed 2
+        '32773': PackBits
+        '32809': Thunderscan
+        '32867': Kodak KDC Compressed
+        '32895': IT8CTPAD
+        '32896': IT8LW
+        '32897': IT8MP
+        '32898': IT8BL
+        '32908': PixarFilm
+        '32909': PixarLog
+        '32946': Deflate
+        '32947': DCS
+        '33003': Aperio JPEG 2000 YCbCr
+        '33005': Aperio JPEG 2000 RGB
+        '34661': JBIG
+        '34676': SGILog
+        '34677': SGILog24
+        '34712': JPEG 2000
+        '34713': Nikon NEF Compressed
+        '34715': JBIG2 TIFF FX
+        '34718': Microsoft Document Imaging (MDI) Binary Level Codec
+        '34719': Microsoft Document Imaging (MDI) Progressive Transform Codec
+        '34720': Microsoft Document Imaging (MDI) Vector
+        '34887': ESRI Lerc
+        '34892': Lossy JPEG
+        '34925': LZMA2
+        '34926': Zstd
+        '34927': WebP
+        '34933': PNG
+        '34934': JPEG XR
+        '65000': Kodak DCR Compressed
+        '65535': Pentax PEF Compressed
+      date_time: Date/Time Modified
+      image_height: Image Height
+      image_width: Image Width
+      make: Make
+      model: Camera Model Name
+      orientation: Orientation
+      orientation_values:
+        '1': Horizontal (normal)
+        '2': Mirror horizontal
+        '3': Rotate 180
+        '4': Mirror vertical
+        '5': Mirror horizontal and rotate 270 CW
+        '6': Rotate 90 CW
+        '7': Mirror horizontal and rotate 90 CW
+        '8': Rotate 270 CW
+      photometric_interpretation: Photometric Interpretation
+      photometric_interpretation_values:
+        '0': WhiteIsZero
+        '1': BlackIsZero
+        '2': RGB
+        '3': RGB Palette
+        '4': Transparency Mask
+        '5': CMYK
+        '6': YCbCr
+        '8': CIELab
+        '9': ICCLab
+        '10': ITULab
+        '32803': Color Filter Array
+        '32844': Pixar LogL
+        '32845': Pixar LogLuv
+        '32892': Sequential Color Filter
+        '34892': Linear Raw
+        '51177': Depth Map
+      planar_configuration: Planar Configuration
+      planar_configuration_values:
+        '1': Chunky
+        '2': Planar
+      primary_chromaticities: Primary Chromaticities
+      reference_black_white: Reference Black White
+      resolution_unit: Resolution Unit
+      resolution_unit_values:
+        '1': None
+        '2': inches
+        '3': cm
+      samples_per_pixel: Samples Per Pixel
+      software: Software
+      transfer_function: Transfer Function
+      white_point: White Point
+      x_resolution: X Resolution
+      y_cb_cr_coefficients: Y Cb Cr Coefficients
+      y_cb_cr_positioning: Y Cb Cr Positioning
+      y_cb_cr_positioning_values:
+        '1': Centered
+        '2': Co-sited
+      y_cb_cr_sub_sampling: Y Cb Cr Sub Sampling
+      y_cb_cr_sub_sampling_values:
+        1 1: YCbCr4:4:4 (1 1)
+        1 2: YCbCr4:4:0 (1 2)
+        1 4: YCbCr4:4:1 (1 4)
+        2 1: YCbCr4:2:2 (2 1)
+        2 2: YCbCr4:2:0 (2 2)
+        2 4: YCbCr4:2:1 (2 4)
+        4 1: YCbCr4:1:1 (4 1)
+        4 2: YCbCr4:1:0 (4 2)
+      y_resolution: Y Resolution
+      advisory: Advisory
+      base_url: Base URL
+      create_date: Create Date
+      creator_tool: Creator Tool
+      label: Label
+      metadata_date: Metadata Date
+      modify_date: Modify Date
+      nickname: Nickname
+      page_image_format: Page Image Format
+      page_image_height: Page Image Height
+      page_image: Page Image
+      page_image_page_number: Page Image Page Number
+      page_image_width: Page Image Width
+      rating: Rating
+      rating_percent: Rating Percent
+      thumbnail_format: Thumbnail Format
+      thumbnail_height: Thumbnail Height
+      thumbnail_image: Thumbnail Image
+      thumbnail_width: Thumbnail Width
+      certificate: Certificate
+      owner: Owner
+      web_statement: Web Statement
+de:
+  matadata:
+    iptc:
+      object_type_reference: Objekttypreferenz
+      object_attribute_reference: Gattung
+      object_name: Titel
+      edit_status: Bearbeitungsstatus
+      subject_reference: Themencode
+      category: Kategorie
+      supplemental_categories: Zusätzliche Kategorien
+      fixture_identifier: Kennzeichnung
+      keywords: Schlüsselwörter
+      content_location_code: Inhaltspositionscode
+      content_location_name: Inhaltspositionsname
+      release_time: Veröffentlichungszeit
+      expiration_time: Ablaufzeit
+      special_instructions: Anweisungen
+      reference_service: Referenzdienst
+      time_created: Erstellungszeit
+      digital_creation_time: Digitalisierungszeit
+      originating_program: Erstellungsprogramm
+      program_version: Programmversion
+      object_cycle: Objektzyklus
+      object_cycle_values:
+        a: Morgens
+        b: Beides
+        p: Abends
+      by_line: Ersteller
+      by_line_title: Beruf des Erstellers
+      city: Stadt/Ort
+      sub_location: Ort des Motivs
+      province_state: Bundesland/Kanton
+      country_primary_location_code: ISO-Ländercode
+      country_primary_location_name: Land
+      original_transmission_reference: Anbietervermerk Verweis
+      headline: Überschrift
+      credit: Anbieter
+      source: Quelle
+      copyright_notice: Urheberrechtsvermerk
+      contact: Kontakt
+      caption_abstract: Beschreibung/Zusammenfassung
+      writer_editor: Verfasser der Beschreibung
+      image_type: Bildtyp
+      image_orientation: Bildausrichtung
+      image_orientation_values:
+        L: Querformat
+        P: Porträt
+        S: Quadratisch
+      language_identifier: Sprachkennung
+      audio_type: Audiotyp
+      audio_outcue: Audio-Outcue
+      job_id: Job-Kennung
+      master_document_id: ID des Originaldokuments
+      short_document_id: Kurze Bild-ID
+      unique_document_id: Eindeutige Bild-ID
+      owner_id: Besitzer-ID
+      classify_state: Klassifizierungs-Status
+      similarity_index: Bildgleichheits-Index
+      document_notes: Notizen zum Dokument
+      document_history: Historie des Dokuments
+      exif_camera_info: Exif Kamerainformationen
+      catalog_sets: Katalogzusammenstellungen
+      iptc_picture_number: IPTC Bildnummer
+    exif:
+      interop_index: Interoperabilität Identifikation
+      interop_index_values:
+        R03: 'R03: DCF Option-Format (Adobe RGB)'
+        R98: 'R98: DCF Basic-Format (sRGB)'
+        THM: 'THM: DCF Miniaturbild-Format'
+      processing_software: Verarbeitungssoftware
+      old_subfile_type: Unterdatei-Typ
+      old_subfile_type_values:
+        '1': Bild in voller Auflösung
+        '2': Bild in reduzierter Auflösung
+        '3': Einzelbild eines mehrseitigen Bildes
+      bits_per_sample: Anzahl der Bits pro Komponente
+      compression: Komprimierungsschema
+      compression_values:
+        '1': Nicht komprimiert
+        '6': JPEG (alte Version)
+        '7': JPEG-Komprimierung
+        '9': JBIG Schwarz-Weiß
+        '10': JBIG Farbe
+        '99': JPEG-Komprimierung
+        '32766': NeXT 2-Bit Kodierung
+        '32767': Sony ARW-Komprimierung
+        '32809': ThunderScan 4-Bit Kodierung
+        '32867': Kodak KDC-Komprimierung
+        '34676': SGI 32-Bit Log Luminance Kodierung
+        '34677': SGI 24-Bit Log Luminance Kodierung
+        '34713': Nikon NEF-Komprimierung
+        '34933': PNG-Komprimierung
+        '65000': Kodak DCR-Komprimierung
+        '65535': Pentax PEF-Komprimierung
+      photometric_interpretation: Pixel-Schema
+      photometric_interpretation_values:
+        '0': Weiß ist Null
+        '1': Schwarz ist Null
+        '4': Transparenzmaske
+        '32803': CFA (Farbfiltermatrix)
+        '32844': CIE Log2(L) (Log Luminanz)
+        '32845': CIE Log2(L)(u',v') (Log Luminanz und Chrominanz)
+      document_name: Dokumentenname
+      image_description: Bildbeschreibung
+      make: Gerätehersteller
+      model: Kameramodell
+      orientation: Ausrichtung
+      orientation_values:
+        '2': Horizontal gespiegelt
+        '3': 180° gedreht
+        '4': Vertikal gespiegelt
+        '5': Horizontal gespiegelt und 90° gegen den Uhrzeigersinn
+        '6': 90° im Uhrzeigersinn
+        '7': Horizontal gespiegelt und 90° im Uhrzeigersinn
+        '8': 90° gegen den Uhrzeigersinn
+      samples_per_pixel: Anzahl der Komponenten
+      min_sample_value: Kleinster Sample Wert
+      max_sample_value: Größter Sample Wert
+      x_resolution: Horizontale Bildauflösung
+      y_resolution: Vertikale Bildauflösung
+      planar_configuration: Bilddatenausrichtung
+      planar_configuration_values:
+        '1': Kompaktformat
+        '2': Ebenes Format
+      page_name: Seitenname
+      gray_response_unit_values:
+        '1': Nummer stellt ein 10tel einer Einheit dar
+        '2': Nummer stellt ein 100tel einer Einheit dar
+        '3': Nummer stellt ein 1000tel einer Einheit dar
+        '4': Nummer stellt ein 10000tel einer Einheit dar
+        '5': Nummer stellt ein 100000tel einer Einheit dar
+      resolution_unit: Einheit der X- und Y-Auflösung
+      resolution_unit_values:
+        '1': Keine
+        '2': Zoll
+      page_number: Seitenummer
+      transfer_function: Transformationsfunktion
+      modify_date: Änderungsdatum
+      artist: Künstler
+      predictor: Prädiktor
+      predictor_values:
+        '1': Kein Prädiktor-Schema in Benutzung
+        '2': Horizontale Differenzierung
+      white_point: Weißpunkt-Chromatizität
+      primary_chromaticities: Chromatizität der Primärfarben
+      y_cb_cr_coefficients: YCbCr-Koeffizienten
+      y_cb_cr_sub_sampling: Subsampling Rate von Y bis C
+      y_cb_cr_positioning: Y und C Ausrichtung
+      y_cb_cr_positioning_values:
+        '1': Zentriert
+        '2': Benachbart
+      reference_black_white: Schwarz-Weiß-Referenzpunkte
+      related_image_file_format: Dateiformat der Bilddaten
+      related_image_width: Bildbreite
+      related_image_height: Bildhöhe
+      rating: Bewertung
+      rating_percent: Bewertung in Prozent
+      chromatic_aberration_correction: Farbabweichung Korrektur
+      chromatic_aberration_correction_values:
+        '0': Aus
+      distortion_correction: Verzeichnungskorrektur
+      distortion_correction_values:
+        '0': Aus
+      cfa_repeat_pattern_dim: Farbfiltermatrix-Größe
+      copyright: Urheberrechtsvermerk
+      exposure_time: Belichtungsdauer
+      f_number: F-Wert
+      exposure_program: Belichtungsprogramm
+      exposure_program_values:
+        '0': Nicht definiert
+        '1': Manuell
+        '2': Programmautomatik
+        '3': Blendenpriorität
+        '4': Verschlusspriorität
+        '5': Kreativ-Programm (ausgerichtet auf Schärfentiefe)
+        '6': Kreativ-Programm (ausgerichtet auf schnelle Verschlussgeschwindigkeit)
+        '7': Porträt
+        '8': Landschaft
+      spectral_sensitivity: Spektralempfindlichkeit
+      iso: ISO-Empfindlichkeit
+      time_zone_offset: Zeitzonen-Offset
+      self_timer_mode: Selbstauslösermodus
+      sensitivity_type: Art der Empfindlichkeit
+      sensitivity_type_values:
+        '0': Unbekannt
+        '1': Standard Ausgabeempfindlichkeit
+        '2': Empfohlener Belichtungsindex
+        '3': ISO Empfindlichkeit
+        '4': Standard Ausgabeempfindlichkeit und empfohlener Belichtungsindex
+        '5': Standard Ausgabeempfindlichkeit und ISO Empfindlichkeit
+        '6': Empfohlener Belichtungsindex und ISO Empfindlichkeit
+        '7': >-
+          Standard Ausgabeempfindlichkeit,empfohlener Belichtungsindex und ISO
+          Empfindlichkeit
+      date_time_original: Erstellungsdatum/-uhrzeit
+      create_date: Digitalisierungsdatum/-uhrzeit
+      compressed_bits_per_pixel: Bildkomprimierungsmodus
+      shutter_speed_value: Belichtungszeit
+      aperture_value: Blende
+      brightness_value: Helligkeit
+      exposure_compensation: Belichtungskorrektur
+      max_aperture_value: Größtmögliche Blende
+      subject_distance: Objektentfernung
+      metering_mode: Belichtungsmessmethode
+      metering_mode_values:
+        '0': Unbekannt
+        '1': Integralmessung
+        '2': Mittenbetont
+        '3': Spotmessung
+        '4': MultiSpot
+        '5': Multi-Segment
+        '6': Teilbild
+        '255': Andere
+      light_source: Lichtquelle
+      light_source_values:
+        '0': Unbekannt
+        '1': Tageslicht
+        '2': Neonlicht
+        '3': Kunstlicht (Glühbirne)
+        '4': Blitz
+        '9': Wolkenlos
+        '10': Bewölkt
+        '11': Schatten
+        '12': Neonlicht tageslichtweiß
+        '13': Neonlicht neutralweiß
+        '14': Neonlicht kaltweiß
+        '15': Neonlicht universalweiß
+        '16': Neonlicht warmweiß
+        '17': Standard-Licht A
+        '18': Standard-Licht B
+        '19': Standard-Licht C
+        '24': ISO Studio-Kunstlicht (Glühbirne)
+        '255': Andere Lichtquelle
+      flash: Blitzmodus
+      flash_values:
+        '0': Blitz wurde nicht ausgelöst
+        '1': Blitz wurde ausgelöst
+        '5': Kein Messblitz-Licht zurückgeworfen
+        '7': Messblitz-Licht zurückgeworfen
+        '8': Ein, Blitz wurde nicht ausgelöst
+        '9': Blitz wurde ausgelöst, Blitz erzwingen-Modus
+        '13': >-
+          Blitz wurde ausgelöst, Blitz erzwingen-Modus, kein Messblitz-Licht
+          zurückgeworfen
+        '15': >-
+          Blitz wurde ausgelöst, Blitz erzwingen-Modus, Messblitz-Licht
+          zurückgeworfen
+        '16': Blitz wurde nicht ausgelöst, Blitz unterdrücken-Modus
+        '20': >-
+          Deaktiviert, Blitz wurde nicht ausgelöst, kein Messblitz-Licht
+          zurückgeworfen
+        '24': Blitz wurde nicht ausgelöst, Automodus
+        '25': Blitz wurde ausgelöst, Automodus
+        '29': Blitz wurde ausgelöst, Automodus, kein Messblitz-Licht zurückgeworfen
+        '31': Blitz wurde ausgelöst, Automodus, Messblitz-Licht zurückgeworfen
+        '32': Keine Blitzfunktion
+        '48': Deaktiviert, Keine Blitzfunktion
+        '65': Blitz wurde ausgelöst, Rote-Augen-Reduzierung
+        '69': >-
+          Blitz wurde ausgelöst, Rote-Augen-Reduzierung, kein Messblitz-Licht
+          zurückgeworfen
+        '71': >-
+          Blitz wurde ausgelöst, Rote-Augen-Reduzierung, Messblitz-Licht
+          zurückgeworfen
+        '73': Blitz wurde ausgelöst, Blitz erzwingen-Modus, Rote-Augen-Reduzierung
+        '77': >-
+          Blitz wurde ausgelöst, Blitz erzwingen-Modus, Rote-Augen-Reduzierung,
+          kein Messblitz-Licht zurückgeworfen
+        '79': >-
+          Blitz wurde ausgelöst, Blitz erzwingen-Modus, Rote-Augen-Reduzierung,
+          Messblitz-Licht zurückgeworfen
+        '80': Deaktiviert, Rote-Augen-Reduzierung
+        '88': Blitz wurde nicht ausgelöst, Rote-Augen-Reduzierung
+        '89': Blitz wurde ausgelöst, Automodus, Rote-Augen-Reduzierung
+        '93': >-
+          Blitz wurde ausgelöst, Automodus, kein Messblitz-Licht zurückgeworfen,
+          Rote-Augen-Reduzierung
+        '95': >-
+          Blitz wurde ausgelöst, Automodus, Messblitz-Licht zurückgeworfen,
+          Rote-Augen-Reduzierung
+      focal_length: Brennweite
+      security_classification: Sicherheitsklassifizierung
+      security_classification_values:
+        C: Vertraulich
+        R: Eingeschränkt
+        S: Geheim
+        T: Streng geheim
+        U: Nicht klassifiziert
+      image_history: Bild-Historie
+      subject_area: Hauptobjektposition
+      sub_sec_time: Datum/Uhrzeit 1/100 Sekunden
+      sub_sec_time_original: Erstellungsdatum/-uhrzeit 1/100 Sekunden
+      sub_sec_time_digitized: Digitalisierungsdatum/-uhrzeit 1/100 Sekunden
+      color_space: Farbraum
+      color_space_values:
+        '65534': ICC-Profil
+        '65535': Nicht festgelegt
+      exif_image_width: Exif-Bildbreite
+      exif_image_height: Exif-Bildhöhe
+      related_sound_file: Zugehörige Audio-Datei
+      flash_energy: Blitzstärke
+      focal_plane_x_resolution: Sensorauflösung horizontal
+      focal_plane_y_resolution: Sensorauflösung vertikal
+      focal_plane_resolution_unit: Einheit der Sensorauflösung
+      focal_plane_resolution_unit_values:
+        '1': Keine
+        '2': Zoll
+        '5': µm (Mikrometer)
+      subject_location: Hauptobjektposition
+      exposure_index: Belichtungsindex
+      sensing_method: Messmethode
+      sensing_method_values:
+        '1': Nicht definiert
+        '2': Ein-Chip-Farbsensor
+        '3': Zwei-Chip-Farbsensor
+        '4': Drei-Chip-Farbsensor
+        '5': Color-Sequential-Area-Sensor
+        '7': Trilinearer Sensor
+        '8': Color-Sequential-Linear-Sensor
+      custom_rendered: Benutzerdefinierte Bildverarbeitung
+      custom_rendered_values:
+        '0': Standard-Prozess
+        '1': Benutzerdefinierter Prozess
+      exposure_mode: Belichtungsmodus
+      exposure_mode_values:
+        '0': Automatische Belichtung
+        '1': Manuelle Belichtung
+        '2': Belichtungsreihe
+      white_balance: Weißabgleich
+      white_balance_values:
+        '0': Automatisch
+        '1': Manuell
+      digital_zoom_ratio: Digitaler Zoom-Faktor
+      focal_length_in_35_mm_format: Brennweite in 35 mm-Kleinbildformat
+      scene_capture_type: Szenenaufnahmetyp
+      scene_capture_type_values:
+        '1': Landschaft
+        '2': Porträt
+        '3': Nachtszene
+      gain_control: Belichtungsverstärkung
+      gain_control_values:
+        '0': Keine
+        '1': Geringe Helligkeitsverstärkung
+        '2': Hohe Helligkeitsverstärkung
+        '3': Geringe Helligkeitsminderung
+        '4': Hohe Helligkeitsminderung
+      contrast: Kontrast
+      contrast_values:
+        '1': Leicht
+        '2': Stark
+      saturation: Farbsättigung
+      saturation_values:
+        '1': Geringe Farbsättigung
+        '2': Hohe Farbsättigung
+      sharpness: Schärfe
+      sharpness_values:
+        '1': Leicht
+        '2': Stark
+      subject_distance_range: Objektdistanzbereich
+      subject_distance_range_values:
+        '0': Unbekannt
+        '1': Makro
+        '2': Nahaufnahme
+        '3': Fernaufnahme
+      image_unique_id: Eindeutige Bild-ID
+      owner_name: Name des Besitzers
+      serial_number: Seriennummer
+      lens_info: Objektiv-Informationen
+      lens_make: Objektivhersteller
+      lens_model: Objektiv-Typ
+      lens_serial_number: Objektiv-Seriennummer
+      unique_camera_model: Eindeutige Kamerabezeichnung
+      localized_camera_model: Lokalisiertes Kameramodell
+      linearization_table: Linearisierungstabelle
+      black_level: Schwarzwert
+      black_level_delta_h: Schwarzwert Delta H
+      black_level_delta_v: Schwarzwert Delta V
+      default_scale: Systemmaß
+      color_matrix_1: Farbmatrix 1
+      color_matrix_2: Farbmatrix 2
+      camera_calibration_1: Kamerakalibrierung 1
+      camera_calibration_2: Kamerakalibrierung 2
+      reduction_matrix_1: Reduktionsmatrix 1
+      reduction_matrix_2: Reduktionsmatrix 2
+      analog_balance: Analog-Balance
+      as_shot_neutral: Aufnahme Neutral
+      as_shot_white_xy: Aufnahme Weiß XY
+      baseline_exposure: Referenzbelichtung
+      baseline_noise: Grundrauschen
+      baseline_sharpness: Referenzschärfe
+      camera_serial_number: Kamera-Seriennummer
+      dng_lens_info: DNG Objektiv-Informationen
+      anti_alias_strength: Anti-Aliasing Stärke
+      maker_note_safety: Sicherheit der Hersteller-Informationsdaten
+      maker_note_safety_values:
+        '0': Unsicher
+        '1': Sicher
+      calibration_illuminant_1: Lichtquellenkalibrierung 1
+      calibration_illuminant_1_values:
+        '0': Unbekannt
+        '1': Tageslicht
+        '2': Neonlicht
+        '3': Kunstlicht (Glühbirne)
+        '4': Blitz
+        '9': Wolkenlos
+        '10': Bewölkt
+        '11': Schatten
+        '12': Neonlicht tageslichtweiß
+        '13': Neonlicht neutralweiß
+        '14': Neonlicht kaltweiß
+        '15': Neonlicht universalweiß
+        '16': Neonlicht warmweiß
+        '17': Standard-Licht A
+        '18': Standard-Licht B
+        '19': Standard-Licht C
+        '24': ISO Studio-Kunstlicht (Glühbirne)
+        '255': Andere Lichtquelle
+      calibration_illuminant_2: Lichtquellenkalibrierung 2
+      calibration_illuminant_2_values:
+        '0': Unbekannt
+        '1': Tageslicht
+        '2': Neonlicht
+        '3': Kunstlicht (Glühbirne)
+        '4': Blitz
+        '9': Wolkenlos
+        '10': Bewölkt
+        '11': Schatten
+        '12': Neonlicht tageslichtweiß
+        '13': Neonlicht neutralweiß
+        '14': Neonlicht kaltweiß
+        '15': Neonlicht universalweiß
+        '16': Neonlicht warmweiß
+        '17': Standard-Licht A
+        '18': Standard-Licht B
+        '19': Standard-Licht C
+        '24': ISO Studio-Kunstlicht (Glühbirne)
+        '255': Andere Lichtquelle
+      original_raw_file_name: Original Raw Dateiname
+      as_shot_pre_profile_matrix: Aufnahme Pre Profil Matrix
+      colorimetric_reference: Farbmetrische Referenz
+      as_shot_profile_name: Aufnahme Pre Profilname
+      profile_copyright: Urheberrechtsvermerk
+      frame_rate: Bildwechselfrequenz
+      baseline_exposure_offset: Referenzbelichtung Abweichung
+      lens: Objektiv
+      raw_file: RAW Datei
+      converter: Konverter
+      exposure: Belichtung
+      shadows: Schatten
+      brightness: Helligkeit
+      gps_latitude_ref: Nördl. oder südl. Breite
+      gps_latitude_ref_values:
+        'N': Nördliche Breite
+        S: Südliche Breite
+      gps_latitude: Geografische Breite
+      gps_longitude_ref: östl. oder westl. Länge
+      gps_longitude_ref_values:
+        E: Östliche Länge
+        W: Westliche Länge
+      gps_longitude: Geografische Länge
+      gps_altitude: GPS Höhe
+      gps_time_stamp: GPS-Zeit UTC
+      gps_satellites: Für die Messung verwendete Satelliten
+      gps_status: GPS-Empfänger Status
+      gps_status_values:
+        A: Messung aktiv
+        V: Messung ungültig
+      gps_measure_mode: GPS Messverfahren
+      gps_measure_mode_values:
+        '2': 2-Dimensionale Messung
+        '3': 3-Dimensionale Messung
+      gpsdop: Messgenauigkeit
+      gps_speed_ref: Geschwindigkeitseinheit
+      gps_speed_ref_values:
+        K: Kilometer pro Stunde
+        M: Meilen pro Stunde
+        'N': Knoten
+      gps_speed: Geschwindigkeit des GPS-Empfängers
+      gps_track_ref: Referenz für Bewegungsrichtung
+      gps_track_ref_values:
+        M: Magnetische Ausrichtung
+        T: Geographische Ausrichtung
+      gps_track: Bewegungsrichtung
+      gps_img_direction_ref: Referenz für die Ausrichtung des Bildes
+      gps_img_direction_ref_values:
+        M: Magnetische Ausrichtung
+        T: Geographische Ausrichtung
+      gps_img_direction: Bildrichtung
+      gps_map_datum: Geodätisches Datum
+      gps_dest_latitude_ref: Referenz für die Breite des Zieles
+      gps_dest_latitude_ref_values:
+        'N': Nördliche Breite
+        S: Südliche Breite
+      gps_dest_latitude: Breite des Zieles
+      gps_dest_longitude_ref: Referenz für die Länge des Zieles
+      gps_dest_longitude_ref_values:
+        E: Östliche Länge
+        W: Westliche Länge
+      gps_dest_longitude: Längengrad des Ziels
+      gps_dest_bearing_ref: Referenz für Motivrichtung
+      gps_dest_bearing_ref_values:
+        M: Magnetische Ausrichtung
+        T: Geographische Ausrichtung
+      gps_dest_bearing: Motivrichtung
+      gps_dest_distance_ref: GPS-Zielentfernung Maßeinheit
+      gps_dest_distance_ref_values:
+        K: Kilometer
+        M: Meilen
+        'N': Knoten
+      gps_dest_distance: GPS Zielentfernung
+      gps_date_stamp: GPS Datum
+      gps_differential: GPS Differentialkorrektur
+      gps_differential_values:
+        '0': Messung ohne Differentialkorrektur
+        '1': Differentialkorrektur angewandt
+    xmp:
+      profile_type: Profiltyp
+      approximate_focus_distance: Fokus-Distanz angenähert
+      flash_compensation: Blitzbelichtungs-Korrektur
+      image_number: Bildnummer
+      lens: Objektiv
+      lens_id: Objektiv-ID
+      lens_info: Objektiv-Informationen
+      lens_serial_number: Objektiv-Seriennummer
+      owner_name: Name des Besitzers
+      serial_number: Seriennummer
+      license: Lizenz
+      permits_values:
+        cc:Distribution: Verteilung
+        cc:Reproduction: Reproduktion
+      prohibits: Verbote
+      prohibits_values:
+        cc:CommercialUse: Kommerzielle Verwendung
+      contributor: Mitwirkender
+      coverage: Anwendungsbereich
+      creator: Ersteller
+      date: Datum
+      language: Sprache
+      publisher: Herausgeber
+      source: Quelle
+      subject: Themen/Schlüsselwörter
+      type: Typ
+      aperture_value: Blende
+      brightness_value: Helligkeit
+      cfa_pattern_columns: Farbfiltermatrix Spalten
+      cfa_pattern_rows: Farbfiltermatrix Zeilen
+      cfa_pattern_values: Farbfiltermatrix Werte
+      color_space: Farbraum
+      color_space_values:
+        '65535': Nicht festgelegt
+      components_configuration: Bedeutung jeder Komponente
+      compressed_bits_per_pixel: Bildkomprimierungsmodus
+      contrast: Kontrast
+      contrast_values:
+        '1': Leicht
+        '2': Stark
+      custom_rendered: Benutzerdefinierte Bildverarbeitung
+      custom_rendered_values:
+        '0': Standard-Prozess
+        '1': Benutzerdefinierter Prozess
+      date_time_digitized: Datum/Uhrzeit der Digitalisierung
+      date_time_original: Erstellungsdatum/-uhrzeit
+      digital_zoom_ratio: Digitaler Zoom-Faktor
+      exif_version: Exif-Version
+      exposure_compensation: Belichtungskorrektur
+      exposure_index: Belichtungsindex
+      exposure_mode: Belichtungsmodus
+      exposure_mode_values:
+        '0': Automatische Belichtung
+        '1': Manuelle Belichtung
+        '2': Belichtungsreihe
+      exposure_program: Belichtungsprogramm
+      exposure_program_values:
+        '0': Nicht definiert
+        '1': Manuell
+        '2': Programmautomatik
+        '3': Blendenpriorität
+        '4': Verschlusspriorität
+        '5': Kreativ-Programm (ausgerichtet auf Schärfentiefe)
+        '6': Kreativ-Programm (ausgerichtet auf schnelle Verschlussgeschwindigkeit)
+        '7': Porträt
+        '8': Landschaft
+      exposure_time: Belichtungsdauer
+      file_source: Dateiquelle
+      file_source_values:
+        '1': Film-Scanner
+        '2': Scanner
+        '3': Digital-Kamera
+      flash_energy: Blitzstärke
+      flash_fired: Blitz wurde ausgelöst
+      flash_fired_values:
+        'False': Nein
+        'True': Ja
+      flash_function: Blitzfunktion
+      flash_function_values:
+        'False': Nein
+        'True': Ja
+      flash_mode: Blitz-Modus
+      flash_mode_values:
+        '0': Unbekannt
+        '1': Ein
+        '2': Aus
+        '3': Automatisch
+      flashpix_version: Unterstützte Flashpix-Version
+      flash_red_eye_mode: Blitz Rote-Augen-Modus
+      flash_red_eye_mode_values:
+        'False': Nein
+        'True': Ja
+      flash_return: Blitz Reflexion
+      flash_return_values:
+        '0': Keine Erkennung
+        '2': Reflexion nicht erkannt
+        '3': Reflexion erkannt
+      f_number: F-Wert
+      focal_length: Brennweite
+      focal_length_in_35_mm_format: Brennweite in 35 mm-Kleinbildformat
+      focal_plane_resolution_unit: Einheit der Sensorauflösung
+      focal_plane_resolution_unit_values:
+        '1': Keine
+        '2': Zoll
+        '5': µm (Mikrometer)
+      focal_plane_x_resolution: Sensorauflösung horizontal
+      focal_plane_y_resolution: Sensorauflösung vertikal
+      gain_control: Belichtungsverstärkung
+      gain_control_values:
+        '0': Keine
+        '1': Geringe Helligkeitsverstärkung
+        '2': Hohe Helligkeitsverstärkung
+        '3': Geringe Helligkeitsminderung
+        '4': Hohe Helligkeitsminderung
+      gps_altitude: GPS Höhe
+      gps_altitude_ref: GPS-Höhe Bezug
+      gps_altitude_ref_values:
+        '0': Höhe über Normal-Null (Meeresspiegel)
+        '1': Höhe unter Normal-Null (Meeresspiegel)
+      gps_area_information: Name des GPS-Gebietes
+      gps_dest_bearing: Motivrichtung
+      gps_dest_bearing_ref: Referenz für Motivrichtung
+      gps_dest_bearing_ref_values:
+        M: Magnetische Ausrichtung
+        T: Geographische Ausrichtung
+      gps_dest_distance: GPS Zielentfernung
+      gps_dest_distance_ref: GPS-Zielentfernung Maßeinheit
+      gps_dest_distance_ref_values:
+        K: Kilometer
+        M: Meilen
+        'N': Knoten
+      gps_dest_latitude: Breite des Zieles
+      gps_dest_longitude: Längengrad des Ziels
+      gps_differential: GPS Differentialkorrektur
+      gps_differential_values:
+        '0': Messung ohne Differentialkorrektur
+        '1': Differentialkorrektur angewandt
+      gpsdop: Messgenauigkeit
+      gps_img_direction: Bildrichtung
+      gps_img_direction_ref: Referenz für die Ausrichtung des Bildes
+      gps_img_direction_ref_values:
+        M: Magnetische Ausrichtung
+        T: Geographische Ausrichtung
+      gps_latitude: Geografische Breite
+      gps_longitude: Geografische Länge
+      gps_map_datum: Geodätisches Datum
+      gps_measure_mode: GPS Messverfahren
+      gps_measure_mode_values:
+        '2': 2-Dimensionale Messung
+        '3': 3-Dimensionale Messung
+      gps_processing_method: Name der GPS-Verarbeitungsmethode
+      gps_satellites: Für die Messung verwendete Satelliten
+      gps_speed: Geschwindigkeit des GPS-Empfängers
+      gps_speed_ref: Geschwindigkeitseinheit
+      gps_speed_ref_values:
+        K: Kilometer pro Stunde
+        M: Meilen pro Stunde
+        'N': Knoten
+      gps_status: GPS-Empfänger Status
+      gps_status_values:
+        A: Messung aktiv
+        V: Messung ungültig
+      gps_date_time: GPS Zeitstempel
+      gps_track: Bewegungsrichtung
+      gps_track_ref: Referenz für Bewegungsrichtung
+      gps_track_ref_values:
+        M: Magnetische Ausrichtung
+        T: Geographische Ausrichtung
+      gps_version_id: GPS-Tag-Version
+      image_unique_id: Eindeutige Bild-ID
+      iso: ISO-Empfindlichkeit
+      light_source: Lichtquelle
+      light_source_values:
+        '0': Unbekannt
+        '1': Tageslicht
+        '2': Neonlicht
+        '3': Kunstlicht (Glühbirne)
+        '4': Blitz
+        '9': Wolkenlos
+        '10': Bewölkt
+        '11': Schatten
+        '12': Neonlicht tageslichtweiß
+        '13': Neonlicht neutralweiß
+        '14': Neonlicht kaltweiß
+        '15': Neonlicht universalweiß
+        '16': Neonlicht warmweiß
+        '17': Standard-Licht A
+        '18': Standard-Licht B
+        '19': Standard-Licht C
+        '24': ISO Studio-Kunstlicht (Glühbirne)
+        '255': Andere Lichtquelle
+      maker_note: Hersteller-eigene Daten
+      max_aperture_value: Größtmögliche Blende
+      metering_mode: Belichtungsmessmethode
+      metering_mode_values:
+        '1': Integralmessung
+        '2': Mittenbetont
+        '3': Spotmessung
+        '4': MultiSpot
+        '5': Multi-Segment
+        '6': Teilbild
+        '255': Andere
+      native_digest: EXIF Kennwert
+      exif_image_width: Exif-Bildbreite
+      exif_image_height: Exif-Bildhöhe
+      related_sound_file: Zugehörige Audio-Datei
+      saturation: Farbsättigung
+      saturation_values:
+        '1': Geringe Farbsättigung
+        '2': Hohe Farbsättigung
+      scene_capture_type: Szenenaufnahmetyp
+      scene_capture_type_values:
+        '1': Landschaft
+        '2': Porträt
+        '3': Nachtszene
+      scene_type: Szenentyp
+      scene_type_values:
+        '1': Direkt aufgenommenes Bild
+      sensing_method: Messmethode
+      sensing_method_values:
+        '1': Monochrom-Sensor
+        '2': Ein-Chip-Farbsensor
+        '3': Zwei-Chip-Farbsensor
+        '4': Drei-Chip-Farbsensor
+        '5': Color-Sequential-Area-Sensor
+        '6': Monochrom-linearer Sensor
+        '7': Trilinearer Sensor
+        '8': Color-Sequential-Linear-Sensor
+      sharpness: Schärfe
+      sharpness_values:
+        '1': Leicht
+        '2': Stark
+      shutter_speed_value: Belichtungszeit
+      spectral_sensitivity: Spektralempfindlichkeit
+      subject_area: Hauptobjektposition
+      subject_distance: Objektentfernung
+      subject_distance_range: Objektdistanzbereich
+      subject_distance_range_values:
+        '0': Unbekannt
+        '1': Makro
+        '2': Nahaufnahme
+        '3': Fernaufnahme
+      subject_location: Hauptobjektposition
+      white_balance: Weißabgleich
+      white_balance_values:
+        '0': Automatisch
+        '1': Manuell
+      interop_index: Interoperabilität Identifikation
+      interop_index_values:
+        R03: 'R03: DCF Option-Format (Adobe RGB)'
+        R98: 'R98: DCF Basic-Format (sRGB)'
+        THM: 'THM: DCF Miniaturbild-Format'
+      lens_make: Objektivhersteller
+      lens_model: Objektiv-Typ
+      sensitivity_type: Art der Empfindlichkeit
+      sensitivity_type_values:
+        '0': Unbekannt
+        '1': Standard Ausgabeempfindlichkeit
+        '2': Empfohlener Belichtungsindex
+        '3': ISO Empfindlichkeit
+        '4': Standard Ausgabeempfindlichkeit und empfohlener Belichtungsindex
+        '5': Standard Ausgabeempfindlichkeit und ISO Empfindlichkeit
+        '6': Empfohlener Belichtungsindex und ISO Empfindlichkeit
+        '7': >-
+          Standard Ausgabeempfindlichkeit,empfohlener Belichtungsindex und ISO
+          Empfindlichkeit
+      time_stamp: Zeitstempel
+      country_code: ISO-Ländercode
+      creator_city: Ersteller - Ort
+      creator_country: Ersteller - Land
+      creator_address: Ersteller - Adresse
+      creator_postal_code: Ersteller - PLZ
+      creator_region: Ersteller - Bundesland/Kanton
+      creator_work_email: Ersteller - E-Mail
+      creator_work_telephone: Ersteller - Telefon
+      creator_work_url: Ersteller - Webseite(n)
+      intellectual_genre: Intellektuelles Genre
+      location: Aufnahmeort
+      scene: Szene
+      subject_code: IPTC Themencode
+      artwork_creator: Artwork Ersteller
+      author: Autor
+      copyright: Urheberrechtsvermerk
+      creation_date: Aufnahmedatum
+      keywords: Schlüsselwörter
+      marked: Markiert
+      producer: Produzent
+      title: Titel
+      trapped_values:
+        Unknown: Unbekannt
+      artist: Künstler
+      bits_per_sample: Anzahl der Bits pro Komponente
+      compression: Komprimierungsschema
+      compression_values:
+        '1': Nicht komprimiert
+        '6': JPEG (alte Version)
+        '7': JPEG-Komprimierung
+        '9': JBIG Schwarz-Weiß
+        '10': JBIG Farbe
+        '99': JPEG-Komprimierung
+        '32766': NeXT 2-Bit Kodierung
+        '32767': Sony ARW-Komprimierung
+        '32809': ThunderScan 4-Bit Kodierung
+        '32867': Kodak KDC-Komprimierung
+        '34676': SGI 32-Bit Log Luminance Kodierung
+        '34677': SGI 24-Bit Log Luminance Kodierung
+        '34713': Nikon NEF-Komprimierung
+        '34933': PNG-Komprimierung
+        '65000': Kodak DCR-Komprimierung
+        '65535': Pentax PEF-Komprimierung
+      date_time: Änderungsdatum
+      image_height: Bildhöhe
+      image_width: Bildbreite
+      make: Gerätehersteller
+      model: Kameramodell
+      orientation: Ausrichtung
+      orientation_values:
+        '2': Horizontal gespiegelt
+        '3': 180° gedreht
+        '4': Vertikal gespiegelt
+        '5': Horizontal gespiegelt und 90° gegen den Uhrzeigersinn
+        '6': 90° im Uhrzeigersinn
+        '7': Horizontal gespiegelt und 90° im Uhrzeigersinn
+        '8': 90° gegen den Uhrzeigersinn
+      photometric_interpretation: Pixel-Schema
+      photometric_interpretation_values:
+        '0': Weiß ist Null
+        '1': Schwarz ist Null
+        '4': Transparenzmaske
+        '32803': CFA (Farbfiltermatrix)
+        '32844': CIE Log2(L) (Log Luminanz)
+        '32845': CIE Log2(L)(u',v') (Log Luminanz und Chrominanz)
+      planar_configuration: Bilddatenausrichtung
+      planar_configuration_values:
+        '1': Kompaktformat
+        '2': Ebenes Format
+      primary_chromaticities: Chromatizität der Primärfarben
+      reference_black_white: Schwarz-Weiß-Referenzpunkte
+      resolution_unit: Einheit der X- und Y-Auflösung
+      resolution_unit_values:
+        '1': Keine
+        '2': Zoll
+      samples_per_pixel: Anzahl der Komponenten
+      transfer_function: Transformationsfunktion
+      white_point: Weißpunkt-Chromatizität
+      x_resolution: Horizontale Bildauflösung
+      y_cb_cr_coefficients: YCbCr-Koeffizienten
+      y_cb_cr_positioning: Y und C Ausrichtung
+      y_cb_cr_positioning_values:
+        '1': Zentriert
+        '2': Benachbart
+      y_cb_cr_sub_sampling: Subsampling Rate von Y bis C
+      y_resolution: Vertikale Bildauflösung
+      base_url: Basis URL
+      create_date: Digitalisierungsdatum/-uhrzeit
+      creator_tool: Erstellertool
+      label: Beschriftung
+      metadata_date: Datum der Metadaten
+      modify_date: Änderungsdatum
+      rating: Bewertung
+      rating_percent: Bewertung in Prozent
+      thumbnail_format: Miniaturbild-Format
+      thumbnail_height: Miniaturbild-Höhe
+      thumbnail_image: Miniaturbild
+      thumbnail_width: Miniaturbild-Breite
+      certificate: Zertifikat
+      owner: Besitzer

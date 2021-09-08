@@ -1,0 +1,17 @@
+{
+  "name": "exiftool-bindings",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "git@github.com:Scompler/exiftool-bindings.git",
+  "scripts": {
+    "build": "node scripts/build.js"
+  },
+  "devDependencies": {
+    "@mcmics/dist-exiftool": "^12.24.0",
+    "eslint": "^7.32.0",
+    "js-yaml": "^4.1.0",
+    "lodash": "^4.17.21",
+    "xml2js": "^0.4.23"
+  },
+  "dependencies": {}
+}
