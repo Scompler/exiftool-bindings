@@ -10,7 +10,7 @@ const exiftool = require('@mcmics/dist-exiftool');
 const whiteList = {
   'xmp': {
     'types': ['real', 'string', 'integer', 'date', 'boolean', 'rational'],
-    'tables': ['XMP::Device', 'XMP::cc', 'XMP::aux', 'XMP::dc', 'XMP::exif', 'XMP::exifEX', 'XMP::ics', 'XMP::iptcCore', 'XMP::iptcExt', 'XMP::pdf', 'XMP::tiff', 'XMP::xmp', 'XMP::xmpRights']
+    'tables': ['XMP::Device', 'XMP::cc', 'XMP::aux', 'XMP::dc', 'XMP::exif', 'XMP::exifEX', 'XMP::ics', 'XMP::iptcCore', 'XMP::iptcExt', 'XMP::pdf', 'XMP::photoshop', 'XMP::pdf', 'XMP::tiff', 'XMP::xmp', 'XMP::xmpRights']
   },
   'exif': {
     'types': ['string', 'int16u', 'rational64u', 'int16s', 'rational64s'],
@@ -54,7 +54,7 @@ Object.keys(whiteList).forEach((sectionName) => {
       fs.writeFileSync(`json/${sectionName}.json`, JSON.stringify(array));
     });
 
-    fs.writeFileSync(`yml/metadata_translations.yml`, dump(langDump));
+    fs.writeFileSync(`yml/translations.yml`, dump(langDump));
   });
 });
 
@@ -73,7 +73,7 @@ const extractTranslation = (tag, sectionName) => {
   let translation = {}
   langs.forEach(lang => {
     const tagName = findTranslation(tag.desc, lang);
-    const path = `${lang}.matadata.${sectionName}.${_.snakeCase(tag.$.name)}`
+    const path = `${lang}.metadata.${sectionName}.${_.snakeCase(tag.$.name)}`
     if (tagName) _.set(translation, path, tagName);
 
     if (tag.values) {
@@ -83,7 +83,7 @@ const extractTranslation = (tag, sectionName) => {
         if (optionName) options[option.$.id] = optionName
       })
 
-      const optionPath = `${lang}.matadata.${sectionName}.${_.snakeCase(tag.$.name)}_values`
+      const optionPath = `${lang}.metadata.${sectionName}.${_.snakeCase(tag.$.name)}_values`
       if (Object.entries(options).length > 0) _.set(translation, optionPath, options);
     }
   })
