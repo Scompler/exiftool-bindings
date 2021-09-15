@@ -786,22 +786,6 @@ en:
       vendor_info_manufacturer: Vendor Info Manufacturer
       vendor_info_model: Vendor Info Model
       vendor_info_notes: Vendor Info Notes
-      approximate_focus_distance: Approximate Focus Distance
-      distortion_correction_already_applied: Distortion Correction Already Applied
-      firmware: Firmware
-      flash_compensation: Flash Compensation
-      image_number: Image Number
-      is_merged_hdr: Is Merged HDR
-      is_merged_panorama: Is Merged Panorama
-      lateral_chromatic_aberration_correction_already_applied: Lateral Chromatic Aberration Correction Already Applied
-      lens: Lens
-      lens_distort_info: Lens Distort Info
-      lens_id: Lens ID
-      lens_info: Lens Info
-      lens_serial_number: Lens Serial Number
-      owner_name: Owner Name
-      serial_number: Serial Number
-      vignette_correction_already_applied: Vignette Correction Already Applied
       attribution_name: Attribution Name
       attribution_url: Attribution URL
       deprecated_on: Deprecated On
@@ -828,18 +812,6 @@ en:
         cc:ShareAlike: Share Alike
         cc:SourceCode: Source Code
       use_guidelines: Use Guidelines
-      contributor: Contributor
-      coverage: Coverage
-      creator: Creator
-      date: Date
-      format: Format
-      identifier: Identifier
-      language: Language
-      publisher: Publisher
-      relation: Relation
-      source: Source
-      subject: Subject
-      type: Type
       aperture_value: Aperture Value
       brightness_value: Brightness Value
       cfa_pattern_columns: CFA Pattern Columns
@@ -1094,7 +1066,9 @@ en:
         '0': Auto
         '1': Manual
       acceleration: Acceleration
+      serial_number: Serial Number
       camera_elevation_angle: Camera Elevation Angle
+      owner_name: Owner Name
       composite_image: Composite Image
       composite_image_values:
         '0': Unknown
@@ -1124,6 +1098,8 @@ en:
       iso_speed_latitudezzz: ISO Speed Latitude zzz
       lens_make: Lens Make
       lens_model: Lens Model
+      lens_serial_number: Lens Serial Number
+      lens_info: Lens Info
       photographic_sensitivity: Photographic Sensitivity
       pressure: Pressure
       recommended_exposure_index: Recommended Exposure Index
@@ -1372,184 +1348,14 @@ en:
       workflow_tag_cv_id: Workflow Tag Cv Id
       workflow_tag_cv_term_id: Workflow Tag Cv Term Id
       workflow_tag_cv_term_refined_about: Workflow Tag Cv Term Refined About
-      author: Author
-      copyright: Copyright
-      creation_date: Creation Date
-      keywords: Keywords
-      marked: Marked
-      mod_date: Mod Date
-      pdf_version: PDF Version
-      producer: Producer
-      title: Title
-      trapped: Trapped
-      trapped_values:
-        'False': 'False'
-        'True': 'True'
-        Unknown: Unknown
-      authors_position: Authors Position
-      caption_writer: Caption Writer
-      category: Category
-      city: City
-      color_mode: Color Mode
-      color_mode_values:
-        '0': Bitmap
-        '1': Grayscale
-        '2': Indexed
-        '3': RGB
-        '4': CMYK
-        '7': Multichannel
-        '8': Duotone
-        '9': Lab
-      country: Country
-      credit: Credit
-      date_created: Date Created
-      document_ancestors: Document Ancestors
-      embedded_xmp_digest: Embedded XMP Digest
-      headline: Headline
-      history: History
-      icc_profile_name: ICC Profile Name
-      instructions: Instructions
-      legacy_iptc_digest: Legacy IPTC Digest
-      sidecar_for_extension: Sidecar For Extension
-      state: State
-      supplemental_categories: Supplemental Categories
-      text_layer_name: Text Layer Name
-      text_layer_text: Text Layer Text
-      transmission_reference: Transmission Reference
-      urgency: Urgency
-      urgency_values:
-        '0': 0 (reserved)
-        '1': 1 (most urgent)
-        '2': '2'
-        '3': '3'
-        '4': '4'
-        '5': 5 (normal urgency)
-        '6': '6'
-        '7': '7'
-        '8': 8 (least urgent)
-        '9': 9 (user-defined priority)
-      artist: Artist
-      bits_per_sample: Bits Per Sample
-      compression: Compression
-      compression_values:
-        '1': Uncompressed
-        '2': CCITT 1D
-        '3': T4/Group 3 Fax
-        '4': T6/Group 4 Fax
-        '5': LZW
-        '6': JPEG (old-style)
-        '7': JPEG
-        '8': Adobe Deflate
-        '9': JBIG B&W
-        '10': JBIG Color
-        '99': JPEG
-        '262': Kodak 262
-        '32766': Next
-        '32767': Sony ARW Compressed
-        '32769': Packed RAW
-        '32770': Samsung SRW Compressed
-        '32771': CCIRLEW
-        '32772': Samsung SRW Compressed 2
-        '32773': PackBits
-        '32809': Thunderscan
-        '32867': Kodak KDC Compressed
-        '32895': IT8CTPAD
-        '32896': IT8LW
-        '32897': IT8MP
-        '32898': IT8BL
-        '32908': PixarFilm
-        '32909': PixarLog
-        '32946': Deflate
-        '32947': DCS
-        '33003': Aperio JPEG 2000 YCbCr
-        '33005': Aperio JPEG 2000 RGB
-        '34661': JBIG
-        '34676': SGILog
-        '34677': SGILog24
-        '34712': JPEG 2000
-        '34713': Nikon NEF Compressed
-        '34715': JBIG2 TIFF FX
-        '34718': Microsoft Document Imaging (MDI) Binary Level Codec
-        '34719': Microsoft Document Imaging (MDI) Progressive Transform Codec
-        '34720': Microsoft Document Imaging (MDI) Vector
-        '34887': ESRI Lerc
-        '34892': Lossy JPEG
-        '34925': LZMA2
-        '34926': Zstd
-        '34927': WebP
-        '34933': PNG
-        '34934': JPEG XR
-        '65000': Kodak DCR Compressed
-        '65535': Pentax PEF Compressed
-      date_time: Date/Time Modified
-      image_height: Image Height
-      image_width: Image Width
-      make: Make
-      model: Camera Model Name
-      orientation: Orientation
-      orientation_values:
-        '1': Horizontal (normal)
-        '2': Mirror horizontal
-        '3': Rotate 180
-        '4': Mirror vertical
-        '5': Mirror horizontal and rotate 270 CW
-        '6': Rotate 90 CW
-        '7': Mirror horizontal and rotate 90 CW
-        '8': Rotate 270 CW
-      photometric_interpretation: Photometric Interpretation
-      photometric_interpretation_values:
-        '0': WhiteIsZero
-        '1': BlackIsZero
-        '2': RGB
-        '3': RGB Palette
-        '4': Transparency Mask
-        '5': CMYK
-        '6': YCbCr
-        '8': CIELab
-        '9': ICCLab
-        '10': ITULab
-        '32803': Color Filter Array
-        '32844': Pixar LogL
-        '32845': Pixar LogLuv
-        '32892': Sequential Color Filter
-        '34892': Linear Raw
-        '51177': Depth Map
-      planar_configuration: Planar Configuration
-      planar_configuration_values:
-        '1': Chunky
-        '2': Planar
-      primary_chromaticities: Primary Chromaticities
-      reference_black_white: Reference Black White
-      resolution_unit: Resolution Unit
-      resolution_unit_values:
-        '1': None
-        '2': inches
-        '3': cm
-      samples_per_pixel: Samples Per Pixel
-      software: Software
-      transfer_function: Transfer Function
-      white_point: White Point
-      x_resolution: X Resolution
-      y_cb_cr_coefficients: Y Cb Cr Coefficients
-      y_cb_cr_positioning: Y Cb Cr Positioning
-      y_cb_cr_positioning_values:
-        '1': Centered
-        '2': Co-sited
-      y_cb_cr_sub_sampling: Y Cb Cr Sub Sampling
-      y_cb_cr_sub_sampling_values:
-        1 1: YCbCr4:4:4 (1 1)
-        1 2: YCbCr4:4:0 (1 2)
-        1 4: YCbCr4:4:1 (1 4)
-        2 1: YCbCr4:2:2 (2 1)
-        2 2: YCbCr4:2:0 (2 2)
-        2 4: YCbCr4:2:1 (2 4)
-        4 1: YCbCr4:1:1 (4 1)
-        4 2: YCbCr4:1:0 (4 2)
-      y_resolution: Y Resolution
       advisory: Advisory
+      author: Author
       base_url: Base URL
       create_date: Create Date
       creator_tool: Creator Tool
+      format: Format
+      identifier: Identifier
+      keywords: Keywords
       label: Label
       metadata_date: Metadata Date
       modify_date: Modify Date
@@ -1566,6 +1372,7 @@ en:
       thumbnail_image: Thumbnail Image
       thumbnail_width: Thumbnail Width
       certificate: Certificate
+      marked: Marked
       owner: Owner
       web_statement: Web Statement
 de:
@@ -2085,15 +1892,6 @@ de:
         '1': Differentialkorrektur angewandt
     xmp:
       profile_type: Profiltyp
-      approximate_focus_distance: Fokus-Distanz angenähert
-      flash_compensation: Blitzbelichtungs-Korrektur
-      image_number: Bildnummer
-      lens: Objektiv
-      lens_id: Objektiv-ID
-      lens_info: Objektiv-Informationen
-      lens_serial_number: Objektiv-Seriennummer
-      owner_name: Name des Besitzers
-      serial_number: Seriennummer
       license: Lizenz
       permits_values:
         cc:Distribution: Verteilung
@@ -2101,15 +1899,6 @@ de:
       prohibits: Verbote
       prohibits_values:
         cc:CommercialUse: Kommerzielle Verwendung
-      contributor: Mitwirkender
-      coverage: Anwendungsbereich
-      creator: Ersteller
-      date: Datum
-      language: Sprache
-      publisher: Herausgeber
-      source: Quelle
-      subject: Themen/Schlüsselwörter
-      type: Typ
       aperture_value: Blende
       brightness_value: Helligkeit
       cfa_pattern_columns: Farbfiltermatrix Spalten
@@ -2331,6 +2120,8 @@ de:
       white_balance_values:
         '0': Automatisch
         '1': Manuell
+      serial_number: Seriennummer
+      owner_name: Name des Besitzers
       interop_index: Interoperabilität Identifikation
       interop_index_values:
         R03: 'R03: DCF Option-Format (Adobe RGB)'
@@ -2338,6 +2129,8 @@ de:
         THM: 'THM: DCF Miniaturbild-Format'
       lens_make: Objektivhersteller
       lens_model: Objektiv-Typ
+      lens_serial_number: Objektiv-Seriennummer
+      lens_info: Objektiv-Informationen
       sensitivity_type: Art der Empfindlichkeit
       sensitivity_type_values:
         '0': Unbekannt
@@ -2366,107 +2159,10 @@ de:
       subject_code: IPTC Themencode
       artwork_creator: Artwork Ersteller
       author: Autor
-      copyright: Urheberrechtsvermerk
-      creation_date: Aufnahmedatum
-      keywords: Schlüsselwörter
-      marked: Markiert
-      producer: Produzent
-      title: Titel
-      trapped_values:
-        Unknown: Unbekannt
-      authors_position: Autorenposition
-      caption_writer: Bildtextautor
-      category: Kategorie
-      city: Stadt/Ort
-      color_mode: Farbmodus
-      color_mode_values:
-        '1': Graustufen
-        '2': Indiziert
-        '7': Mehrkanal
-        '8': Zweiton
-      country: Land
-      credit: Anbieter
-      date_created: Erstellungsdatum
-      headline: Überschrift
-      icc_profile_name: ICC-Profil Name
-      instructions: Anweisungen
-      legacy_iptc_digest: Bisheriger IPTC Kennwert
-      state: Bundesland/Kanton
-      supplemental_categories: Zusätzliche Kategorien
-      transmission_reference: Anbietervermerk
-      urgency: Dringlichkeit
-      urgency_values:
-        '0': 0 (reserviert)
-        '1': 1 (sehr dringend)
-        '5': 5 (normale Dringlichkeit)
-        '8': 8 (geringe Dringlichkeit)
-        '9': 9 (benutzerdefinierte Priorität)
-      artist: Künstler
-      bits_per_sample: Anzahl der Bits pro Komponente
-      compression: Komprimierungsschema
-      compression_values:
-        '1': Nicht komprimiert
-        '6': JPEG (alte Version)
-        '7': JPEG-Komprimierung
-        '9': JBIG Schwarz-Weiß
-        '10': JBIG Farbe
-        '99': JPEG-Komprimierung
-        '32766': NeXT 2-Bit Kodierung
-        '32767': Sony ARW-Komprimierung
-        '32809': ThunderScan 4-Bit Kodierung
-        '32867': Kodak KDC-Komprimierung
-        '34676': SGI 32-Bit Log Luminance Kodierung
-        '34677': SGI 24-Bit Log Luminance Kodierung
-        '34713': Nikon NEF-Komprimierung
-        '34933': PNG-Komprimierung
-        '65000': Kodak DCR-Komprimierung
-        '65535': Pentax PEF-Komprimierung
-      date_time: Änderungsdatum
-      image_height: Bildhöhe
-      image_width: Bildbreite
-      make: Gerätehersteller
-      model: Kameramodell
-      orientation: Ausrichtung
-      orientation_values:
-        '2': Horizontal gespiegelt
-        '3': 180° gedreht
-        '4': Vertikal gespiegelt
-        '5': Horizontal gespiegelt und 90° gegen den Uhrzeigersinn
-        '6': 90° im Uhrzeigersinn
-        '7': Horizontal gespiegelt und 90° im Uhrzeigersinn
-        '8': 90° gegen den Uhrzeigersinn
-      photometric_interpretation: Pixel-Schema
-      photometric_interpretation_values:
-        '0': Weiß ist Null
-        '1': Schwarz ist Null
-        '4': Transparenzmaske
-        '32803': CFA (Farbfiltermatrix)
-        '32844': CIE Log2(L) (Log Luminanz)
-        '32845': CIE Log2(L)(u',v') (Log Luminanz und Chrominanz)
-      planar_configuration: Bilddatenausrichtung
-      planar_configuration_values:
-        '1': Kompaktformat
-        '2': Ebenes Format
-      primary_chromaticities: Chromatizität der Primärfarben
-      reference_black_white: Schwarz-Weiß-Referenzpunkte
-      resolution_unit: Einheit der X- und Y-Auflösung
-      resolution_unit_values:
-        '1': Keine
-        '2': Zoll
-      samples_per_pixel: Anzahl der Komponenten
-      transfer_function: Transformationsfunktion
-      white_point: Weißpunkt-Chromatizität
-      x_resolution: Horizontale Bildauflösung
-      y_cb_cr_coefficients: YCbCr-Koeffizienten
-      y_cb_cr_positioning: Y und C Ausrichtung
-      y_cb_cr_positioning_values:
-        '1': Zentriert
-        '2': Benachbart
-      y_cb_cr_sub_sampling: Subsampling Rate von Y bis C
-      y_resolution: Vertikale Bildauflösung
       base_url: Basis URL
       create_date: Digitalisierungsdatum/-uhrzeit
       creator_tool: Erstellertool
+      keywords: Schlüsselwörter
       label: Beschriftung
       metadata_date: Datum der Metadaten
       modify_date: Änderungsdatum
@@ -2477,4 +2173,5 @@ de:
       thumbnail_image: Miniaturbild
       thumbnail_width: Miniaturbild-Breite
       certificate: Zertifikat
+      marked: Markiert
       owner: Besitzer
