@@ -3,6 +3,8 @@
 require 'rails'
 
 module ExiftoolBindings #:nodoc:
+  String.include ExiftoolBindings::CoreExtensions::SnakeCase
+
   class Railtie < ::Rails::Railtie #:nodoc:
     initializer 'rails-i18n' do
       ExiftoolBindings::Railtie.instance_eval do
