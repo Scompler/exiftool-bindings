@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name = 'exiftool-bindings'
-  spec.version = '1.0.0'
+  spec.version = '1.0.1'
   spec.authors = ['Scompler team']
   spec.summary = 'Bindings for exiftool'
   spec.files = Dir.glob('lib/**') + Dir.glob('locale/*') +
