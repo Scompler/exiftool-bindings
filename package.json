@@ -1,18 +1,30 @@
 {
-  "name": "exiftool-bindings",
+  "name": "@scompler/exiftool-bindings",
+  "author": "Scompler",
+  "license": "SEE LICENSE IN LICENSE.md",
   "version": "1.0.0",
-  "private": true,
   "repository": "git@github.com:Scompler/exiftool-bindings.git",
   "description": "Bindings for exiftool",
-  "main": "index.js",
+  "main": "./dist/main.js",
   "scripts": {
-    "build": "node scripts/build.js"
+    "build:generate": "node scripts/build.js",
+    "build": "yarn build:generate && webpack --mode=production --node-env=production",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production --node-env=production",
+    "watch": "webpack --watch"
   },
   "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
     "@mcmics/dist-exiftool": "^12.24.0",
+    "@webpack-cli/generators": "^2.3.0",
+    "babel-loader": "^8.2.2",
     "eslint": "^7.32.0",
     "js-yaml": "^4.1.0",
     "lodash": "^4.17.21",
+    "prettier": "^2.4.1",
+    "webpack": "^5.53.0",
+    "webpack-cli": "^4.8.0",
     "xml2js": "^0.4.23"
   },
   "dependencies": {}
