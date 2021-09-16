@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require 'rails'
+require 'snake_case'
 
 module ExiftoolBindings #:nodoc:
   String.include ExiftoolBindings::CoreExtensions::SnakeCase

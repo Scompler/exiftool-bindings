@@ -5,8 +5,7 @@ Gem::Specification.new do |spec|
   spec.version = '1.0.1'
   spec.authors = ['Scompler team']
   spec.summary = 'Bindings for exiftool'
-  spec.files = Dir.glob('lib/**') + Dir.glob('locale/*') +
-               Dir.glob('yml/*')
+  spec.files = Dir.glob('lib/**') + Dir.glob('yml/*') + Dir.glob('json/*')
   spec.platform      = Gem::Platform::RUBY
   spec.require_path  = 'lib'
   spec.required_rubygems_version = '>= 1.3.5'
