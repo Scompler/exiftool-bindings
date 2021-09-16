@@ -54,13 +54,14 @@ Object.keys(whiteList).forEach((sectionName) => {
         return false;
       });
 
+      let outObject = {}
+
       array.forEach(tag => {
         langDump = _.merge(langDump, extractTranslation(tag, sectionName));
+        outObject[tag.$.name] = extractTag(tag);
       });
 
-      array = array.map(tag => extractTag(tag));
-
-      fs.writeFileSync(`json/${sectionName}.json`, JSON.stringify(array));
+      fs.writeFileSync(`json/${sectionName}.json`, JSON.stringify(outObject));
     });
 
     fs.writeFileSync(`yml/translations.yml`, dump(langDump));
@@ -69,7 +70,6 @@ Object.keys(whiteList).forEach((sectionName) => {
 
 const extractTag = (tag) => {
   let output = {
-    'name': tag.$.name,
     'type': tag.$.type,
     'writable': tag.$.writable
   }
