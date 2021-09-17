@@ -27,8 +27,7 @@ let langDump = {};
 
 Object.keys(whiteList).forEach((sectionName) => {
   let blacklistPrefixes = [];
-  execFile(exiftool, ['-listx', `-${sectionName}:all`], (error, stdout, stderr) => {
-    if (error) { console.log('exiftool error', stderr) }
+  execFile(exiftool, ['-listx', `-${sectionName}:all`, '-f'], {maxBuffer: 1024 * 102400 }, (error, stdout, stderr) => {
     parseString(stdout, function (err, result) {
       const tables = result.taginfo.table.filter(table => {
         if (whiteList[sectionName].tables.includes(table.$.name)) return true
@@ -73,6 +72,7 @@ const extractTag = (tag) => {
     'type': tag.$.type,
     'writable': tag.$.writable
   }
+  if (tag.$.flags) output['flags'] = tag.$.flags.split(',')
   if (tag.values) output['values'] = tag.values[0].key.map(option => option.$.id)
 
   return output
