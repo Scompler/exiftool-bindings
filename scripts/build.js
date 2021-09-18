@@ -26,7 +26,6 @@ const langs = ['en', 'de']
 let langDump = {};
 
 Object.keys(whiteList).forEach((sectionName) => {
-  let blacklistPrefixes = [];
   execFile(exiftool, ['-listx', `-${sectionName}:all`, '-f'], {maxBuffer: 1024 * 102400 }, (error, stdout, stderr) => {
     parseString(stdout, function (err, result) {
       const tables = result.taginfo.table.filter(table => {
@@ -35,19 +34,20 @@ Object.keys(whiteList).forEach((sectionName) => {
         return false;
       });
 
-      let array = tables.map(table => table.tag).reduce((previous, current) => {
+      let array = tables.map (table => table.tag).reduce((previous, current) => {
         return previous.concat(current);
       });
+
+      array.forEach(tag => { tag.$["flags"] = tag.$.flags?.split(',') || [] })
 
       array = array.filter(tag => {
         if (hasDuplicate(tag, array) && tag.$.type === 'string') {
           console.log(`Skipping ${sectionName} field ${tag.$.name} with type ${tag.$.type} because it has duplicate`);
+        } else if (tag.$.flags.includes('Binary')) {
+          console.log(`Skipping ${sectionName} field ${tag.$.name} with Binary flag`);
         } else if (whiteList[sectionName].types.includes(tag.$.type)) {
           return true
-        } else if (blacklistPrefixes.some(prefix => tag.$.name.startsWith(prefix))) {
-          console.log(`Skipping ${sectionName} field ${tag.$.name} with type ${tag.$.type} as a child of struct`);
         } else {
-          if (tag.$.type === 'struct') blacklistPrefixes.push(tag.$.name)
           console.log(`Skipping ${sectionName} field ${tag.$.name} with type ${tag.$.type}`);
         }
         return false;
@@ -56,6 +56,7 @@ Object.keys(whiteList).forEach((sectionName) => {
       let outObject = {}
 
       array.forEach(tag => {
+        if (outObject[tag.$.name]) console.log(`Warning ${tag.$.name} has dup!`)
         langDump = _.merge(langDump, extractTranslation(tag, sectionName));
         outObject[tag.$.name] = extractTag(tag);
       });
@@ -68,11 +69,10 @@ Object.keys(whiteList).forEach((sectionName) => {
 });
 
 const extractTag = (tag) => {
-  let output = {
-    'type': tag.$.type,
-    'writable': tag.$.writable
-  }
-  if (tag.$.flags) output['flags'] = tag.$.flags.split(',')
+  let output = { 'type': tag.$.type }
+
+  if (tag.$.flags.includes('List')) output['list'] = true
+  if (tag.$.writable && _.intersection(tag.$.flags, ['Avoid', 'Unsafe', 'Mandatory']).length === 0) output['writable'] = true
   if (tag.values) output['values'] = tag.values[0].key.map(option => option.$.id)
 
   return output

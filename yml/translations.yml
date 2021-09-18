@@ -213,7 +213,6 @@ en:
         '2': inches
         '3': cm
       page_number: Page Number
-      transfer_function: Transfer Function
       software: Software
       modify_date: Modify Date
       artist: Artist
@@ -281,8 +280,6 @@ en:
       exposure_time: Exposure Time
       f_number: F Number
       sem_info: SEM Info
-      geo_tiff_directory: Geo Tiff Directory
-      geo_tiff_ascii_params: Geo Tiff Ascii Params
       exposure_program: Exposure Program
       exposure_program_values:
         '0': Not Defined
@@ -509,7 +506,6 @@ en:
       gamma: Gamma
       unique_camera_model: Unique Camera Model
       localized_camera_model: Localized Camera Model
-      linearization_table: Linearization Table
       black_level_repeat_dim: Black Level Repeat Dim
       black_level: Black Level
       black_level_delta_h: Black Level Delta H
@@ -1511,7 +1507,6 @@ de:
         '1': Keine
         '2': Zoll
       page_number: Seitenummer
-      transfer_function: Transformationsfunktion
       modify_date: Änderungsdatum
       artist: Künstler
       predictor: Prädiktor
@@ -1748,7 +1743,6 @@ de:
       lens_serial_number: Objektiv-Seriennummer
       unique_camera_model: Eindeutige Kamerabezeichnung
       localized_camera_model: Lokalisiertes Kameramodell
-      linearization_table: Linearisierungstabelle
       black_level: Schwarzwert
       black_level_delta_h: Schwarzwert Delta H
       black_level_delta_v: Schwarzwert Delta V
