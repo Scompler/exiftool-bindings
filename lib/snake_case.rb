@@ -8,8 +8,9 @@ module ExiftoolBindings
         # Converts 'FocalLengthIn35mmFormat' to focal_length_in_35_mm_format
         # Unlike underscore (focal_length_in35mm_format)
         word = underscore
-        word = word.gsub!(/([a-z])([\d])/, '\1_\2')
+        word.gsub!(/([a-z])([\d])/, '\1_\2')
         word.gsub!(/([\d])([a-z])/, '\1_\2')
+        word
       end
     end
   end
