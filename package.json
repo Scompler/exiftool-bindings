@@ -2,7 +2,7 @@
   "name": "@scompler/exiftool-bindings",
   "author": "Scompler",
   "license": "SEE LICENSE IN LICENSE.md",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "repository": "git@github.com:Scompler/exiftool-bindings.git",
   "description": "Bindings for exiftool",
   "main": "./dist/main.js",

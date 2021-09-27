@@ -1,86 +1,5 @@
 en:
   metadata:
-    iptc:
-      object_type_reference: Object Type Reference
-      object_attribute_reference: Object Attribute Reference
-      object_name: Object Name
-      edit_status: Edit Status
-      subject_reference: Subject Reference
-      category: Category
-      supplemental_categories: Supplemental Categories
-      fixture_identifier: Fixture Identifier
-      keywords: Keywords
-      content_location_code: Content Location Code
-      content_location_name: Content Location Name
-      release_time: Release Time
-      expiration_time: Expiration Time
-      special_instructions: Special Instructions
-      reference_service: Reference Service
-      time_created: Time Created
-      digital_creation_time: Digital Creation Time
-      originating_program: Originating Program
-      program_version: Program Version
-      object_cycle: Object Cycle
-      object_cycle_values:
-        a: Morning
-        b: Both Morning and Evening
-        p: Evening
-      by_line: By-line
-      by_line_title: By-line Title
-      city: City
-      sub_location: Sub-location
-      province_state: Province-State
-      country_primary_location_code: Country-Primary Location Code
-      country_primary_location_name: Country-Primary Location Name
-      original_transmission_reference: Original Transmission Reference
-      headline: Headline
-      credit: Credit
-      source: Source
-      copyright_notice: Copyright Notice
-      contact: Contact
-      caption_abstract: Caption-Abstract
-      local_caption: Local Caption
-      writer_editor: Writer-Editor
-      image_type: Image Type
-      image_orientation: Image Orientation
-      image_orientation_values:
-        L: Landscape
-        P: Portrait
-        S: Square
-      language_identifier: Language Identifier
-      audio_type: Audio Type
-      audio_type_values:
-        0T: Text Only
-        1A: Mono Actuality
-        1C: Mono Question and Answer Session
-        1M: Mono Music
-        1Q: Mono Response to a Question
-        1R: Mono Raw Sound
-        1S: Mono Scener
-        1V: Mono Voicer
-        1W: Mono Wrap
-        2A: Stereo Actuality
-        2C: Stereo Question and Answer Session
-        2M: Stereo Music
-        2Q: Stereo Response to a Question
-        2R: Stereo Raw Sound
-        2S: Stereo Scener
-        2V: Stereo Voicer
-        2W: Stereo Wrap
-      audio_outcue: Audio Outcue
-      job_id: Job ID
-      master_document_id: Master Document ID
-      short_document_id: Short Document ID
-      unique_document_id: Unique Document ID
-      owner_id: Owner ID
-      prefs: Prefs
-      classify_state: Classify State
-      similarity_index: Similarity Index
-      document_notes: Document Notes
-      document_history: Document History
-      exif_camera_info: Exif Camera Info
-      catalog_sets: Catalog Sets
-      iptc_picture_number: IPTC Picture Number
     exif:
       interop_index: Interoperability Index
       interop_index_values:
@@ -696,6 +615,87 @@ en:
         '0': No Correction
         '1': Differential Corrected
       gpsh_positioning_error: GPS Horizontal Positioning Error
+    iptc:
+      object_type_reference: Object Type Reference
+      object_attribute_reference: Object Attribute Reference
+      object_name: Object Name
+      edit_status: Edit Status
+      subject_reference: Subject Reference
+      category: Category
+      supplemental_categories: Supplemental Categories
+      fixture_identifier: Fixture Identifier
+      keywords: Keywords
+      content_location_code: Content Location Code
+      content_location_name: Content Location Name
+      release_time: Release Time
+      expiration_time: Expiration Time
+      special_instructions: Special Instructions
+      reference_service: Reference Service
+      time_created: Time Created
+      digital_creation_time: Digital Creation Time
+      originating_program: Originating Program
+      program_version: Program Version
+      object_cycle: Object Cycle
+      object_cycle_values:
+        a: Morning
+        b: Both Morning and Evening
+        p: Evening
+      by_line: By-line
+      by_line_title: By-line Title
+      city: City
+      sub_location: Sub-location
+      province_state: Province-State
+      country_primary_location_code: Country-Primary Location Code
+      country_primary_location_name: Country-Primary Location Name
+      original_transmission_reference: Original Transmission Reference
+      headline: Headline
+      credit: Credit
+      source: Source
+      copyright_notice: Copyright Notice
+      contact: Contact
+      caption_abstract: Caption-Abstract
+      local_caption: Local Caption
+      writer_editor: Writer-Editor
+      image_type: Image Type
+      image_orientation: Image Orientation
+      image_orientation_values:
+        L: Landscape
+        P: Portrait
+        S: Square
+      language_identifier: Language Identifier
+      audio_type: Audio Type
+      audio_type_values:
+        0T: Text Only
+        1A: Mono Actuality
+        1C: Mono Question and Answer Session
+        1M: Mono Music
+        1Q: Mono Response to a Question
+        1R: Mono Raw Sound
+        1S: Mono Scener
+        1V: Mono Voicer
+        1W: Mono Wrap
+        2A: Stereo Actuality
+        2C: Stereo Question and Answer Session
+        2M: Stereo Music
+        2Q: Stereo Response to a Question
+        2R: Stereo Raw Sound
+        2S: Stereo Scener
+        2V: Stereo Voicer
+        2W: Stereo Wrap
+      audio_outcue: Audio Outcue
+      job_id: Job ID
+      master_document_id: Master Document ID
+      short_document_id: Short Document ID
+      unique_document_id: Unique Document ID
+      owner_id: Owner ID
+      prefs: Prefs
+      classify_state: Classify State
+      similarity_index: Similarity Index
+      document_notes: Document Notes
+      document_history: Document History
+      exif_camera_info: Exif Camera Info
+      catalog_sets: Catalog Sets
+      iptc_picture_number: IPTC Picture Number
     xmp:
       app_info_application: App Info Application
       app_info_item_uri: App Info Item URI
@@ -1373,67 +1373,6 @@ en:
       web_statement: Web Statement
 de:
   metadata:
-    iptc:
-      object_type_reference: Objekttypreferenz
-      object_attribute_reference: Gattung
-      object_name: Titel
-      edit_status: Bearbeitungsstatus
-      subject_reference: Themencode
-      category: Kategorie
-      supplemental_categories: Zusätzliche Kategorien
-      fixture_identifier: Kennzeichnung
-      keywords: Schlüsselwörter
-      content_location_code: Inhaltspositionscode
-      content_location_name: Inhaltspositionsname
-      release_time: Veröffentlichungszeit
-      expiration_time: Ablaufzeit
-      special_instructions: Anweisungen
-      reference_service: Referenzdienst
-      time_created: Erstellungszeit
-      digital_creation_time: Digitalisierungszeit
-      originating_program: Erstellungsprogramm
-      program_version: Programmversion
-      object_cycle: Objektzyklus
-      object_cycle_values:
-        a: Morgens
-        b: Beides
-        p: Abends
-      by_line: Ersteller
-      by_line_title: Beruf des Erstellers
-      city: Stadt/Ort
-      sub_location: Ort des Motivs
-      province_state: Bundesland/Kanton
-      country_primary_location_code: ISO-Ländercode
-      country_primary_location_name: Land
-      original_transmission_reference: Anbietervermerk Verweis
-      headline: Überschrift
-      credit: Anbieter
-      source: Quelle
-      copyright_notice: Urheberrechtsvermerk
-      contact: Kontakt
-      caption_abstract: Beschreibung/Zusammenfassung
-      writer_editor: Verfasser der Beschreibung
-      image_type: Bildtyp
-      image_orientation: Bildausrichtung
-      image_orientation_values:
-        L: Querformat
-        P: Porträt
-        S: Quadratisch
-      language_identifier: Sprachkennung
-      audio_type: Audiotyp
-      audio_outcue: Audio-Outcue
-      job_id: Job-Kennung
-      master_document_id: ID des Originaldokuments
-      short_document_id: Kurze Bild-ID
-      unique_document_id: Eindeutige Bild-ID
-      owner_id: Besitzer-ID
-      classify_state: Klassifizierungs-Status
-      similarity_index: Bildgleichheits-Index
-      document_notes: Notizen zum Dokument
-      document_history: Historie des Dokuments
-      exif_camera_info: Exif Kamerainformationen
-      catalog_sets: Katalogzusammenstellungen
-      iptc_picture_number: IPTC Bildnummer
     exif:
       interop_index: Interoperabilität Identifikation
       interop_index_values:
@@ -1884,6 +1823,67 @@ de:
       gps_differential_values:
         '0': Messung ohne Differentialkorrektur
         '1': Differentialkorrektur angewandt
+    iptc:
+      object_type_reference: Objekttypreferenz
+      object_attribute_reference: Gattung
+      object_name: Titel
+      edit_status: Bearbeitungsstatus
+      subject_reference: Themencode
+      category: Kategorie
+      supplemental_categories: Zusätzliche Kategorien
+      fixture_identifier: Kennzeichnung
+      keywords: Schlüsselwörter
+      content_location_code: Inhaltspositionscode
+      content_location_name: Inhaltspositionsname
+      release_time: Veröffentlichungszeit
+      expiration_time: Ablaufzeit
+      special_instructions: Anweisungen
+      reference_service: Referenzdienst
+      time_created: Erstellungszeit
+      digital_creation_time: Digitalisierungszeit
+      originating_program: Erstellungsprogramm
+      program_version: Programmversion
+      object_cycle: Objektzyklus
+      object_cycle_values:
+        a: Morgens
+        b: Beides
+        p: Abends
+      by_line: Ersteller
+      by_line_title: Beruf des Erstellers
+      city: Stadt/Ort
+      sub_location: Ort des Motivs
+      province_state: Bundesland/Kanton
+      country_primary_location_code: ISO-Ländercode
+      country_primary_location_name: Land
+      original_transmission_reference: Anbietervermerk Verweis
+      headline: Überschrift
+      credit: Anbieter
+      source: Quelle
+      copyright_notice: Urheberrechtsvermerk
+      contact: Kontakt
+      caption_abstract: Beschreibung/Zusammenfassung
+      writer_editor: Verfasser der Beschreibung
+      image_type: Bildtyp
+      image_orientation: Bildausrichtung
+      image_orientation_values:
+        L: Querformat
+        P: Porträt
+        S: Quadratisch
+      language_identifier: Sprachkennung
+      audio_type: Audiotyp
+      audio_outcue: Audio-Outcue
+      job_id: Job-Kennung
+      master_document_id: ID des Originaldokuments
+      short_document_id: Kurze Bild-ID
+      unique_document_id: Eindeutige Bild-ID
+      owner_id: Besitzer-ID
+      classify_state: Klassifizierungs-Status
+      similarity_index: Bildgleichheits-Index
+      document_notes: Notizen zum Dokument
+      document_history: Historie des Dokuments
+      exif_camera_info: Exif Kamerainformationen
+      catalog_sets: Katalogzusammenstellungen
+      iptc_picture_number: IPTC Bildnummer
     xmp:
       profile_type: Profiltyp
       license: Lizenz
