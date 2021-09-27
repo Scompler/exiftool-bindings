@@ -5,4 +5,4 @@ import xmp from './json/xmp.json';
 import readMimeTypes from './json/read-mime-types.json';
 import writeMimeTypes from './json/write-mime-types.json';
 
-export default { exif, iptc, xmp };
+export default { exif, iptc, xmp, readMimeTypes, writeMimeTypes };
