@@ -22,30 +22,6 @@ const whiteList = {
     'tables': ['IPTC::ApplicationRecord', 'IPTC::NewsPhoto']
   }
 }
-const exifToolFileExtensions = {
-  'read': '-listf',
-  'write': '-listwf'
-}
-
-Object.keys(exifToolFileExtensions).forEach(type => {
-  execFile(exiftool, [exifToolFileExtensions[type], '-l'], (error, stdout, stderr) => {
-    let mimeTypes = new Set();
-    stdout.split("\n").forEach(line => {
-      const fileExtension = line.trim().split(' ')[0];
-      if (!fileExtension) return
-
-      Object.keys(mimeDB).forEach(mime => {
-        if (mimeDB[mime].extensions?.includes(fileExtension.toLowerCase())) {
-          mimeTypes.add(mime);
-        }
-      })
-    })
-    fs.writeFileSync(
-      `json/${type}-mime-types.json`,
-      JSON.stringify(Array.from(mimeTypes).sort())
-    );
-  });
-})
 
 const langs = ['en', 'de']
 let langDump = {};
