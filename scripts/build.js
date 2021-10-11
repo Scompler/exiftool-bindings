@@ -12,7 +12,7 @@ const whiteList = {
   'xmp': {
     'types': ['real', 'string', 'integer', 'date', 'boolean', 'rational', 'lang-alt'],
     'tables': ['XMP::Device', 'XMP::cc', 'XMP::exif', 'XMP::exifEX', 'XMP::ics', 'XMP::iptcCore', 'XMP::iptcExt',
-              'XMP::xmp', 'XMP::xmpRights', 'UserDefined::fwc']
+              'XMP::xmp', 'XMP::xmpRights', 'UserDefined::fwc', 'XMP::photoshop', 'XMP::dc']
   },
   'exif': {
     'types': ['string', 'int16u', 'rational64u', 'int16s', 'rational64s'],
@@ -29,38 +29,34 @@ let langDump = {};
 
 Object.keys(whiteList).forEach((sectionName) => {
   execFile(exiftool, ['-config', 'exiftool.config', '-listx', `-${sectionName}:all`, '-f'], {maxBuffer: 1024 * 102400 }, (error, stdout, stderr) => {
+    let outObject = {}
+
     parseString(stdout, function (err, result) {
-      const tables = result.taginfo.table.filter(table => {
-        if (whiteList[sectionName].tables.includes(table.$.name)) return true
-        console.log(`Skipping table ${table.$.name} for ${sectionName}`);
-        return false;
-      });
-
-      let array = tables.map (table => table.tag).reduce((previous, current) => {
-        return previous.concat(current);
-      });
-
-      array.forEach(tag => { tag.$["flags"] = tag.$.flags?.split(',') || [] })
-
-      array = array.filter(tag => {
-        if (hasDuplicate(tag, array) && tag.$.type === 'string') {
-          console.log(`Skipping ${sectionName} field ${tag.$.name} with type ${tag.$.type} because it has duplicate`);
-        } else if (tag.$.flags.includes('Binary')) {
-          console.log(`Skipping ${sectionName} field ${tag.$.name} with Binary flag`);
-        } else if (whiteList[sectionName].types.includes(tag.$.type)) {
-          return true
-        } else {
-          console.log(`Skipping ${sectionName} field ${tag.$.name} with type ${tag.$.type}`);
+      result.taginfo.table.forEach(table => {
+        if (!whiteList[sectionName].tables.includes(table.$.name)) {
+          console.log(`Skipping table ${table.$.name} for ${sectionName}`);
+          return;
         }
-        return false;
-      });
 
-      let outObject = {}
+        let array = table.tag;
 
-      array.forEach(tag => {
-        if (outObject[tag.$.name]) console.log(`Warning ${tag.$.name} has dup!`)
-        langDump = _.merge(langDump, extractTranslation(tag, sectionName));
-        outObject[tag.$.name] = extractTag(tag);
+        array.forEach(tag => { tag.$["flags"] = tag.$.flags?.split(',') || [] })
+
+        array.forEach(tag => {
+          const tagName = `${table.$.g1}:${tag.$.name}`;
+          if (hasDuplicate(tag, array) && tag.$.type === 'string') {
+            console.log(`Skipping ${sectionName} field ${tagName} with type ${tag.$.type} because it has duplicate`);
+          } else if (tag.$.flags.includes('Binary')) {
+            console.log(`Skipping ${sectionName} field ${tagName} with Binary flag`);
+          } else if (whiteList[sectionName].types.includes(tag.$.type)) {
+            if (outObject[tagName]) console.log(`Warning ${tagName} has dup!`);
+            const groupPrefix = table.$.g1.replace(`${table.$.g0}-`, '');
+            langDump = _.merge(langDump, extractTranslation(tag, tagName, sectionName, groupPrefix));
+            outObject[tagName] = extractTag(tag);
+          } else {
+            console.log(`Skipping ${sectionName} field ${tagName} with type ${tag.$.type}`);
+          }
+        });
       });
 
       fs.writeFileSync(`json/${sectionName}.json`, JSON.stringify(outObject));
@@ -75,7 +71,7 @@ const extractTag = (tag) => {
 
   if (tag.$.flags.includes('List')) output['list'] = true
   if (tag.$.writable && _.intersection(tag.$.flags, ['Avoid', 'Unsafe', 'Mandatory']).length === 0) output['writable'] = true
-  if (tag.values) output['values'] = tag.values[0].key.map(option => option.$.id)
+  if (tag.values) output['values'] = tag.values[0].key.map(option => findTranslation(option.val, 'en'))
 
   return output
 }
@@ -85,21 +81,26 @@ const hasDuplicate = (tag, array) => {
   return duplicates.length > 1 && _.last(duplicates).$.id === tag.$.id
 }
 
-const extractTranslation = (tag, sectionName) => {
+const extractTranslation = (tag, tagName, sectionName, prefix) => {
   let translation = {}
   langs.forEach(lang => {
-    const tagName = findTranslation(tag.desc, lang);
-    const path = `${lang}.metadata.${sectionName}.${_.snakeCase(tag.$.name)}`
-    if (tagName) _.set(translation, path, tagName);
+    let localizedTagName = findTranslation(tag.desc, lang);
+    const path = `${lang}.metadata.${sectionName}.${_.snakeCase(tagName)}`;
+
+    if (localizedTagName) {
+      localizedTagName = `${prefix}:${localizedTagName}`;
+      _.set(translation, path, localizedTagName);
+    }
 
     if (tag.values) {
       let options = {}
       tag.values[0].key.forEach(option => {
         const optionName = findTranslation(option.val, lang)
-        if (optionName) options[option.$.id] = optionName
+        const optionKey = _.snakeCase(findTranslation(option.val, 'en'))
+        if (optionName) options[optionKey] = optionName
       })
 
-      const optionPath = `${lang}.metadata.${sectionName}.${_.snakeCase(tag.$.name)}_values`
+      const optionPath = `${path}_values`
       if (Object.entries(options).length > 0) _.set(translation, optionPath, options);
     }
   })
