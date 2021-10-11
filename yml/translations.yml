@@ -1,86 +1,5 @@
 en:
   metadata:
-    iptc:
-      object_type_reference: Object Type Reference
-      object_attribute_reference: Object Attribute Reference
-      object_name: Object Name
-      edit_status: Edit Status
-      subject_reference: Subject Reference
-      category: Category
-      supplemental_categories: Supplemental Categories
-      fixture_identifier: Fixture Identifier
-      keywords: Keywords
-      content_location_code: Content Location Code
-      content_location_name: Content Location Name
-      release_time: Release Time
-      expiration_time: Expiration Time
-      special_instructions: Special Instructions
-      reference_service: Reference Service
-      time_created: Time Created
-      digital_creation_time: Digital Creation Time
-      originating_program: Originating Program
-      program_version: Program Version
-      object_cycle: Object Cycle
-      object_cycle_values:
-        a: Morning
-        b: Both Morning and Evening
-        p: Evening
-      by_line: By-line
-      by_line_title: By-line Title
-      city: City
-      sub_location: Sub-location
-      province_state: Province-State
-      country_primary_location_code: Country-Primary Location Code
-      country_primary_location_name: Country-Primary Location Name
-      original_transmission_reference: Original Transmission Reference
-      headline: Headline
-      credit: Credit
-      source: Source
-      copyright_notice: Copyright Notice
-      contact: Contact
-      caption_abstract: Caption-Abstract
-      local_caption: Local Caption
-      writer_editor: Writer-Editor
-      image_type: Image Type
-      image_orientation: Image Orientation
-      image_orientation_values:
-        L: Landscape
-        P: Portrait
-        S: Square
-      language_identifier: Language Identifier
-      audio_type: Audio Type
-      audio_type_values:
-        0T: Text Only
-        1A: Mono Actuality
-        1C: Mono Question and Answer Session
-        1M: Mono Music
-        1Q: Mono Response to a Question
-        1R: Mono Raw Sound
-        1S: Mono Scener
-        1V: Mono Voicer
-        1W: Mono Wrap
-        2A: Stereo Actuality
-        2C: Stereo Question and Answer Session
-        2M: Stereo Music
-        2Q: Stereo Response to a Question
-        2R: Stereo Raw Sound
-        2S: Stereo Scener
-        2V: Stereo Voicer
-        2W: Stereo Wrap
-      audio_outcue: Audio Outcue
-      job_id: Job ID
-      master_document_id: Master Document ID
-      short_document_id: Short Document ID
-      unique_document_id: Unique Document ID
-      owner_id: Owner ID
-      prefs: Prefs
-      classify_state: Classify State
-      similarity_index: Similarity Index
-      document_notes: Document Notes
-      document_history: Document History
-      exif_camera_info: Exif Camera Info
-      catalog_sets: Catalog Sets
-      iptc_picture_number: IPTC Picture Number
     exif:
       interop_index: Interoperability Index
       interop_index_values:
@@ -696,6 +615,87 @@ en:
         '0': No Correction
         '1': Differential Corrected
       gpsh_positioning_error: GPS Horizontal Positioning Error
+    iptc:
+      object_type_reference: Object Type Reference
+      object_attribute_reference: Object Attribute Reference
+      object_name: Object Name
+      edit_status: Edit Status
+      subject_reference: Subject Reference
+      category: Category
+      supplemental_categories: Supplemental Categories
+      fixture_identifier: Fixture Identifier
+      keywords: Keywords
+      content_location_code: Content Location Code
+      content_location_name: Content Location Name
+      release_time: Release Time
+      expiration_time: Expiration Time
+      special_instructions: Special Instructions
+      reference_service: Reference Service
+      time_created: Time Created
+      digital_creation_time: Digital Creation Time
+      originating_program: Originating Program
+      program_version: Program Version
+      object_cycle: Object Cycle
+      object_cycle_values:
+        a: Morning
+        b: Both Morning and Evening
+        p: Evening
+      by_line: By-line
+      by_line_title: By-line Title
+      city: City
+      sub_location: Sub-location
+      province_state: Province-State
+      country_primary_location_code: Country-Primary Location Code
+      country_primary_location_name: Country-Primary Location Name
+      original_transmission_reference: Original Transmission Reference
+      headline: Headline
+      credit: Credit
+      source: Source
+      copyright_notice: Copyright Notice
+      contact: Contact
+      caption_abstract: Caption-Abstract
+      local_caption: Local Caption
+      writer_editor: Writer-Editor
+      image_type: Image Type
+      image_orientation: Image Orientation
+      image_orientation_values:
+        L: Landscape
+        P: Portrait
+        S: Square
+      language_identifier: Language Identifier
+      audio_type: Audio Type
+      audio_type_values:
+        0T: Text Only
+        1A: Mono Actuality
+        1C: Mono Question and Answer Session
+        1M: Mono Music
+        1Q: Mono Response to a Question
+        1R: Mono Raw Sound
+        1S: Mono Scener
+        1V: Mono Voicer
+        1W: Mono Wrap
+        2A: Stereo Actuality
+        2C: Stereo Question and Answer Session
+        2M: Stereo Music
+        2Q: Stereo Response to a Question
+        2R: Stereo Raw Sound
+        2S: Stereo Scener
+        2V: Stereo Voicer
+        2W: Stereo Wrap
+      audio_outcue: Audio Outcue
+      job_id: Job ID
+      master_document_id: Master Document ID
+      short_document_id: Short Document ID
+      unique_document_id: Unique Document ID
+      owner_id: Owner ID
+      prefs: Prefs
+      classify_state: Classify State
+      similarity_index: Similarity Index
+      document_notes: Document Notes
+      document_history: Document History
+      exif_camera_info: Exif Camera Info
+      catalog_sets: Catalog Sets
+      iptc_picture_number: IPTC Picture Number
     xmp:
       custom_field_1: Custom Field 1
       custom_field_10: Custom Field 10
@@ -1077,6 +1077,7 @@ en:
         '2': Close
         '3': Distant
       subject_location: Subject Location
+      user_comment: User Comment
       white_balance: White Balance
       white_balance_values:
         '0': Auto
@@ -1170,9 +1171,12 @@ en:
       subject_code: Subject Code
       about_cv_term_cv_id: About Cv Term Cv Id
       about_cv_term_id: About Cv Term Id
+      about_cv_term_name: About Cv Term Name
       about_cv_term_refined_about: About Cv Term Refined About
       additional_model_information: Additional Model Information
       artwork_circa_date_created: Artwork Circa Date Created
+      artwork_content_description: Artwork Content Description
+      artwork_contribution_description: Artwork Contribution Description
       artwork_copyright_notice: Artwork Copyright Notice
       artwork_creator: Artwork Creator
       artwork_creator_id: Artwork Creator ID
@@ -1181,10 +1185,12 @@ en:
       artwork_licensor_id: Artwork Licensor ID
       artwork_licensor_name: Artwork Licensor Name
       artwork_date_created: Artwork Date Created
+      artwork_physical_description: Artwork Physical Description
       artwork_source: Artwork Source
       artwork_source_inventory_no: Artwork Source Inventory No
       artwork_source_inv_url: Artwork Source Inv URL
       artwork_style_period: Artwork Style Period
+      artwork_title: Artwork Title
       audio_bitrate: Audio Bitrate
       audio_bitrate_mode: Audio Bitrate Mode
       audio_bitrate_mode_values:
@@ -1194,10 +1200,13 @@ en:
       audio_channel_count: Audio Channel Count
       circa_date_created: Circa Date Created
       container_format_identifier: Container Format Identifier
+      container_format_name: Container Format Name
       contributor_identifier: Contributor Identifier
+      contributor_name: Contributor Name
       contributor_role: Contributor Role
       copyright_year: Copyright Year
       creator_identifier: Creator Identifier
+      creator_name: Creator Name
       creator_role: Creator Role
       controlled_vocabulary_term: Controlled Vocabulary Term
       data_on_screen_region_d: Data On Screen Region D
@@ -1210,6 +1219,7 @@ en:
       digital_image_guid: Digital Image GUID
       digital_source_file_type: Digital Source File Type
       digital_source_type: Digital Source Type
+      dopesheet: Dopesheet
       dopesheet_link_link: Dopesheet Link Link
       dopesheet_link_link_qualifier: Dopesheet Link Link Qualifier
       embedded_encoded_rights_expr: Embedded Encoded Rights Expr
@@ -1218,13 +1228,19 @@ en:
       episode_identifier: Episode Identifier
       episode_name: Episode Name
       episode_number: Episode Number
+      event: Event
       shown_event_identifier: Shown Event Identifier
+      shown_event_name: Shown Event Name
       external_metadata_link: External Metadata Link
       feed_identifier: Feed Identifier
       genre_cv_id: Genre Cv Id
       genre_cv_term_id: Genre Cv Term Id
+      genre_cv_term_name: Genre Cv Term Name
       genre_cv_term_refined_about: Genre Cv Term Refined About
+      headline: Headline
+      image_region_name: Image Region Name
       image_region_ctype_identifier: Image Region Ctype Identifier
+      image_region_ctype_name: Image Region Ctype Name
       image_region_boundary_h: Image Region Boundary H
       image_region_boundary_rx: Image Region Boundary Rx
       image_region_boundary_shape: Image Region Boundary Shape
@@ -1243,6 +1259,7 @@ en:
       image_region_boundary_y: Image Region Boundary Y
       image_region_id: Image Region ID
       image_region_role_identifier: Image Region Role Identifier
+      image_region_role_name: Image Region Role Name
       iptc_last_edited: IPTC Last Edited
       linked_encoded_rights_expr: Linked Encoded Rights Expr
       linked_encoded_rights_expr_type: Linked Encoded Rights Expr Type
@@ -1255,6 +1272,7 @@ en:
       location_created_gps_longitude: Location Created GPS Longitude
       location_created_identifier: Location Created Identifier
       location_created_location_id: Location Created Location Id
+      location_created_location_name: Location Created Location Name
       location_created_province_state: Location Created Province State
       location_created_sublocation: Location Created Sublocation
       location_created_world_region: Location Created World Region
@@ -1266,6 +1284,7 @@ en:
       location_shown_gps_longitude: Location Shown GPS Longitude
       location_shown_identifier: Location Shown Identifier
       location_shown_location_id: Location Shown Location Id
+      location_shown_location_name: Location Shown Location Name
       location_shown_province_state: Location Shown Province State
       location_shown_sublocation: Location Shown Sublocation
       location_shown_world_region: Location Shown World Region
@@ -1275,14 +1294,21 @@ en:
       organisation_in_image_code: Organisation In Image Code
       organisation_in_image_name: Organisation In Image Name
       person_heard_identifier: Person Heard Identifier
+      person_heard_name: Person Heard Name
       person_in_image: Person In Image
       person_in_image_cv_term_cv_id: Person In Image Cv Term Cv Id
       person_in_image_cv_term_id: Person In Image Cv Term Id
+      person_in_image_cv_term_name: Person In Image Cv Term Name
       person_in_image_cv_term_refined_about: Person In Image Cv Term Refined About
+      person_in_image_description: Person In Image Description
       person_in_image_id: Person In Image Id
+      person_in_image_name: Person In Image Name
       planning_ref_identifier: Planning Ref Identifier
+      planning_ref_name: Planning Ref Name
       planning_ref_role: Planning Ref Role
+      product_in_image_description: Product In Image Description
       product_in_image_gtin: Product In Image GTIN
+      product_in_image_name: Product In Image Name
       publication_event_date: Publication Event Date
       publication_event_identifier: Publication Event Identifier
       publication_event_name: Publication Event Name
@@ -1294,6 +1320,7 @@ en:
       rating_region_gps_longitude: Rating Region GPS Longitude
       rating_region_identifier: Rating Region Identifier
       rating_region_location_id: Rating Region Location Id
+      rating_region_location_name: Rating Region Location Name
       rating_region_province_state: Rating Region Province State
       rating_region_sublocation: Rating Region Sublocation
       rating_region_world_region: Rating Region World Region
@@ -1344,8 +1371,10 @@ en:
         unknown: Unknown
       style_period: Style Period
       supply_chain_source_identifier: Supply Chain Source Identifier
+      supply_chain_source_name: Supply Chain Source Name
       temporal_coverage_from: Temporal Coverage From
       temporal_coverage_to: Temporal Coverage To
+      transcript: Transcript
       transcript_link_link: Transcript Link Link
       transcript_link_link_qualifier: Transcript Link Link Qualifier
       video_bitrate: Video Bitrate
@@ -1356,6 +1385,7 @@ en:
       video_display_aspect_ratio: Video Display Aspect Ratio
       video_encoding_profile: Video Encoding Profile
       video_shot_type_identifier: Video Shot Type Identifier
+      video_shot_type_name: Video Shot Type Name
       video_streams_count: Video Streams Count
       visual_color: Visual Color
       visual_color_values:
@@ -1363,12 +1393,14 @@ en:
         colour: Color
       workflow_tag_cv_id: Workflow Tag Cv Id
       workflow_tag_cv_term_id: Workflow Tag Cv Term Id
+      workflow_tag_cv_term_name: Workflow Tag Cv Term Name
       workflow_tag_cv_term_refined_about: Workflow Tag Cv Term Refined About
       advisory: Advisory
       author: Author
       base_url: Base URL
       create_date: Create Date
       creator_tool: Creator Tool
+      description: Description
       format: Format
       identifier: Identifier
       keywords: Keywords
@@ -1387,73 +1419,14 @@ en:
       thumbnail_height: Thumbnail Height
       thumbnail_image: Thumbnail Image
       thumbnail_width: Thumbnail Width
+      title: Title
       certificate: Certificate
       marked: Marked
       owner: Owner
+      usage_terms: Usage Terms
       web_statement: Web Statement
 de:
   metadata:
-    iptc:
-      object_type_reference: Objekttypreferenz
-      object_attribute_reference: Gattung
-      object_name: Titel
-      edit_status: Bearbeitungsstatus
-      subject_reference: Themencode
-      category: Kategorie
-      supplemental_categories: Zusätzliche Kategorien
-      fixture_identifier: Kennzeichnung
-      keywords: Schlüsselwörter
-      content_location_code: Inhaltspositionscode
-      content_location_name: Inhaltspositionsname
-      release_time: Veröffentlichungszeit
-      expiration_time: Ablaufzeit
-      special_instructions: Anweisungen
-      reference_service: Referenzdienst
-      time_created: Erstellungszeit
-      digital_creation_time: Digitalisierungszeit
-      originating_program: Erstellungsprogramm
-      program_version: Programmversion
-      object_cycle: Objektzyklus
-      object_cycle_values:
-        a: Morgens
-        b: Beides
-        p: Abends
-      by_line: Ersteller
-      by_line_title: Beruf des Erstellers
-      city: Stadt/Ort
-      sub_location: Ort des Motivs
-      province_state: Bundesland/Kanton
-      country_primary_location_code: ISO-Ländercode
-      country_primary_location_name: Land
-      original_transmission_reference: Anbietervermerk Verweis
-      headline: Überschrift
-      credit: Anbieter
-      source: Quelle
-      copyright_notice: Urheberrechtsvermerk
-      contact: Kontakt
-      caption_abstract: Beschreibung/Zusammenfassung
-      writer_editor: Verfasser der Beschreibung
-      image_type: Bildtyp
-      image_orientation: Bildausrichtung
-      image_orientation_values:
-        L: Querformat
-        P: Porträt
-        S: Quadratisch
-      language_identifier: Sprachkennung
-      audio_type: Audiotyp
-      audio_outcue: Audio-Outcue
-      job_id: Job-Kennung
-      master_document_id: ID des Originaldokuments
-      short_document_id: Kurze Bild-ID
-      unique_document_id: Eindeutige Bild-ID
-      owner_id: Besitzer-ID
-      classify_state: Klassifizierungs-Status
-      similarity_index: Bildgleichheits-Index
-      document_notes: Notizen zum Dokument
-      document_history: Historie des Dokuments
-      exif_camera_info: Exif Kamerainformationen
-      catalog_sets: Katalogzusammenstellungen
-      iptc_picture_number: IPTC Bildnummer
     exif:
       interop_index: Interoperabilität Identifikation
       interop_index_values:
@@ -1904,6 +1877,67 @@ de:
       gps_differential_values:
         '0': Messung ohne Differentialkorrektur
         '1': Differentialkorrektur angewandt
+    iptc:
+      object_type_reference: Objekttypreferenz
+      object_attribute_reference: Gattung
+      object_name: Titel
+      edit_status: Bearbeitungsstatus
+      subject_reference: Themencode
+      category: Kategorie
+      supplemental_categories: Zusätzliche Kategorien
+      fixture_identifier: Kennzeichnung
+      keywords: Schlüsselwörter
+      content_location_code: Inhaltspositionscode
+      content_location_name: Inhaltspositionsname
+      release_time: Veröffentlichungszeit
+      expiration_time: Ablaufzeit
+      special_instructions: Anweisungen
+      reference_service: Referenzdienst
+      time_created: Erstellungszeit
+      digital_creation_time: Digitalisierungszeit
+      originating_program: Erstellungsprogramm
+      program_version: Programmversion
+      object_cycle: Objektzyklus
+      object_cycle_values:
+        a: Morgens
+        b: Beides
+        p: Abends
+      by_line: Ersteller
+      by_line_title: Beruf des Erstellers
+      city: Stadt/Ort
+      sub_location: Ort des Motivs
+      province_state: Bundesland/Kanton
+      country_primary_location_code: ISO-Ländercode
+      country_primary_location_name: Land
+      original_transmission_reference: Anbietervermerk Verweis
+      headline: Überschrift
+      credit: Anbieter
+      source: Quelle
+      copyright_notice: Urheberrechtsvermerk
+      contact: Kontakt
+      caption_abstract: Beschreibung/Zusammenfassung
+      writer_editor: Verfasser der Beschreibung
+      image_type: Bildtyp
+      image_orientation: Bildausrichtung
+      image_orientation_values:
+        L: Querformat
+        P: Porträt
+        S: Quadratisch
+      language_identifier: Sprachkennung
+      audio_type: Audiotyp
+      audio_outcue: Audio-Outcue
+      job_id: Job-Kennung
+      master_document_id: ID des Originaldokuments
+      short_document_id: Kurze Bild-ID
+      unique_document_id: Eindeutige Bild-ID
+      owner_id: Besitzer-ID
+      classify_state: Klassifizierungs-Status
+      similarity_index: Bildgleichheits-Index
+      document_notes: Notizen zum Dokument
+      document_history: Historie des Dokuments
+      exif_camera_info: Exif Kamerainformationen
+      catalog_sets: Katalogzusammenstellungen
+      iptc_picture_number: IPTC Bildnummer
     xmp:
       profile_type: Profiltyp
       license: Lizenz
@@ -2130,6 +2164,7 @@ de:
         '2': Nahaufnahme
         '3': Fernaufnahme
       subject_location: Hauptobjektposition
+      user_comment: Benutzerkommentar
       white_balance: Weißabgleich
       white_balance_values:
         '0': Automatisch
@@ -2172,10 +2207,12 @@ de:
       scene: Szene
       subject_code: IPTC Themencode
       artwork_creator: Artwork Ersteller
+      headline: Überschrift
       author: Autor
       base_url: Basis URL
       create_date: Digitalisierungsdatum/-uhrzeit
       creator_tool: Erstellertool
+      description: Beschreibung
       keywords: Schlüsselwörter
       label: Beschriftung
       metadata_date: Datum der Metadaten
@@ -2186,6 +2223,8 @@ de:
       thumbnail_height: Miniaturbild-Höhe
       thumbnail_image: Miniaturbild
       thumbnail_width: Miniaturbild-Breite
+      title: Titel
       certificate: Zertifikat
       marked: Markiert
       owner: Besitzer
+      usage_terms: Nutzungsbedingungen
