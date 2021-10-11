@@ -10,8 +10,9 @@ const exiftool = require('@mcmics/dist-exiftool');
 
 const whiteList = {
   'xmp': {
-    'types': ['real', 'string', 'integer', 'date', 'boolean', 'rational'],
-    'tables': ['XMP::Device', 'XMP::cc', 'XMP::exif', 'XMP::exifEX', 'XMP::ics', 'XMP::iptcCore', 'XMP::iptcExt', 'XMP::xmp', 'XMP::xmpRights']
+    'types': ['real', 'string', 'integer', 'date', 'boolean', 'rational', 'lang-alt'],
+    'tables': ['XMP::Device', 'XMP::cc', 'XMP::exif', 'XMP::exifEX', 'XMP::ics', 'XMP::iptcCore', 'XMP::iptcExt',
+              'XMP::xmp', 'XMP::xmpRights', 'UserDefined::fwc']
   },
   'exif': {
     'types': ['string', 'int16u', 'rational64u', 'int16s', 'rational64s'],
@@ -27,7 +28,7 @@ const langs = ['en', 'de']
 let langDump = {};
 
 Object.keys(whiteList).forEach((sectionName) => {
-  execFile(exiftool, ['-listx', `-${sectionName}:all`, '-f'], {maxBuffer: 1024 * 102400 }, (error, stdout, stderr) => {
+  execFile(exiftool, ['-config', 'exiftool.config', '-listx', `-${sectionName}:all`, '-f'], {maxBuffer: 1024 * 102400 }, (error, stdout, stderr) => {
     parseString(stdout, function (err, result) {
       const tables = result.taginfo.table.filter(table => {
         if (whiteList[sectionName].tables.includes(table.$.name)) return true
