@@ -50,8 +50,7 @@ Object.keys(whiteList).forEach((sectionName) => {
             console.log(`Skipping ${sectionName} field ${tagName} with Binary flag`);
           } else if (whiteList[sectionName].types.includes(tag.$.type)) {
             if (outObject[tagName]) console.log(`Warning ${tagName} has dup!`);
-            const groupPrefix = table.$.g1.replace(`${table.$.g0}-`, '');
-            langDump = _.merge(langDump, extractTranslation(tag, tagName, sectionName, groupPrefix));
+            langDump = _.merge(langDump, extractTranslation(tag, tagName, sectionName));
             outObject[tagName] = extractTag(tag);
           } else {
             console.log(`Skipping ${sectionName} field ${tagName} with type ${tag.$.type}`);
@@ -81,16 +80,13 @@ const hasDuplicate = (tag, array) => {
   return duplicates.length > 1 && _.last(duplicates).$.id === tag.$.id
 }
 
-const extractTranslation = (tag, tagName, sectionName, prefix) => {
+const extractTranslation = (tag, tagName, sectionName) => {
   let translation = {}
   langs.forEach(lang => {
     let localizedTagName = findTranslation(tag.desc, lang);
     const path = `${lang}.metadata.${sectionName}.${_.snakeCase(tagName)}`;
 
-    if (localizedTagName) {
-      localizedTagName = `${prefix}:${localizedTagName}`;
-      _.set(translation, path, localizedTagName);
-    }
+    if (localizedTagName) _.set(translation, path, localizedTagName);
 
     if (tag.values) {
       let options = {}

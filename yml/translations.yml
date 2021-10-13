@@ -1,54 +1,54 @@
 en:
   metadata:
     iptc:
-      iptc_object_type_reference: IPTC:Object Type Reference
-      iptc_object_attribute_reference: IPTC:Object Attribute Reference
-      iptc_object_name: IPTC:Object Name
-      iptc_edit_status: IPTC:Edit Status
-      iptc_subject_reference: IPTC:Subject Reference
-      iptc_category: IPTC:Category
-      iptc_supplemental_categories: IPTC:Supplemental Categories
-      iptc_fixture_identifier: IPTC:Fixture Identifier
-      iptc_keywords: IPTC:Keywords
-      iptc_content_location_code: IPTC:Content Location Code
-      iptc_content_location_name: IPTC:Content Location Name
-      iptc_release_time: IPTC:Release Time
-      iptc_expiration_time: IPTC:Expiration Time
-      iptc_special_instructions: IPTC:Special Instructions
-      iptc_reference_service: IPTC:Reference Service
-      iptc_time_created: IPTC:Time Created
-      iptc_digital_creation_time: IPTC:Digital Creation Time
-      iptc_originating_program: IPTC:Originating Program
-      iptc_program_version: IPTC:Program Version
-      iptc_object_cycle: IPTC:Object Cycle
+      iptc_object_type_reference: Object Type Reference
+      iptc_object_attribute_reference: Object Attribute Reference
+      iptc_object_name: Object Name
+      iptc_edit_status: Edit Status
+      iptc_subject_reference: Subject Reference
+      iptc_category: Category
+      iptc_supplemental_categories: Supplemental Categories
+      iptc_fixture_identifier: Fixture Identifier
+      iptc_keywords: Keywords
+      iptc_content_location_code: Content Location Code
+      iptc_content_location_name: Content Location Name
+      iptc_release_time: Release Time
+      iptc_expiration_time: Expiration Time
+      iptc_special_instructions: Special Instructions
+      iptc_reference_service: Reference Service
+      iptc_time_created: Time Created
+      iptc_digital_creation_time: Digital Creation Time
+      iptc_originating_program: Originating Program
+      iptc_program_version: Program Version
+      iptc_object_cycle: Object Cycle
       iptc_object_cycle_values:
         morning: Morning
         both_morning_and_evening: Both Morning and Evening
         evening: Evening
-      iptc_by_line: IPTC:By-line
-      iptc_by_line_title: IPTC:By-line Title
-      iptc_city: IPTC:City
-      iptc_sub_location: IPTC:Sub-location
-      iptc_province_state: IPTC:Province-State
-      iptc_country_primary_location_code: IPTC:Country-Primary Location Code
-      iptc_country_primary_location_name: IPTC:Country-Primary Location Name
-      iptc_original_transmission_reference: IPTC:Original Transmission Reference
-      iptc_headline: IPTC:Headline
-      iptc_credit: IPTC:Credit
-      iptc_source: IPTC:Source
-      iptc_copyright_notice: IPTC:Copyright Notice
-      iptc_contact: IPTC:Contact
-      iptc_caption_abstract: IPTC:Caption-Abstract
-      iptc_local_caption: IPTC:Local Caption
-      iptc_writer_editor: IPTC:Writer-Editor
-      iptc_image_type: IPTC:Image Type
-      iptc_image_orientation: IPTC:Image Orientation
+      iptc_by_line: By-line
+      iptc_by_line_title: By-line Title
+      iptc_city: City
+      iptc_sub_location: Sub-location
+      iptc_province_state: Province-State
+      iptc_country_primary_location_code: Country-Primary Location Code
+      iptc_country_primary_location_name: Country-Primary Location Name
+      iptc_original_transmission_reference: Original Transmission Reference
+      iptc_headline: Headline
+      iptc_credit: Credit
+      iptc_source: Source
+      iptc_copyright_notice: Copyright Notice
+      iptc_contact: Contact
+      iptc_caption_abstract: Caption-Abstract
+      iptc_local_caption: Local Caption
+      iptc_writer_editor: Writer-Editor
+      iptc_image_type: Image Type
+      iptc_image_orientation: Image Orientation
       iptc_image_orientation_values:
         landscape: Landscape
         portrait: Portrait
         square: Square
-      iptc_language_identifier: IPTC:Language Identifier
-      iptc_audio_type: IPTC:Audio Type
+      iptc_language_identifier: Language Identifier
+      iptc_audio_type: Audio Type
       iptc_audio_type_values:
         text_only: Text Only
         mono_actuality: Mono Actuality
@@ -67,34 +67,34 @@ en:
         stereo_scener: Stereo Scener
         stereo_voicer: Stereo Voicer
         stereo_wrap: Stereo Wrap
-      iptc_audio_outcue: IPTC:Audio Outcue
-      iptc_job_id: IPTC:Job ID
-      iptc_master_document_id: IPTC:Master Document ID
-      iptc_short_document_id: IPTC:Short Document ID
-      iptc_unique_document_id: IPTC:Unique Document ID
-      iptc_owner_id: IPTC:Owner ID
-      iptc_prefs: IPTC:Prefs
-      iptc_classify_state: IPTC:Classify State
-      iptc_similarity_index: IPTC:Similarity Index
-      iptc_document_notes: IPTC:Document Notes
-      iptc_document_history: IPTC:Document History
-      iptc_exif_camera_info: IPTC:Exif Camera Info
-      iptc_catalog_sets: IPTC:Catalog Sets
-      iptc_iptc_picture_number: IPTC:IPTC Picture Number
+      iptc_audio_outcue: Audio Outcue
+      iptc_job_id: Job ID
+      iptc_master_document_id: Master Document ID
+      iptc_short_document_id: Short Document ID
+      iptc_unique_document_id: Unique Document ID
+      iptc_owner_id: Owner ID
+      iptc_prefs: Prefs
+      iptc_classify_state: Classify State
+      iptc_similarity_index: Similarity Index
+      iptc_document_notes: Document Notes
+      iptc_document_history: Document History
+      iptc_exif_camera_info: Exif Camera Info
+      iptc_catalog_sets: Catalog Sets
+      iptc_iptc_picture_number: IPTC Picture Number
     exif:
-      ifd_0_interop_index: IFD0:Interoperability Index
+      ifd_0_interop_index: Interoperability Index
       ifd_0_interop_index_values:
         r_03_dcf_option_file_adobe_rgb: R03 - DCF option file (Adobe RGB)
         r_98_dcf_basic_file_s_rgb: R98 - DCF basic file (sRGB)
         thm_dcf_thumbnail_file: THM - DCF thumbnail file
-      ifd_0_processing_software: IFD0:Processing Software
-      ifd_0_old_subfile_type: IFD0:Old Subfile Type
+      ifd_0_processing_software: Processing Software
+      ifd_0_old_subfile_type: Old Subfile Type
       ifd_0_old_subfile_type_values:
         full_resolution_image: Full-resolution image
         reduced_resolution_image: Reduced-resolution image
         single_page_of_multi_page_image: Single page of multi-page image
-      ifd_0_bits_per_sample: IFD0:Bits Per Sample
-      ifd_0_compression: IFD0:Compression
+      ifd_0_bits_per_sample: Bits Per Sample
+      ifd_0_compression: Compression
       ifd_0_compression_values:
         uncompressed: Uncompressed
         ccitt_1_d: CCITT 1D
@@ -144,7 +144,7 @@ en:
         jpeg_xr: JPEG XR
         kodak_dcr_compressed: Kodak DCR Compressed
         pentax_pef_compressed: Pentax PEF Compressed
-      ifd_0_photometric_interpretation: IFD0:Photometric Interpretation
+      ifd_0_photometric_interpretation: Photometric Interpretation
       ifd_0_photometric_interpretation_values:
         white_is_zero: WhiteIsZero
         black_is_zero: BlackIsZero
@@ -162,22 +162,22 @@ en:
         sequential_color_filter: Sequential Color Filter
         linear_raw: Linear Raw
         depth_map: Depth Map
-      ifd_0_thresholding: IFD0:Thresholding
+      ifd_0_thresholding: Thresholding
       ifd_0_thresholding_values:
         no_dithering_or_halftoning: No dithering or halftoning
         ordered_dither_or_halftone: Ordered dither or halftone
         randomized_dither: Randomized dither
-      ifd_0_cell_width: IFD0:Cell Width
-      ifd_0_cell_length: IFD0:Cell Length
-      ifd_0_fill_order: IFD0:Fill Order
+      ifd_0_cell_width: Cell Width
+      ifd_0_cell_length: Cell Length
+      ifd_0_fill_order: Fill Order
       ifd_0_fill_order_values:
         normal: Normal
         reversed: Reversed
-      ifd_0_document_name: IFD0:Document Name
-      ifd_0_image_description: IFD0:Image Description
-      ifd_0_make: IFD0:Make
-      ifd_0_model: IFD0:Camera Model Name
-      ifd_0_orientation: IFD0:Orientation
+      ifd_0_document_name: Document Name
+      ifd_0_image_description: Image Description
+      ifd_0_make: Make
+      ifd_0_model: Camera Model Name
+      ifd_0_orientation: Orientation
       ifd_0_orientation_values:
         horizontal_normal: Horizontal (normal)
         mirror_horizontal: Mirror horizontal
@@ -187,36 +187,36 @@ en:
         rotate_90_cw: Rotate 90 CW
         mirror_horizontal_and_rotate_90_cw: Mirror horizontal and rotate 90 CW
         rotate_270_cw: Rotate 270 CW
-      ifd_0_samples_per_pixel: IFD0:Samples Per Pixel
-      ifd_0_min_sample_value: IFD0:Min Sample Value
-      ifd_0_max_sample_value: IFD0:Max Sample Value
-      ifd_0_x_resolution: IFD0:X Resolution
-      ifd_0_y_resolution: IFD0:Y Resolution
-      ifd_0_planar_configuration: IFD0:Planar Configuration
+      ifd_0_samples_per_pixel: Samples Per Pixel
+      ifd_0_min_sample_value: Min Sample Value
+      ifd_0_max_sample_value: Max Sample Value
+      ifd_0_x_resolution: X Resolution
+      ifd_0_y_resolution: Y Resolution
+      ifd_0_planar_configuration: Planar Configuration
       ifd_0_planar_configuration_values:
         chunky: Chunky
         planar: Planar
-      ifd_0_page_name: IFD0:Page Name
-      ifd_0_x_position: IFD0:X Position
-      ifd_0_y_position: IFD0:Y Position
-      ifd_0_gray_response_unit: IFD0:Gray Response Unit
+      ifd_0_page_name: Page Name
+      ifd_0_x_position: X Position
+      ifd_0_y_position: Y Position
+      ifd_0_gray_response_unit: Gray Response Unit
       ifd_0_gray_response_unit_values:
         '0_1': '0.1'
         '0_001': '0.001'
         '0_0001': '0.0001'
         1_e_05: '1e-05'
         1_e_06: '1e-06'
-      ifd_0_resolution_unit: IFD0:Resolution Unit
+      ifd_0_resolution_unit: Resolution Unit
       ifd_0_resolution_unit_values:
         none: None
         inches: inches
         cm: cm
-      ifd_0_page_number: IFD0:Page Number
-      ifd_0_software: IFD0:Software
-      ifd_0_modify_date: IFD0:Modify Date
-      ifd_0_artist: IFD0:Artist
-      ifd_0_host_computer: IFD0:Host Computer
-      ifd_0_predictor: IFD0:Predictor
+      ifd_0_page_number: Page Number
+      ifd_0_software: Software
+      ifd_0_modify_date: Modify Date
+      ifd_0_artist: Artist
+      ifd_0_host_computer: Host Computer
+      ifd_0_predictor: Predictor
       ifd_0_predictor_values:
         none: None
         horizontal_differencing: Horizontal differencing
@@ -225,16 +225,16 @@ en:
         horizontal_difference_x_4: Horizontal difference X4
         floating_point_x_2: Floating point X2
         floating_point_x_4: Floating point X4
-      ifd_0_white_point: IFD0:White Point
-      ifd_0_primary_chromaticities: IFD0:Primary Chromaticities
-      ifd_0_halftone_hints: IFD0:Halftone Hints
-      ifd_0_ink_set: IFD0:Ink Set
+      ifd_0_white_point: White Point
+      ifd_0_primary_chromaticities: Primary Chromaticities
+      ifd_0_halftone_hints: Halftone Hints
+      ifd_0_ink_set: Ink Set
       ifd_0_ink_set_values:
         cmyk: CMYK
         not_cmyk: Not CMYK
-      ifd_0_target_printer: IFD0:Target Printer
-      ifd_0_y_cb_cr_coefficients: IFD0:Y Cb Cr Coefficients
-      ifd_0_y_cb_cr_sub_sampling: IFD0:Y Cb Cr Sub Sampling
+      ifd_0_target_printer: Target Printer
+      ifd_0_y_cb_cr_coefficients: Y Cb Cr Coefficients
+      ifd_0_y_cb_cr_sub_sampling: Y Cb Cr Sub Sampling
       ifd_0_y_cb_cr_sub_sampling_values:
         y_cb_cr_4_4_4_1_1: YCbCr4:4:4 (1 1)
         y_cb_cr_4_4_0_1_2: YCbCr4:4:0 (1 2)
@@ -244,42 +244,42 @@ en:
         y_cb_cr_4_2_1_2_4: YCbCr4:2:1 (2 4)
         y_cb_cr_4_1_1_4_1: YCbCr4:1:1 (4 1)
         y_cb_cr_4_1_0_4_2: YCbCr4:1:0 (4 2)
-      ifd_0_y_cb_cr_positioning: IFD0:Y Cb Cr Positioning
+      ifd_0_y_cb_cr_positioning: Y Cb Cr Positioning
       ifd_0_y_cb_cr_positioning_values:
         centered: Centered
         co_sited: Co-sited
-      ifd_0_reference_black_white: IFD0:Reference Black White
-      ifd_0_related_image_file_format: IFD0:Related Image File Format
-      ifd_0_related_image_width: IFD0:Related Image Width
-      ifd_0_related_image_height: IFD0:Related Image Height
-      ifd_0_rating: IFD0:Rating
-      ifd_0_rating_percent: IFD0:Rating Percent
-      ifd_0_vignetting_correction: IFD0:Vignetting Correction
+      ifd_0_reference_black_white: Reference Black White
+      ifd_0_related_image_file_format: Related Image File Format
+      ifd_0_related_image_width: Related Image Width
+      ifd_0_related_image_height: Related Image Height
+      ifd_0_rating: Rating
+      ifd_0_rating_percent: Rating Percent
+      ifd_0_vignetting_correction: Vignetting Correction
       ifd_0_vignetting_correction_values:
         'off': 'Off'
         auto: Auto
         auto_ilce_1: Auto (ILCE-1)
         no_correction_params_available: No correction params available
-      ifd_0_vignetting_corr_params: IFD0:Vignetting Corr Params
-      ifd_0_chromatic_aberration_correction: IFD0:Chromatic Aberration Correction
+      ifd_0_vignetting_corr_params: Vignetting Corr Params
+      ifd_0_chromatic_aberration_correction: Chromatic Aberration Correction
       ifd_0_chromatic_aberration_correction_values:
         'off': 'Off'
         auto: Auto
         no_correction_params_available: No correction params available
-      ifd_0_chromatic_aberration_corr_params: IFD0:Chromatic Aberration Corr Params
-      ifd_0_distortion_correction: IFD0:Distortion Correction
+      ifd_0_chromatic_aberration_corr_params: Chromatic Aberration Corr Params
+      ifd_0_distortion_correction: Distortion Correction
       ifd_0_distortion_correction_values:
         'off': 'Off'
         auto: Auto
         auto_fixed_by_lens: Auto fixed by lens
         no_correction_params_available: No correction params available
-      ifd_0_distortion_corr_params: IFD0:Distortion Corr Params
-      ifd_0_cfa_repeat_pattern_dim: IFD0:CFA Repeat Pattern Dim
-      ifd_0_copyright: IFD0:Copyright
-      ifd_0_exposure_time: IFD0:Exposure Time
-      ifd_0_f_number: IFD0:F Number
-      ifd_0_sem_info: IFD0:SEM Info
-      ifd_0_exposure_program: IFD0:Exposure Program
+      ifd_0_distortion_corr_params: Distortion Corr Params
+      ifd_0_cfa_repeat_pattern_dim: CFA Repeat Pattern Dim
+      ifd_0_copyright: Copyright
+      ifd_0_exposure_time: Exposure Time
+      ifd_0_f_number: F Number
+      ifd_0_sem_info: SEM Info
+      ifd_0_exposure_program: Exposure Program
       ifd_0_exposure_program_values:
         not_defined: Not Defined
         manual: Manual
@@ -291,11 +291,11 @@ en:
         portrait: Portrait
         landscape: Landscape
         bulb: Bulb
-      ifd_0_spectral_sensitivity: IFD0:Spectral Sensitivity
-      ifd_0_iso: IFD0:ISO
-      ifd_0_time_zone_offset: IFD0:Time Zone Offset
-      ifd_0_self_timer_mode: IFD0:Self Timer Mode
-      ifd_0_sensitivity_type: IFD0:Sensitivity Type
+      ifd_0_spectral_sensitivity: Spectral Sensitivity
+      ifd_0_iso: ISO
+      ifd_0_time_zone_offset: Time Zone Offset
+      ifd_0_self_timer_mode: Self Timer Mode
+      ifd_0_sensitivity_type: Sensitivity Type
       ifd_0_sensitivity_type_values:
         unknown: Unknown
         standard_output_sensitivity: Standard Output Sensitivity
@@ -305,19 +305,19 @@ en:
         standard_output_sensitivity_and_iso_speed: Standard Output Sensitivity and ISO Speed
         recommended_exposure_index_and_iso_speed: Recommended Exposure Index and ISO Speed
         standard_output_sensitivity_recommended_exposure_index_and_iso_speed: Standard Output Sensitivity, Recommended Exposure Index and ISO Speed
-      ifd_0_date_time_original: IFD0:Date/Time Original
-      ifd_0_create_date: IFD0:Create Date
-      ifd_0_offset_time: IFD0:Offset Time
-      ifd_0_offset_time_original: IFD0:Offset Time Original
-      ifd_0_offset_time_digitized: IFD0:Offset Time Digitized
-      ifd_0_compressed_bits_per_pixel: IFD0:Compressed Bits Per Pixel
-      ifd_0_shutter_speed_value: IFD0:Shutter Speed Value
-      ifd_0_aperture_value: IFD0:Aperture Value
-      ifd_0_brightness_value: IFD0:Brightness Value
-      ifd_0_exposure_compensation: IFD0:Exposure Compensation
-      ifd_0_max_aperture_value: IFD0:Max Aperture Value
-      ifd_0_subject_distance: IFD0:Subject Distance
-      ifd_0_metering_mode: IFD0:Metering Mode
+      ifd_0_date_time_original: Date/Time Original
+      ifd_0_create_date: Create Date
+      ifd_0_offset_time: Offset Time
+      ifd_0_offset_time_original: Offset Time Original
+      ifd_0_offset_time_digitized: Offset Time Digitized
+      ifd_0_compressed_bits_per_pixel: Compressed Bits Per Pixel
+      ifd_0_shutter_speed_value: Shutter Speed Value
+      ifd_0_aperture_value: Aperture Value
+      ifd_0_brightness_value: Brightness Value
+      ifd_0_exposure_compensation: Exposure Compensation
+      ifd_0_max_aperture_value: Max Aperture Value
+      ifd_0_subject_distance: Subject Distance
+      ifd_0_metering_mode: Metering Mode
       ifd_0_metering_mode_values:
         unknown: Unknown
         average: Average
@@ -327,7 +327,7 @@ en:
         multi_segment: Multi-segment
         partial: Partial
         other: Other
-      ifd_0_light_source: IFD0:Light Source
+      ifd_0_light_source: Light Source
       ifd_0_light_source_values:
         unknown: Unknown
         daylight: Daylight
@@ -351,7 +351,7 @@ en:
         d_50: D50
         iso_studio_tungsten: ISO Studio Tungsten
         other: Other
-      ifd_0_flash: IFD0:Flash
+      ifd_0_flash: Flash
       ifd_0_flash_values:
         no_flash: No Flash
         fired: Fired
@@ -380,48 +380,48 @@ en:
         auto_fired_red_eye_reduction: Auto, Fired, Red-eye reduction
         auto_fired_red_eye_reduction_return_not_detected: Auto, Fired, Red-eye reduction, Return not detected
         auto_fired_red_eye_reduction_return_detected: Auto, Fired, Red-eye reduction, Return detected
-      ifd_0_focal_length: IFD0:Focal Length
-      ifd_0_security_classification: IFD0:Security Classification
+      ifd_0_focal_length: Focal Length
+      ifd_0_security_classification: Security Classification
       ifd_0_security_classification_values:
         confidential: Confidential
         restricted: Restricted
         secret: Secret
         top_secret: Top Secret
         unclassified: Unclassified
-      ifd_0_image_history: IFD0:Image History
-      ifd_0_subject_area: IFD0:Subject Area
-      ifd_0_sub_sec_time: IFD0:Sub Sec Time
-      ifd_0_sub_sec_time_original: IFD0:Sub Sec Time Original
-      ifd_0_sub_sec_time_digitized: IFD0:Sub Sec Time Digitized
-      ifd_0_ambient_temperature: IFD0:Ambient Temperature
-      ifd_0_humidity: IFD0:Humidity
-      ifd_0_pressure: IFD0:Pressure
-      ifd_0_water_depth: IFD0:Water Depth
-      ifd_0_acceleration: IFD0:Acceleration
-      ifd_0_camera_elevation_angle: IFD0:Camera Elevation Angle
-      ifd_0_color_space: IFD0:Color Space
+      ifd_0_image_history: Image History
+      ifd_0_subject_area: Subject Area
+      ifd_0_sub_sec_time: Sub Sec Time
+      ifd_0_sub_sec_time_original: Sub Sec Time Original
+      ifd_0_sub_sec_time_digitized: Sub Sec Time Digitized
+      ifd_0_ambient_temperature: Ambient Temperature
+      ifd_0_humidity: Humidity
+      ifd_0_pressure: Pressure
+      ifd_0_water_depth: Water Depth
+      ifd_0_acceleration: Acceleration
+      ifd_0_camera_elevation_angle: Camera Elevation Angle
+      ifd_0_color_space: Color Space
       ifd_0_color_space_values:
         s_rgb: sRGB
         adobe_rgb: Adobe RGB
         wide_gamut_rgb: Wide Gamut RGB
         icc_profile: ICC Profile
         uncalibrated: Uncalibrated
-      ifd_0_exif_image_width: IFD0:Exif Image Width
-      ifd_0_exif_image_height: IFD0:Exif Image Height
-      ifd_0_related_sound_file: IFD0:Related Sound File
-      ifd_0_flash_energy: IFD0:Flash Energy
-      ifd_0_focal_plane_x_resolution: IFD0:Focal Plane X Resolution
-      ifd_0_focal_plane_y_resolution: IFD0:Focal Plane Y Resolution
-      ifd_0_focal_plane_resolution_unit: IFD0:Focal Plane Resolution Unit
+      ifd_0_exif_image_width: Exif Image Width
+      ifd_0_exif_image_height: Exif Image Height
+      ifd_0_related_sound_file: Related Sound File
+      ifd_0_flash_energy: Flash Energy
+      ifd_0_focal_plane_x_resolution: Focal Plane X Resolution
+      ifd_0_focal_plane_y_resolution: Focal Plane Y Resolution
+      ifd_0_focal_plane_resolution_unit: Focal Plane Resolution Unit
       ifd_0_focal_plane_resolution_unit_values:
         none: None
         inches: inches
         cm: cm
         mm: mm
         um: um
-      ifd_0_subject_location: IFD0:Subject Location
-      ifd_0_exposure_index: IFD0:Exposure Index
-      ifd_0_sensing_method: IFD0:Sensing Method
+      ifd_0_subject_location: Subject Location
+      ifd_0_exposure_index: Exposure Index
+      ifd_0_sensing_method: Sensing Method
       ifd_0_sensing_method_values:
         not_defined: Not defined
         one_chip_color_area: One-chip color area
@@ -430,7 +430,7 @@ en:
         color_sequential_area: Color sequential area
         trilinear: Trilinear
         color_sequential_linear: Color sequential linear
-      ifd_0_custom_rendered: IFD0:Custom Rendered
+      ifd_0_custom_rendered: Custom Rendered
       ifd_0_custom_rendered_values:
         normal: Normal
         custom: Custom
@@ -440,99 +440,99 @@ en:
         panorama: Panorama
         portrait_hdr: Portrait HDR
         portrait: Portrait
-      ifd_0_exposure_mode: IFD0:Exposure Mode
+      ifd_0_exposure_mode: Exposure Mode
       ifd_0_exposure_mode_values:
         auto: Auto
         manual: Manual
         auto_bracket: Auto bracket
-      ifd_0_white_balance: IFD0:White Balance
+      ifd_0_white_balance: White Balance
       ifd_0_white_balance_values:
         auto: Auto
         manual: Manual
-      ifd_0_digital_zoom_ratio: IFD0:Digital Zoom Ratio
-      ifd_0_focal_length_in_35_mm_format: IFD0:Focal Length In 35mm Format
-      ifd_0_scene_capture_type: IFD0:Scene Capture Type
+      ifd_0_digital_zoom_ratio: Digital Zoom Ratio
+      ifd_0_focal_length_in_35_mm_format: Focal Length In 35mm Format
+      ifd_0_scene_capture_type: Scene Capture Type
       ifd_0_scene_capture_type_values:
         standard: Standard
         landscape: Landscape
         portrait: Portrait
         night: Night
         other: Other
-      ifd_0_gain_control: IFD0:Gain Control
+      ifd_0_gain_control: Gain Control
       ifd_0_gain_control_values:
         none: None
         low_gain_up: Low gain up
         high_gain_up: High gain up
         low_gain_down: Low gain down
         high_gain_down: High gain down
-      ifd_0_contrast: IFD0:Contrast
+      ifd_0_contrast: Contrast
       ifd_0_contrast_values:
         normal: Normal
         low: Low
         high: High
-      ifd_0_saturation: IFD0:Saturation
+      ifd_0_saturation: Saturation
       ifd_0_saturation_values:
         normal: Normal
         low: Low
         high: High
-      ifd_0_sharpness: IFD0:Sharpness
+      ifd_0_sharpness: Sharpness
       ifd_0_sharpness_values:
         normal: Normal
         soft: Soft
         hard: Hard
-      ifd_0_subject_distance_range: IFD0:Subject Distance Range
+      ifd_0_subject_distance_range: Subject Distance Range
       ifd_0_subject_distance_range_values:
         unknown: Unknown
         macro: Macro
         close: Close
         distant: Distant
-      ifd_0_image_unique_id: IFD0:Image Unique ID
-      ifd_0_owner_name: IFD0:Owner Name
-      ifd_0_serial_number: IFD0:Serial Number
-      ifd_0_lens_info: IFD0:Lens Info
-      ifd_0_lens_make: IFD0:Lens Make
-      ifd_0_lens_model: IFD0:Lens Model
-      ifd_0_lens_serial_number: IFD0:Lens Serial Number
-      ifd_0_composite_image: IFD0:Composite Image
+      ifd_0_image_unique_id: Image Unique ID
+      ifd_0_owner_name: Owner Name
+      ifd_0_serial_number: Serial Number
+      ifd_0_lens_info: Lens Info
+      ifd_0_lens_make: Lens Make
+      ifd_0_lens_model: Lens Model
+      ifd_0_lens_serial_number: Lens Serial Number
+      ifd_0_composite_image: Composite Image
       ifd_0_composite_image_values:
         unknown: Unknown
         not_a_composite_image: Not a Composite Image
         general_composite_image: General Composite Image
         composite_image_captured_while_shooting: Composite Image Captured While Shooting
-      ifd_0_composite_image_count: IFD0:Composite Image Count
-      ifd_0_gdal_metadata: IFD0:GDAL Metadata
-      ifd_0_gdal_no_data: IFD0:GDAL No Data
-      ifd_0_gamma: IFD0:Gamma
-      ifd_0_unique_camera_model: IFD0:Unique Camera Model
-      ifd_0_localized_camera_model: IFD0:Localized Camera Model
-      ifd_0_black_level_repeat_dim: IFD0:Black Level Repeat Dim
-      ifd_0_black_level: IFD0:Black Level
-      ifd_0_black_level_delta_h: IFD0:Black Level Delta H
-      ifd_0_black_level_delta_v: IFD0:Black Level Delta V
-      ifd_0_default_scale: IFD0:Default Scale
-      ifd_0_color_matrix_1: IFD0:Color Matrix 1
-      ifd_0_color_matrix_2: IFD0:Color Matrix 2
-      ifd_0_camera_calibration_1: IFD0:Camera Calibration 1
-      ifd_0_camera_calibration_2: IFD0:Camera Calibration 2
-      ifd_0_reduction_matrix_1: IFD0:Reduction Matrix 1
-      ifd_0_reduction_matrix_2: IFD0:Reduction Matrix 2
-      ifd_0_analog_balance: IFD0:Analog Balance
-      ifd_0_as_shot_neutral: IFD0:As Shot Neutral
-      ifd_0_as_shot_white_xy: IFD0:As Shot White XY
-      ifd_0_baseline_exposure: IFD0:Baseline Exposure
-      ifd_0_baseline_noise: IFD0:Baseline Noise
-      ifd_0_baseline_sharpness: IFD0:Baseline Sharpness
-      ifd_0_linear_response_limit: IFD0:Linear Response Limit
-      ifd_0_camera_serial_number: IFD0:Camera Serial Number
-      ifd_0_dng_lens_info: IFD0:DNG Lens Info
-      ifd_0_chroma_blur_radius: IFD0:Chroma Blur Radius
-      ifd_0_anti_alias_strength: IFD0:Anti Alias Strength
-      ifd_0_shadow_scale: IFD0:Shadow Scale
-      ifd_0_maker_note_safety: IFD0:Maker Note Safety
+      ifd_0_composite_image_count: Composite Image Count
+      ifd_0_gdal_metadata: GDAL Metadata
+      ifd_0_gdal_no_data: GDAL No Data
+      ifd_0_gamma: Gamma
+      ifd_0_unique_camera_model: Unique Camera Model
+      ifd_0_localized_camera_model: Localized Camera Model
+      ifd_0_black_level_repeat_dim: Black Level Repeat Dim
+      ifd_0_black_level: Black Level
+      ifd_0_black_level_delta_h: Black Level Delta H
+      ifd_0_black_level_delta_v: Black Level Delta V
+      ifd_0_default_scale: Default Scale
+      ifd_0_color_matrix_1: Color Matrix 1
+      ifd_0_color_matrix_2: Color Matrix 2
+      ifd_0_camera_calibration_1: Camera Calibration 1
+      ifd_0_camera_calibration_2: Camera Calibration 2
+      ifd_0_reduction_matrix_1: Reduction Matrix 1
+      ifd_0_reduction_matrix_2: Reduction Matrix 2
+      ifd_0_analog_balance: Analog Balance
+      ifd_0_as_shot_neutral: As Shot Neutral
+      ifd_0_as_shot_white_xy: As Shot White XY
+      ifd_0_baseline_exposure: Baseline Exposure
+      ifd_0_baseline_noise: Baseline Noise
+      ifd_0_baseline_sharpness: Baseline Sharpness
+      ifd_0_linear_response_limit: Linear Response Limit
+      ifd_0_camera_serial_number: Camera Serial Number
+      ifd_0_dng_lens_info: DNG Lens Info
+      ifd_0_chroma_blur_radius: Chroma Blur Radius
+      ifd_0_anti_alias_strength: Anti Alias Strength
+      ifd_0_shadow_scale: Shadow Scale
+      ifd_0_maker_note_safety: Maker Note Safety
       ifd_0_maker_note_safety_values:
         unsafe: Unsafe
         safe: Safe
-      ifd_0_calibration_illuminant_1: IFD0:Calibration Illuminant 1
+      ifd_0_calibration_illuminant_1: Calibration Illuminant 1
       ifd_0_calibration_illuminant_1_values:
         unknown: Unknown
         daylight: Daylight
@@ -556,7 +556,7 @@ en:
         d_50: D50
         iso_studio_tungsten: ISO Studio Tungsten
         other: Other
-      ifd_0_calibration_illuminant_2: IFD0:Calibration Illuminant 2
+      ifd_0_calibration_illuminant_2: Calibration Illuminant 2
       ifd_0_calibration_illuminant_2_values:
         unknown: Unknown
         daylight: Daylight
@@ -580,245 +580,245 @@ en:
         d_50: D50
         iso_studio_tungsten: ISO Studio Tungsten
         other: Other
-      ifd_0_best_quality_scale: IFD0:Best Quality Scale
-      ifd_0_original_raw_file_name: IFD0:Original Raw File Name
-      ifd_0_as_shot_pre_profile_matrix: IFD0:As Shot Pre Profile Matrix
-      ifd_0_current_pre_profile_matrix: IFD0:Current Pre Profile Matrix
-      ifd_0_colorimetric_reference: IFD0:Colorimetric Reference
-      ifd_0_camera_calibration_sig: IFD0:Camera Calibration Sig
-      ifd_0_profile_calibration_sig: IFD0:Profile Calibration Sig
-      ifd_0_as_shot_profile_name: IFD0:As Shot Profile Name
-      ifd_0_noise_reduction_applied: IFD0:Noise Reduction Applied
-      ifd_0_profile_name: IFD0:Profile Name
-      ifd_0_profile_copyright: IFD0:Profile Copyright
-      ifd_0_forward_matrix_1: IFD0:Forward Matrix 1
-      ifd_0_forward_matrix_2: IFD0:Forward Matrix 2
-      ifd_0_preview_application_name: IFD0:Preview Application Name
-      ifd_0_preview_application_version: IFD0:Preview Application Version
-      ifd_0_preview_settings_name: IFD0:Preview Settings Name
-      ifd_0_preview_date_time: IFD0:Preview Date Time
-      ifd_0_frame_rate: IFD0:Frame Rate
-      ifd_0_t_stop: IFD0:T Stop
-      ifd_0_reel_name: IFD0:Reel Name
-      ifd_0_original_default_crop_size: IFD0:Original Default Crop Size
-      ifd_0_camera_label: IFD0:Camera Label
-      ifd_0_baseline_exposure_offset: IFD0:Baseline Exposure Offset
-      ifd_0_default_user_crop: IFD0:Default User Crop
-      ifd_0_depth_format: IFD0:Depth Format
+      ifd_0_best_quality_scale: Best Quality Scale
+      ifd_0_original_raw_file_name: Original Raw File Name
+      ifd_0_as_shot_pre_profile_matrix: As Shot Pre Profile Matrix
+      ifd_0_current_pre_profile_matrix: Current Pre Profile Matrix
+      ifd_0_colorimetric_reference: Colorimetric Reference
+      ifd_0_camera_calibration_sig: Camera Calibration Sig
+      ifd_0_profile_calibration_sig: Profile Calibration Sig
+      ifd_0_as_shot_profile_name: As Shot Profile Name
+      ifd_0_noise_reduction_applied: Noise Reduction Applied
+      ifd_0_profile_name: Profile Name
+      ifd_0_profile_copyright: Profile Copyright
+      ifd_0_forward_matrix_1: Forward Matrix 1
+      ifd_0_forward_matrix_2: Forward Matrix 2
+      ifd_0_preview_application_name: Preview Application Name
+      ifd_0_preview_application_version: Preview Application Version
+      ifd_0_preview_settings_name: Preview Settings Name
+      ifd_0_preview_date_time: Preview Date Time
+      ifd_0_frame_rate: Frame Rate
+      ifd_0_t_stop: T Stop
+      ifd_0_reel_name: Reel Name
+      ifd_0_original_default_crop_size: Original Default Crop Size
+      ifd_0_camera_label: Camera Label
+      ifd_0_baseline_exposure_offset: Baseline Exposure Offset
+      ifd_0_default_user_crop: Default User Crop
+      ifd_0_depth_format: Depth Format
       ifd_0_depth_format_values:
         unknown: Unknown
         linear: Linear
         inverse: Inverse
-      ifd_0_depth_near: IFD0:Depth Near
-      ifd_0_depth_far: IFD0:Depth Far
-      ifd_0_depth_units: IFD0:Depth Units
+      ifd_0_depth_near: Depth Near
+      ifd_0_depth_far: Depth Far
+      ifd_0_depth_units: Depth Units
       ifd_0_depth_units_values:
         unknown: Unknown
         meters: Meters
-      ifd_0_depth_measure_type: IFD0:Depth Measure Type
+      ifd_0_depth_measure_type: Depth Measure Type
       ifd_0_depth_measure_type_values:
         unknown: Unknown
         optical_axis: Optical Axis
         optical_ray: Optical Ray
-      ifd_0_enhance_params: IFD0:Enhance Params
-      ifd_0_lens: IFD0:Lens
-      ifd_0_raw_file: IFD0:Raw File
-      ifd_0_converter: IFD0:Converter
-      ifd_0_exposure: IFD0:Exposure
-      ifd_0_shadows: IFD0:Shadows
-      ifd_0_brightness: IFD0:Brightness
-      ifd_0_smoothness: IFD0:Smoothness
-      ifd_0_moire_filter: IFD0:Moire Filter
-      gps_gps_latitude_ref: GPS:GPS Latitude Ref
+      ifd_0_enhance_params: Enhance Params
+      ifd_0_lens: Lens
+      ifd_0_raw_file: Raw File
+      ifd_0_converter: Converter
+      ifd_0_exposure: Exposure
+      ifd_0_shadows: Shadows
+      ifd_0_brightness: Brightness
+      ifd_0_smoothness: Smoothness
+      ifd_0_moire_filter: Moire Filter
+      gps_gps_latitude_ref: GPS Latitude Ref
       gps_gps_latitude_ref_values:
         north: North
         south: South
-      gps_gps_latitude: GPS:GPS Latitude
-      gps_gps_longitude_ref: GPS:GPS Longitude Ref
+      gps_gps_latitude: GPS Latitude
+      gps_gps_longitude_ref: GPS Longitude Ref
       gps_gps_longitude_ref_values:
         east: East
         west: West
-      gps_gps_longitude: GPS:GPS Longitude
-      gps_gps_altitude: GPS:GPS Altitude
-      gps_gps_time_stamp: GPS:GPS Time Stamp
-      gps_gps_satellites: GPS:GPS Satellites
-      gps_gps_status: GPS:GPS Status
+      gps_gps_longitude: GPS Longitude
+      gps_gps_altitude: GPS Altitude
+      gps_gps_time_stamp: GPS Time Stamp
+      gps_gps_satellites: GPS Satellites
+      gps_gps_status: GPS Status
       gps_gps_status_values:
         measurement_active: Measurement Active
         measurement_void: Measurement Void
-      gps_gps_measure_mode: GPS:GPS Measure Mode
+      gps_gps_measure_mode: GPS Measure Mode
       gps_gps_measure_mode_values:
         2_dimensional_measurement: 2-Dimensional Measurement
         3_dimensional_measurement: 3-Dimensional Measurement
-      gps_gpsdop: GPS:GPS Dilution Of Precision
-      gps_gps_speed_ref: GPS:GPS Speed Ref
+      gps_gpsdop: GPS Dilution Of Precision
+      gps_gps_speed_ref: GPS Speed Ref
       gps_gps_speed_ref_values:
         km_h: km/h
         mph: mph
         knots: knots
-      gps_gps_speed: GPS:GPS Speed
-      gps_gps_track_ref: GPS:GPS Track Ref
+      gps_gps_speed: GPS Speed
+      gps_gps_track_ref: GPS Track Ref
       gps_gps_track_ref_values:
         magnetic_north: Magnetic North
         true_north: True North
-      gps_gps_track: GPS:GPS Track
-      gps_gps_img_direction_ref: GPS:GPS Img Direction Ref
+      gps_gps_track: GPS Track
+      gps_gps_img_direction_ref: GPS Img Direction Ref
       gps_gps_img_direction_ref_values:
         magnetic_north: Magnetic North
         true_north: True North
-      gps_gps_img_direction: GPS:GPS Img Direction
-      gps_gps_map_datum: GPS:GPS Map Datum
-      gps_gps_dest_latitude_ref: GPS:GPS Dest Latitude Ref
+      gps_gps_img_direction: GPS Img Direction
+      gps_gps_map_datum: GPS Map Datum
+      gps_gps_dest_latitude_ref: GPS Dest Latitude Ref
       gps_gps_dest_latitude_ref_values:
         north: North
         south: South
-      gps_gps_dest_latitude: GPS:GPS Dest Latitude
-      gps_gps_dest_longitude_ref: GPS:GPS Dest Longitude Ref
+      gps_gps_dest_latitude: GPS Dest Latitude
+      gps_gps_dest_longitude_ref: GPS Dest Longitude Ref
       gps_gps_dest_longitude_ref_values:
         east: East
         west: West
-      gps_gps_dest_longitude: GPS:GPS Dest Longitude
-      gps_gps_dest_bearing_ref: GPS:GPS Dest Bearing Ref
+      gps_gps_dest_longitude: GPS Dest Longitude
+      gps_gps_dest_bearing_ref: GPS Dest Bearing Ref
       gps_gps_dest_bearing_ref_values:
         magnetic_north: Magnetic North
         true_north: True North
-      gps_gps_dest_bearing: GPS:GPS Dest Bearing
-      gps_gps_dest_distance_ref: GPS:GPS Dest Distance Ref
+      gps_gps_dest_bearing: GPS Dest Bearing
+      gps_gps_dest_distance_ref: GPS Dest Distance Ref
       gps_gps_dest_distance_ref_values:
         kilometers: Kilometers
         miles: Miles
         nautical_miles: Nautical Miles
-      gps_gps_dest_distance: GPS:GPS Dest Distance
-      gps_gps_date_stamp: GPS:GPS Date Stamp
-      gps_gps_differential: GPS:GPS Differential
+      gps_gps_dest_distance: GPS Dest Distance
+      gps_gps_date_stamp: GPS Date Stamp
+      gps_gps_differential: GPS Differential
       gps_gps_differential_values:
         no_correction: No Correction
         differential_corrected: Differential Corrected
-      gps_gpsh_positioning_error: GPS:GPS Horizontal Positioning Error
+      gps_gpsh_positioning_error: GPS Horizontal Positioning Error
     xmp:
-      xmp_fwc_custom_field_1: fwc:Custom Field 1
-      xmp_fwc_custom_field_10: fwc:Custom Field 10
-      xmp_fwc_custom_field_11: fwc:Custom Field 11
-      xmp_fwc_custom_field_12: fwc:Custom Field 12
-      xmp_fwc_custom_field_13: fwc:Custom Field 13
-      xmp_fwc_custom_field_14: fwc:Custom Field 14
-      xmp_fwc_custom_field_15: fwc:Custom Field 15
-      xmp_fwc_custom_field_16: fwc:Custom Field 16
-      xmp_fwc_custom_field_17: fwc:Custom Field 17
-      xmp_fwc_custom_field_18: fwc:Custom Field 18
-      xmp_fwc_custom_field_19: fwc:Custom Field 19
-      xmp_fwc_custom_field_2: fwc:Custom Field 2
-      xmp_fwc_custom_field_20: fwc:Custom Field 20
-      xmp_fwc_custom_field_3: fwc:Custom Field 3
-      xmp_fwc_custom_field_4: fwc:Custom Field 4
-      xmp_fwc_custom_field_5: fwc:Custom Field 5
-      xmp_fwc_custom_field_6: fwc:Custom Field 6
-      xmp_fwc_custom_field_7: fwc:Custom Field 7
-      xmp_fwc_custom_field_8: fwc:Custom Field 8
-      xmp_fwc_custom_field_9: fwc:Custom Field 9
-      xmp_device_app_info_application: Device:App Info Application
-      xmp_device_app_info_item_uri: Device:App Info Item URI
-      xmp_device_app_info_version: Device:App Info Version
-      xmp_device_camera_app_info_application: Device:Camera App Info Application
-      xmp_device_camera_app_info_item_uri: Device:Camera App Info Item URI
-      xmp_device_camera_app_info_version: Device:Camera App Info Version
-      xmp_device_camera_depth_map_confidence_uri: Device:Camera Depth Map Confidence URI
-      xmp_device_camera_depth_map_depth_uri: Device:Camera Depth Map Depth URI
-      xmp_device_camera_depth_map_far: Device:Camera Depth Map Far
-      xmp_device_camera_depth_map_focal_table: Device:Camera Depth Map Focal Table
-      xmp_device_camera_depth_map_focal_table_entry_count: Device:Camera Depth Map Focal Table Entry Count
-      xmp_device_camera_depth_map_format: Device:Camera Depth Map Format
-      xmp_device_camera_depth_map_item_semantic: Device:Camera Depth Map Item Semantic
-      xmp_device_camera_depth_map_measure_type: Device:Camera Depth Map Measure Type
-      xmp_device_camera_depth_map_near: Device:Camera Depth Map Near
-      xmp_device_camera_depth_map_software: Device:Camera Depth Map Software
-      xmp_device_camera_depth_map_units: Device:Camera Depth Map Units
-      xmp_device_camera_image_item_semantic: Device:Camera Image Item Semantic
-      xmp_device_camera_image_item_uri: Device:Camera Image Item URI
-      xmp_device_camera_imaging_model_distortion: Device:Camera Imaging Model Distortion
-      xmp_device_camera_imaging_model_distortion_count: Device:Camera Imaging Model Distortion Count
-      xmp_device_camera_imaging_model_focal_length_x: Device:Camera Imaging Model Focal Length X
-      xmp_device_camera_imaging_model_focal_length_y: Device:Camera Imaging Model Focal Length Y
-      xmp_device_camera_imaging_model_image_height: Device:Camera Imaging Model Image Height
-      xmp_device_camera_imaging_model_image_width: Device:Camera Imaging Model Image Width
-      xmp_device_camera_imaging_model_pixel_aspect_ratio: Device:Camera Imaging Model Pixel Aspect Ratio
-      xmp_device_camera_imaging_model_principal_point_x: Device:Camera Imaging Model Principal Point X
-      xmp_device_camera_imaging_model_principal_point_y: Device:Camera Imaging Model Principal Point Y
-      xmp_device_camera_imaging_model_skew: Device:Camera Imaging Model Skew
-      xmp_device_camera_light_estimate_color_correction_b: Device:Camera Light Estimate Color Correction B
-      xmp_device_camera_light_estimate_color_correction_g: Device:Camera Light Estimate Color Correction G
-      xmp_device_camera_light_estimate_color_correction_r: Device:Camera Light Estimate Color Correction R
-      xmp_device_camera_light_estimate_pixel_intensity: Device:Camera Light Estimate Pixel Intensity
-      xmp_device_camera_point_cloud_metric: Device:Camera Point Cloud Metric
-      xmp_device_camera_point_cloud_point_cloud: Device:Camera Point Cloud Point Cloud
-      xmp_device_camera_point_cloud_points: Device:Camera Point Cloud Points
-      xmp_device_camera_pose_position_x: Device:Camera Pose Position X
-      xmp_device_camera_pose_position_y: Device:Camera Pose Position Y
-      xmp_device_camera_pose_position_z: Device:Camera Pose Position Z
-      xmp_device_camera_pose_rotation_w: Device:Camera Pose Rotation W
-      xmp_device_camera_pose_rotation_x: Device:Camera Pose Rotation X
-      xmp_device_camera_pose_rotation_y: Device:Camera Pose Rotation Y
-      xmp_device_camera_pose_rotation_z: Device:Camera Pose Rotation Z
-      xmp_device_camera_pose_timestamp: Device:Camera Pose Timestamp
-      xmp_device_camera_trait: Device:Camera Trait
-      xmp_device_camera_vendor_info_manufacturer: Device:Camera Vendor Info Manufacturer
-      xmp_device_camera_vendor_info_model: Device:Camera Vendor Info Model
-      xmp_device_camera_vendor_info_notes: Device:Camera Vendor Info Notes
-      xmp_device_container_directory_item_data_uri: Device:Container Directory Item Data URI
-      xmp_device_container_directory_item_length: Device:Container Directory Item Length
-      xmp_device_container_directory_item_mime: Device:Container Directory Item Mime
-      xmp_device_container_directory_item_padding: Device:Container Directory Item Padding
-      xmp_device_earth_pos_altitude: Device:Earth Pos Altitude
-      xmp_device_earth_pos_latitude: Device:Earth Pos Latitude
-      xmp_device_earth_pos_longitude: Device:Earth Pos Longitude
-      xmp_device_earth_pos_rotation_w: Device:Earth Pos Rotation W
-      xmp_device_earth_pos_rotation_x: Device:Earth Pos Rotation X
-      xmp_device_earth_pos_rotation_y: Device:Earth Pos Rotation Y
-      xmp_device_earth_pos_rotation_z: Device:Earth Pos Rotation Z
-      xmp_device_earth_pos_timestamp: Device:Earth Pos Timestamp
-      xmp_device_plane_boundary: Device:Plane Boundary
-      xmp_device_plane_boundary_vertex_count: Device:Plane Boundary Vertex Count
-      xmp_device_plane_extent_x: Device:Plane Extent X
-      xmp_device_plane_extent_z: Device:Plane Extent Z
-      xmp_device_plane_pose_position_x: Device:Plane Pose Position X
-      xmp_device_plane_pose_position_y: Device:Plane Pose Position Y
-      xmp_device_plane_pose_position_z: Device:Plane Pose Position Z
-      xmp_device_plane_pose_rotation_w: Device:Plane Pose Rotation W
-      xmp_device_plane_pose_rotation_x: Device:Plane Pose Rotation X
-      xmp_device_plane_pose_rotation_y: Device:Plane Pose Rotation Y
-      xmp_device_plane_pose_rotation_z: Device:Plane Pose Rotation Z
-      xmp_device_plane_pose_timestamp: Device:Plane Pose Timestamp
-      xmp_device_pose_position_x: Device:Pose Position X
-      xmp_device_pose_position_y: Device:Pose Position Y
-      xmp_device_pose_position_z: Device:Pose Position Z
-      xmp_device_pose_rotation_w: Device:Pose Rotation W
-      xmp_device_pose_rotation_x: Device:Pose Rotation X
-      xmp_device_pose_rotation_y: Device:Pose Rotation Y
-      xmp_device_pose_rotation_z: Device:Pose Rotation Z
-      xmp_device_pose_timestamp: Device:Pose Timestamp
-      xmp_device_profile_camera_indices: Device:Profile Camera Indices
-      xmp_device_profile_type: Device:Profile Type
-      xmp_device_vendor_info_manufacturer: Device:Vendor Info Manufacturer
-      xmp_device_vendor_info_model: Device:Vendor Info Model
-      xmp_device_vendor_info_notes: Device:Vendor Info Notes
-      xmp_cc_attribution_name: cc:Attribution Name
-      xmp_cc_attribution_url: cc:Attribution URL
-      xmp_cc_deprecated_on: cc:Deprecated On
-      xmp_cc_jurisdiction: cc:Jurisdiction
-      xmp_cc_legal_code: cc:Legal Code
-      xmp_cc_license: cc:License
-      xmp_cc_more_permissions: cc:More Permissions
-      xmp_cc_permits: cc:Permits
+      xmp_fwc_custom_field_1: Custom Field 1
+      xmp_fwc_custom_field_10: Custom Field 10
+      xmp_fwc_custom_field_11: Custom Field 11
+      xmp_fwc_custom_field_12: Custom Field 12
+      xmp_fwc_custom_field_13: Custom Field 13
+      xmp_fwc_custom_field_14: Custom Field 14
+      xmp_fwc_custom_field_15: Custom Field 15
+      xmp_fwc_custom_field_16: Custom Field 16
+      xmp_fwc_custom_field_17: Custom Field 17
+      xmp_fwc_custom_field_18: Custom Field 18
+      xmp_fwc_custom_field_19: Custom Field 19
+      xmp_fwc_custom_field_2: Custom Field 2
+      xmp_fwc_custom_field_20: Custom Field 20
+      xmp_fwc_custom_field_3: Custom Field 3
+      xmp_fwc_custom_field_4: Custom Field 4
+      xmp_fwc_custom_field_5: Custom Field 5
+      xmp_fwc_custom_field_6: Custom Field 6
+      xmp_fwc_custom_field_7: Custom Field 7
+      xmp_fwc_custom_field_8: Custom Field 8
+      xmp_fwc_custom_field_9: Custom Field 9
+      xmp_device_app_info_application: App Info Application
+      xmp_device_app_info_item_uri: App Info Item URI
+      xmp_device_app_info_version: App Info Version
+      xmp_device_camera_app_info_application: Camera App Info Application
+      xmp_device_camera_app_info_item_uri: Camera App Info Item URI
+      xmp_device_camera_app_info_version: Camera App Info Version
+      xmp_device_camera_depth_map_confidence_uri: Camera Depth Map Confidence URI
+      xmp_device_camera_depth_map_depth_uri: Camera Depth Map Depth URI
+      xmp_device_camera_depth_map_far: Camera Depth Map Far
+      xmp_device_camera_depth_map_focal_table: Camera Depth Map Focal Table
+      xmp_device_camera_depth_map_focal_table_entry_count: Camera Depth Map Focal Table Entry Count
+      xmp_device_camera_depth_map_format: Camera Depth Map Format
+      xmp_device_camera_depth_map_item_semantic: Camera Depth Map Item Semantic
+      xmp_device_camera_depth_map_measure_type: Camera Depth Map Measure Type
+      xmp_device_camera_depth_map_near: Camera Depth Map Near
+      xmp_device_camera_depth_map_software: Camera Depth Map Software
+      xmp_device_camera_depth_map_units: Camera Depth Map Units
+      xmp_device_camera_image_item_semantic: Camera Image Item Semantic
+      xmp_device_camera_image_item_uri: Camera Image Item URI
+      xmp_device_camera_imaging_model_distortion: Camera Imaging Model Distortion
+      xmp_device_camera_imaging_model_distortion_count: Camera Imaging Model Distortion Count
+      xmp_device_camera_imaging_model_focal_length_x: Camera Imaging Model Focal Length X
+      xmp_device_camera_imaging_model_focal_length_y: Camera Imaging Model Focal Length Y
+      xmp_device_camera_imaging_model_image_height: Camera Imaging Model Image Height
+      xmp_device_camera_imaging_model_image_width: Camera Imaging Model Image Width
+      xmp_device_camera_imaging_model_pixel_aspect_ratio: Camera Imaging Model Pixel Aspect Ratio
+      xmp_device_camera_imaging_model_principal_point_x: Camera Imaging Model Principal Point X
+      xmp_device_camera_imaging_model_principal_point_y: Camera Imaging Model Principal Point Y
+      xmp_device_camera_imaging_model_skew: Camera Imaging Model Skew
+      xmp_device_camera_light_estimate_color_correction_b: Camera Light Estimate Color Correction B
+      xmp_device_camera_light_estimate_color_correction_g: Camera Light Estimate Color Correction G
+      xmp_device_camera_light_estimate_color_correction_r: Camera Light Estimate Color Correction R
+      xmp_device_camera_light_estimate_pixel_intensity: Camera Light Estimate Pixel Intensity
+      xmp_device_camera_point_cloud_metric: Camera Point Cloud Metric
+      xmp_device_camera_point_cloud_point_cloud: Camera Point Cloud Point Cloud
+      xmp_device_camera_point_cloud_points: Camera Point Cloud Points
+      xmp_device_camera_pose_position_x: Camera Pose Position X
+      xmp_device_camera_pose_position_y: Camera Pose Position Y
+      xmp_device_camera_pose_position_z: Camera Pose Position Z
+      xmp_device_camera_pose_rotation_w: Camera Pose Rotation W
+      xmp_device_camera_pose_rotation_x: Camera Pose Rotation X
+      xmp_device_camera_pose_rotation_y: Camera Pose Rotation Y
+      xmp_device_camera_pose_rotation_z: Camera Pose Rotation Z
+      xmp_device_camera_pose_timestamp: Camera Pose Timestamp
+      xmp_device_camera_trait: Camera Trait
+      xmp_device_camera_vendor_info_manufacturer: Camera Vendor Info Manufacturer
+      xmp_device_camera_vendor_info_model: Camera Vendor Info Model
+      xmp_device_camera_vendor_info_notes: Camera Vendor Info Notes
+      xmp_device_container_directory_item_data_uri: Container Directory Item Data URI
+      xmp_device_container_directory_item_length: Container Directory Item Length
+      xmp_device_container_directory_item_mime: Container Directory Item Mime
+      xmp_device_container_directory_item_padding: Container Directory Item Padding
+      xmp_device_earth_pos_altitude: Earth Pos Altitude
+      xmp_device_earth_pos_latitude: Earth Pos Latitude
+      xmp_device_earth_pos_longitude: Earth Pos Longitude
+      xmp_device_earth_pos_rotation_w: Earth Pos Rotation W
+      xmp_device_earth_pos_rotation_x: Earth Pos Rotation X
+      xmp_device_earth_pos_rotation_y: Earth Pos Rotation Y
+      xmp_device_earth_pos_rotation_z: Earth Pos Rotation Z
+      xmp_device_earth_pos_timestamp: Earth Pos Timestamp
+      xmp_device_plane_boundary: Plane Boundary
+      xmp_device_plane_boundary_vertex_count: Plane Boundary Vertex Count
+      xmp_device_plane_extent_x: Plane Extent X
+      xmp_device_plane_extent_z: Plane Extent Z
+      xmp_device_plane_pose_position_x: Plane Pose Position X
+      xmp_device_plane_pose_position_y: Plane Pose Position Y
+      xmp_device_plane_pose_position_z: Plane Pose Position Z
+      xmp_device_plane_pose_rotation_w: Plane Pose Rotation W
+      xmp_device_plane_pose_rotation_x: Plane Pose Rotation X
+      xmp_device_plane_pose_rotation_y: Plane Pose Rotation Y
+      xmp_device_plane_pose_rotation_z: Plane Pose Rotation Z
+      xmp_device_plane_pose_timestamp: Plane Pose Timestamp
+      xmp_device_pose_position_x: Pose Position X
+      xmp_device_pose_position_y: Pose Position Y
+      xmp_device_pose_position_z: Pose Position Z
+      xmp_device_pose_rotation_w: Pose Rotation W
+      xmp_device_pose_rotation_x: Pose Rotation X
+      xmp_device_pose_rotation_y: Pose Rotation Y
+      xmp_device_pose_rotation_z: Pose Rotation Z
+      xmp_device_pose_timestamp: Pose Timestamp
+      xmp_device_profile_camera_indices: Profile Camera Indices
+      xmp_device_profile_type: Profile Type
+      xmp_device_vendor_info_manufacturer: Vendor Info Manufacturer
+      xmp_device_vendor_info_model: Vendor Info Model
+      xmp_device_vendor_info_notes: Vendor Info Notes
+      xmp_cc_attribution_name: Attribution Name
+      xmp_cc_attribution_url: Attribution URL
+      xmp_cc_deprecated_on: Deprecated On
+      xmp_cc_jurisdiction: Jurisdiction
+      xmp_cc_legal_code: Legal Code
+      xmp_cc_license: License
+      xmp_cc_more_permissions: More Permissions
+      xmp_cc_permits: Permits
       xmp_cc_permits_values:
         derivative_works: Derivative Works
         distribution: Distribution
         reproduction: Reproduction
         sharing: Sharing
-      xmp_cc_prohibits: cc:Prohibits
+      xmp_cc_prohibits: Prohibits
       xmp_cc_prohibits_values:
         commercial_use: Commercial Use
         high_income_nation_use: High Income Nation Use
-      xmp_cc_requires: cc:Requires
+      xmp_cc_requires: Requires
       xmp_cc_requires_values:
         attribution: Attribution
         copyleft: Copyleft
@@ -826,33 +826,33 @@ en:
         notice: Notice
         share_alike: Share Alike
         source_code: Source Code
-      xmp_cc_use_guidelines: cc:Use Guidelines
-      xmp_dc_contributor: dc:Contributor
-      xmp_dc_coverage: dc:Coverage
-      xmp_dc_creator: dc:Creator
-      xmp_dc_date: dc:Date
-      xmp_dc_description: dc:Description
-      xmp_dc_format: dc:Format
-      xmp_dc_identifier: dc:Identifier
-      xmp_dc_language: dc:Language
-      xmp_dc_publisher: dc:Publisher
-      xmp_dc_relation: dc:Relation
-      xmp_dc_rights: dc:Rights
-      xmp_dc_source: dc:Source
-      xmp_dc_subject: dc:Subject
-      xmp_dc_title: dc:Title
-      xmp_dc_type: dc:Type
-      xmp_exif_aperture_value: exif:Aperture Value
-      xmp_exif_brightness_value: exif:Brightness Value
-      xmp_exif_cfa_pattern_columns: exif:CFA Pattern Columns
-      xmp_exif_cfa_pattern_rows: exif:CFA Pattern Rows
-      xmp_exif_cfa_pattern_values: exif:CFA Pattern Values
-      xmp_exif_color_space: exif:Color Space
+      xmp_cc_use_guidelines: Use Guidelines
+      xmp_dc_contributor: Contributor
+      xmp_dc_coverage: Coverage
+      xmp_dc_creator: Creator
+      xmp_dc_date: Date
+      xmp_dc_description: Description
+      xmp_dc_format: Format
+      xmp_dc_identifier: Identifier
+      xmp_dc_language: Language
+      xmp_dc_publisher: Publisher
+      xmp_dc_relation: Relation
+      xmp_dc_rights: Rights
+      xmp_dc_source: Source
+      xmp_dc_subject: Subject
+      xmp_dc_title: Title
+      xmp_dc_type: Type
+      xmp_exif_aperture_value: Aperture Value
+      xmp_exif_brightness_value: Brightness Value
+      xmp_exif_cfa_pattern_columns: CFA Pattern Columns
+      xmp_exif_cfa_pattern_rows: CFA Pattern Rows
+      xmp_exif_cfa_pattern_values: CFA Pattern Values
+      xmp_exif_color_space: Color Space
       xmp_exif_color_space_values:
         s_rgb: sRGB
         adobe_rgb: Adobe RGB
         uncalibrated: Uncalibrated
-      xmp_exif_components_configuration: exif:Components Configuration
+      xmp_exif_components_configuration: Components Configuration
       xmp_exif_components_configuration_values:
         '': '-'
         'y': 'Y'
@@ -861,31 +861,31 @@ en:
         r: R
         g: G
         b: B
-      xmp_exif_compressed_bits_per_pixel: exif:Compressed Bits Per Pixel
-      xmp_exif_contrast: exif:Contrast
+      xmp_exif_compressed_bits_per_pixel: Compressed Bits Per Pixel
+      xmp_exif_contrast: Contrast
       xmp_exif_contrast_values:
         normal: Normal
         low: Low
         high: High
-      xmp_exif_custom_rendered: exif:Custom Rendered
+      xmp_exif_custom_rendered: Custom Rendered
       xmp_exif_custom_rendered_values:
         normal: Normal
         custom: Custom
-      xmp_exif_date_time_digitized: exif:Date/Time Digitized
-      xmp_exif_date_time_original: exif:Date/Time Original
-      xmp_exif_device_setting_description_columns: exif:Device Setting Description Columns
-      xmp_exif_device_setting_description_rows: exif:Device Setting Description Rows
-      xmp_exif_device_setting_description_settings: exif:Device Setting Description Settings
-      xmp_exif_digital_zoom_ratio: exif:Digital Zoom Ratio
-      xmp_exif_exif_version: exif:Exif Version
-      xmp_exif_exposure_compensation: exif:Exposure Compensation
-      xmp_exif_exposure_index: exif:Exposure Index
-      xmp_exif_exposure_mode: exif:Exposure Mode
+      xmp_exif_date_time_digitized: Date/Time Digitized
+      xmp_exif_date_time_original: Date/Time Original
+      xmp_exif_device_setting_description_columns: Device Setting Description Columns
+      xmp_exif_device_setting_description_rows: Device Setting Description Rows
+      xmp_exif_device_setting_description_settings: Device Setting Description Settings
+      xmp_exif_digital_zoom_ratio: Digital Zoom Ratio
+      xmp_exif_exif_version: Exif Version
+      xmp_exif_exposure_compensation: Exposure Compensation
+      xmp_exif_exposure_index: Exposure Index
+      xmp_exif_exposure_mode: Exposure Mode
       xmp_exif_exposure_mode_values:
         auto: Auto
         manual: Manual
         auto_bracket: Auto bracket
-      xmp_exif_exposure_program: exif:Exposure Program
+      xmp_exif_exposure_program: Exposure Program
       xmp_exif_exposure_program_values:
         not_defined: Not Defined
         manual: Manual
@@ -896,115 +896,115 @@ en:
         action_high_speed: Action (High speed)
         portrait: Portrait
         landscape: Landscape
-      xmp_exif_exposure_time: exif:Exposure Time
-      xmp_exif_file_source: exif:File Source
+      xmp_exif_exposure_time: Exposure Time
+      xmp_exif_file_source: File Source
       xmp_exif_file_source_values:
         film_scanner: Film Scanner
         reflection_print_scanner: Reflection Print Scanner
         digital_camera: Digital Camera
-      xmp_exif_flash_energy: exif:Flash Energy
-      xmp_exif_flash_fired: exif:Flash Fired
+      xmp_exif_flash_energy: Flash Energy
+      xmp_exif_flash_fired: Flash Fired
       xmp_exif_flash_fired_values:
         'false': 'False'
         'true': 'True'
-      xmp_exif_flash_function: exif:Flash Function
+      xmp_exif_flash_function: Flash Function
       xmp_exif_flash_function_values:
         'false': 'False'
         'true': 'True'
-      xmp_exif_flash_mode: exif:Flash Mode
+      xmp_exif_flash_mode: Flash Mode
       xmp_exif_flash_mode_values:
         unknown: Unknown
         'on': 'On'
         'off': 'Off'
         auto: Auto
-      xmp_exif_flashpix_version: exif:Flashpix Version
-      xmp_exif_flash_red_eye_mode: exif:Flash Red Eye Mode
+      xmp_exif_flashpix_version: Flashpix Version
+      xmp_exif_flash_red_eye_mode: Flash Red Eye Mode
       xmp_exif_flash_red_eye_mode_values:
         'false': 'False'
         'true': 'True'
-      xmp_exif_flash_return: exif:Flash Return
+      xmp_exif_flash_return: Flash Return
       xmp_exif_flash_return_values:
         no_return_detection: No return detection
         return_not_detected: Return not detected
         return_detected: Return detected
-      xmp_exif_f_number: exif:F Number
-      xmp_exif_focal_length: exif:Focal Length
-      xmp_exif_focal_length_in_35_mm_format: exif:Focal Length In 35mm Format
-      xmp_exif_focal_plane_resolution_unit: exif:Focal Plane Resolution Unit
+      xmp_exif_f_number: F Number
+      xmp_exif_focal_length: Focal Length
+      xmp_exif_focal_length_in_35_mm_format: Focal Length In 35mm Format
+      xmp_exif_focal_plane_resolution_unit: Focal Plane Resolution Unit
       xmp_exif_focal_plane_resolution_unit_values:
         none: None
         inches: inches
         cm: cm
         mm: mm
         um: um
-      xmp_exif_focal_plane_x_resolution: exif:Focal Plane X Resolution
-      xmp_exif_focal_plane_y_resolution: exif:Focal Plane Y Resolution
-      xmp_exif_gain_control: exif:Gain Control
+      xmp_exif_focal_plane_x_resolution: Focal Plane X Resolution
+      xmp_exif_focal_plane_y_resolution: Focal Plane Y Resolution
+      xmp_exif_gain_control: Gain Control
       xmp_exif_gain_control_values:
         none: None
         low_gain_up: Low gain up
         high_gain_up: High gain up
         low_gain_down: Low gain down
         high_gain_down: High gain down
-      xmp_exif_gps_altitude: exif:GPS Altitude
-      xmp_exif_gps_altitude_ref: exif:GPS Altitude Ref
+      xmp_exif_gps_altitude: GPS Altitude
+      xmp_exif_gps_altitude_ref: GPS Altitude Ref
       xmp_exif_gps_altitude_ref_values:
         above_sea_level: Above Sea Level
         below_sea_level: Below Sea Level
-      xmp_exif_gps_area_information: exif:GPS Area Information
-      xmp_exif_gps_dest_bearing: exif:GPS Dest Bearing
-      xmp_exif_gps_dest_bearing_ref: exif:GPS Dest Bearing Ref
+      xmp_exif_gps_area_information: GPS Area Information
+      xmp_exif_gps_dest_bearing: GPS Dest Bearing
+      xmp_exif_gps_dest_bearing_ref: GPS Dest Bearing Ref
       xmp_exif_gps_dest_bearing_ref_values:
         magnetic_north: Magnetic North
         true_north: True North
-      xmp_exif_gps_dest_distance: exif:GPS Dest Distance
-      xmp_exif_gps_dest_distance_ref: exif:GPS Dest Distance Ref
+      xmp_exif_gps_dest_distance: GPS Dest Distance
+      xmp_exif_gps_dest_distance_ref: GPS Dest Distance Ref
       xmp_exif_gps_dest_distance_ref_values:
         kilometers: Kilometers
         miles: Miles
         nautical_miles: Nautical Miles
-      xmp_exif_gps_dest_latitude: exif:GPS Dest Latitude
-      xmp_exif_gps_dest_longitude: exif:GPS Dest Longitude
-      xmp_exif_gps_differential: exif:GPS Differential
+      xmp_exif_gps_dest_latitude: GPS Dest Latitude
+      xmp_exif_gps_dest_longitude: GPS Dest Longitude
+      xmp_exif_gps_differential: GPS Differential
       xmp_exif_gps_differential_values:
         no_correction: No Correction
         differential_corrected: Differential Corrected
-      xmp_exif_gpsdop: exif:GPSDOP
-      xmp_exif_gpsh_positioning_error: exif:GPS Horizontal Positioning Error
-      xmp_exif_gps_img_direction: exif:GPS Img Direction
-      xmp_exif_gps_img_direction_ref: exif:GPS Img Direction Ref
+      xmp_exif_gpsdop: GPSDOP
+      xmp_exif_gpsh_positioning_error: GPS Horizontal Positioning Error
+      xmp_exif_gps_img_direction: GPS Img Direction
+      xmp_exif_gps_img_direction_ref: GPS Img Direction Ref
       xmp_exif_gps_img_direction_ref_values:
         magnetic_north: Magnetic North
         true_north: True North
-      xmp_exif_gps_latitude: exif:GPS Latitude
-      xmp_exif_gps_longitude: exif:GPS Longitude
-      xmp_exif_gps_map_datum: exif:GPS Map Datum
-      xmp_exif_gps_measure_mode: exif:GPS Measure Mode
+      xmp_exif_gps_latitude: GPS Latitude
+      xmp_exif_gps_longitude: GPS Longitude
+      xmp_exif_gps_map_datum: GPS Map Datum
+      xmp_exif_gps_measure_mode: GPS Measure Mode
       xmp_exif_gps_measure_mode_values:
         2_dimensional: 2-Dimensional
         3_dimensional: 3-Dimensional
-      xmp_exif_gps_processing_method: exif:GPS Processing Method
-      xmp_exif_gps_satellites: exif:GPS Satellites
-      xmp_exif_gps_speed: exif:GPS Speed
-      xmp_exif_gps_speed_ref: exif:GPS Speed Ref
+      xmp_exif_gps_processing_method: GPS Processing Method
+      xmp_exif_gps_satellites: GPS Satellites
+      xmp_exif_gps_speed: GPS Speed
+      xmp_exif_gps_speed_ref: GPS Speed Ref
       xmp_exif_gps_speed_ref_values:
         km_h: km/h
         mph: mph
         knots: knots
-      xmp_exif_gps_status: exif:GPS Status
+      xmp_exif_gps_status: GPS Status
       xmp_exif_gps_status_values:
         measurement_active: Measurement Active
         measurement_void: Measurement Void
-      xmp_exif_gps_date_time: exif:GPS Date/Time
-      xmp_exif_gps_track: exif:GPS Track
-      xmp_exif_gps_track_ref: exif:GPS Track Ref
+      xmp_exif_gps_date_time: GPS Date/Time
+      xmp_exif_gps_track: GPS Track
+      xmp_exif_gps_track_ref: GPS Track Ref
       xmp_exif_gps_track_ref_values:
         magnetic_north: Magnetic North
         true_north: True North
-      xmp_exif_gps_version_id: exif:GPS Version ID
-      xmp_exif_image_unique_id: exif:Image Unique ID
-      xmp_exif_iso: exif:ISO
-      xmp_exif_light_source: exif:Light Source
+      xmp_exif_gps_version_id: GPS Version ID
+      xmp_exif_image_unique_id: Image Unique ID
+      xmp_exif_iso: ISO
+      xmp_exif_light_source: Light Source
       xmp_exif_light_source_values:
         unknown: Unknown
         daylight: Daylight
@@ -1028,9 +1028,9 @@ en:
         d_50: D50
         iso_studio_tungsten: ISO Studio Tungsten
         other: Other
-      xmp_exif_maker_note: exif:Maker Note
-      xmp_exif_max_aperture_value: exif:Max Aperture Value
-      xmp_exif_metering_mode: exif:Metering Mode
+      xmp_exif_maker_note: Maker Note
+      xmp_exif_max_aperture_value: Max Aperture Value
+      xmp_exif_metering_mode: Metering Mode
       xmp_exif_metering_mode_values:
         average: Average
         center_weighted_average: Center-weighted average
@@ -1039,29 +1039,29 @@ en:
         multi_segment: Multi-segment
         partial: Partial
         other: Other
-      xmp_exif_native_digest: exif:Native Digest
-      xmp_exif_oecf_columns: exif:OECF Columns
-      xmp_exif_oecf_names: exif:OECF Names
-      xmp_exif_oecf_rows: exif:OECF Rows
-      xmp_exif_oecf_values: exif:OECF Values
-      xmp_exif_exif_image_width: exif:Exif Image Width
-      xmp_exif_exif_image_height: exif:Exif Image Height
-      xmp_exif_related_sound_file: exif:Related Sound File
-      xmp_exif_saturation: exif:Saturation
+      xmp_exif_native_digest: Native Digest
+      xmp_exif_oecf_columns: OECF Columns
+      xmp_exif_oecf_names: OECF Names
+      xmp_exif_oecf_rows: OECF Rows
+      xmp_exif_oecf_values: OECF Values
+      xmp_exif_exif_image_width: Exif Image Width
+      xmp_exif_exif_image_height: Exif Image Height
+      xmp_exif_related_sound_file: Related Sound File
+      xmp_exif_saturation: Saturation
       xmp_exif_saturation_values:
         normal: Normal
         low: Low
         high: High
-      xmp_exif_scene_capture_type: exif:Scene Capture Type
+      xmp_exif_scene_capture_type: Scene Capture Type
       xmp_exif_scene_capture_type_values:
         standard: Standard
         landscape: Landscape
         portrait: Portrait
         night: Night
-      xmp_exif_scene_type: exif:Scene Type
+      xmp_exif_scene_type: Scene Type
       xmp_exif_scene_type_values:
         directly_photographed: Directly photographed
-      xmp_exif_sensing_method: exif:Sensing Method
+      xmp_exif_sensing_method: Sensing Method
       xmp_exif_sensing_method_values:
         monochrome_area: Monochrome area
         one_chip_color_area: One-chip color area
@@ -1071,70 +1071,70 @@ en:
         monochrome_linear: Monochrome linear
         trilinear: Trilinear
         color_sequential_linear: Color sequential linear
-      xmp_exif_sharpness: exif:Sharpness
+      xmp_exif_sharpness: Sharpness
       xmp_exif_sharpness_values:
         normal: Normal
         soft: Soft
         hard: Hard
-      xmp_exif_shutter_speed_value: exif:Shutter Speed Value
-      xmp_exif_spatial_frequency_response_columns: exif:Spatial Frequency Response Columns
-      xmp_exif_spatial_frequency_response_names: exif:Spatial Frequency Response Names
-      xmp_exif_spatial_frequency_response_rows: exif:Spatial Frequency Response Rows
-      xmp_exif_spatial_frequency_response_values: exif:Spatial Frequency Response Values
-      xmp_exif_spectral_sensitivity: exif:Spectral Sensitivity
-      xmp_exif_subject_area: exif:Subject Area
-      xmp_exif_subject_distance: exif:Subject Distance
-      xmp_exif_subject_distance_range: exif:Subject Distance Range
+      xmp_exif_shutter_speed_value: Shutter Speed Value
+      xmp_exif_spatial_frequency_response_columns: Spatial Frequency Response Columns
+      xmp_exif_spatial_frequency_response_names: Spatial Frequency Response Names
+      xmp_exif_spatial_frequency_response_rows: Spatial Frequency Response Rows
+      xmp_exif_spatial_frequency_response_values: Spatial Frequency Response Values
+      xmp_exif_spectral_sensitivity: Spectral Sensitivity
+      xmp_exif_subject_area: Subject Area
+      xmp_exif_subject_distance: Subject Distance
+      xmp_exif_subject_distance_range: Subject Distance Range
       xmp_exif_subject_distance_range_values:
         unknown: Unknown
         macro: Macro
         close: Close
         distant: Distant
-      xmp_exif_subject_location: exif:Subject Location
-      xmp_exif_user_comment: exif:User Comment
-      xmp_exif_white_balance: exif:White Balance
+      xmp_exif_subject_location: Subject Location
+      xmp_exif_user_comment: User Comment
+      xmp_exif_white_balance: White Balance
       xmp_exif_white_balance_values:
         auto: Auto
         manual: Manual
-      xmp_exif_ex_acceleration: exifEX:Acceleration
-      xmp_exif_ex_serial_number: exifEX:Serial Number
-      xmp_exif_ex_camera_elevation_angle: exifEX:Camera Elevation Angle
-      xmp_exif_ex_owner_name: exifEX:Owner Name
-      xmp_exif_ex_composite_image: exifEX:Composite Image
+      xmp_exif_ex_acceleration: Acceleration
+      xmp_exif_ex_serial_number: Serial Number
+      xmp_exif_ex_camera_elevation_angle: Camera Elevation Angle
+      xmp_exif_ex_owner_name: Owner Name
+      xmp_exif_ex_composite_image: Composite Image
       xmp_exif_ex_composite_image_values:
         unknown: Unknown
         not_a_composite_image: Not a Composite Image
         general_composite_image: General Composite Image
         composite_image_captured_while_shooting: Composite Image Captured While Shooting
-      xmp_exif_ex_composite_image_count: exifEX:Composite Image Count
-      xmp_exif_ex_comp_image_max_exposure_all: exifEX:Comp Image Max Exposure All
-      xmp_exif_ex_comp_image_max_exposure_used: exifEX:Comp Image Max Exposure Used
-      xmp_exif_ex_comp_image_min_exposure_all: exifEX:Comp Image Min Exposure All
-      xmp_exif_ex_comp_image_min_exposure_used: exifEX:Comp Image Min Exposure Used
-      xmp_exif_ex_comp_image_images_per_sequence: exifEX:Comp Image Images Per Sequence
-      xmp_exif_ex_comp_image_num_sequences: exifEX:Comp Image Num Sequences
-      xmp_exif_ex_comp_image_sum_exposure_all: exifEX:Comp Image Sum Exposure All
-      xmp_exif_ex_comp_image_sum_exposure_used: exifEX:Comp Image Sum Exposure Used
-      xmp_exif_ex_comp_image_total_exposure_period: exifEX:Comp Image Total Exposure Period
-      xmp_exif_ex_comp_image_values: exifEX:Comp Image Values
-      xmp_exif_ex_gamma: exifEX:Gamma
-      xmp_exif_ex_humidity: exifEX:Humidity
-      xmp_exif_ex_interop_index: exifEX:Interoperability Index
+      xmp_exif_ex_composite_image_count: Composite Image Count
+      xmp_exif_ex_comp_image_max_exposure_all: Comp Image Max Exposure All
+      xmp_exif_ex_comp_image_max_exposure_used: Comp Image Max Exposure Used
+      xmp_exif_ex_comp_image_min_exposure_all: Comp Image Min Exposure All
+      xmp_exif_ex_comp_image_min_exposure_used: Comp Image Min Exposure Used
+      xmp_exif_ex_comp_image_images_per_sequence: Comp Image Images Per Sequence
+      xmp_exif_ex_comp_image_num_sequences: Comp Image Num Sequences
+      xmp_exif_ex_comp_image_sum_exposure_all: Comp Image Sum Exposure All
+      xmp_exif_ex_comp_image_sum_exposure_used: Comp Image Sum Exposure Used
+      xmp_exif_ex_comp_image_total_exposure_period: Comp Image Total Exposure Period
+      xmp_exif_ex_comp_image_values: Comp Image Values
+      xmp_exif_ex_gamma: Gamma
+      xmp_exif_ex_humidity: Humidity
+      xmp_exif_ex_interop_index: Interoperability Index
       xmp_exif_ex_interop_index_values:
         r_03_dcf_option_file_adobe_rgb: R03 - DCF option file (Adobe RGB)
         r_98_dcf_basic_file_s_rgb: R98 - DCF basic file (sRGB)
         thm_dcf_thumbnail_file: THM - DCF thumbnail file
-      xmp_exif_ex_iso_speed: exifEX:ISO Speed
-      xmp_exif_ex_iso_speed_latitudeyyy: exifEX:ISO Speed Latitude yyy
-      xmp_exif_ex_iso_speed_latitudezzz: exifEX:ISO Speed Latitude zzz
-      xmp_exif_ex_lens_make: exifEX:Lens Make
-      xmp_exif_ex_lens_model: exifEX:Lens Model
-      xmp_exif_ex_lens_serial_number: exifEX:Lens Serial Number
-      xmp_exif_ex_lens_info: exifEX:Lens Info
-      xmp_exif_ex_photographic_sensitivity: exifEX:Photographic Sensitivity
-      xmp_exif_ex_pressure: exifEX:Pressure
-      xmp_exif_ex_recommended_exposure_index: exifEX:Recommended Exposure Index
-      xmp_exif_ex_sensitivity_type: exifEX:Sensitivity Type
+      xmp_exif_ex_iso_speed: ISO Speed
+      xmp_exif_ex_iso_speed_latitudeyyy: ISO Speed Latitude yyy
+      xmp_exif_ex_iso_speed_latitudezzz: ISO Speed Latitude zzz
+      xmp_exif_ex_lens_make: Lens Make
+      xmp_exif_ex_lens_model: Lens Model
+      xmp_exif_ex_lens_serial_number: Lens Serial Number
+      xmp_exif_ex_lens_info: Lens Info
+      xmp_exif_ex_photographic_sensitivity: Photographic Sensitivity
+      xmp_exif_ex_pressure: Pressure
+      xmp_exif_ex_recommended_exposure_index: Recommended Exposure Index
+      xmp_exif_ex_sensitivity_type: Sensitivity Type
       xmp_exif_ex_sensitivity_type_values:
         unknown: Unknown
         standard_output_sensitivity: Standard Output Sensitivity
@@ -1144,225 +1144,225 @@ en:
         standard_output_sensitivity_and_iso_speed: Standard Output Sensitivity and ISO Speed
         recommended_exposure_index_and_iso_speed: Recommended Exposure Index and ISO Speed
         standard_output_sensitivity_recommended_exposure_index_and_iso_speed: Standard Output Sensitivity, Recommended Exposure Index and ISO Speed
-      xmp_exif_ex_standard_output_sensitivity: exifEX:Standard Output Sensitivity
-      xmp_exif_ex_ambient_temperature: exifEX:Ambient Temperature
-      xmp_exif_ex_water_depth: exifEX:Water Depth
-      xmp_ics_app_version: ics:App Version
-      xmp_ics_image_ref: ics:Image Ref
-      xmp_ics_sub_version_file_name: ics:Sub Version File Name
-      xmp_ics_sub_version_reference: ics:Sub Version Reference
-      xmp_ics_label_name_1: ics:Label Name 1
-      xmp_ics_parent_reference_1: ics:Parent Reference 1
-      xmp_ics_reference_1: ics:Reference 1
-      xmp_ics_label_name_2: ics:Label Name 2
-      xmp_ics_parent_reference_2: ics:Parent Reference 2
-      xmp_ics_reference_2: ics:Reference 2
-      xmp_ics_label_name_3: ics:Label Name 3
-      xmp_ics_parent_reference_3: ics:Parent Reference 3
-      xmp_ics_reference_3: ics:Reference 3
-      xmp_ics_label_name_4: ics:Label Name 4
-      xmp_ics_parent_reference_4: ics:Parent Reference 4
-      xmp_ics_reference_4: ics:Reference 4
-      xmp_ics_label_name_5: ics:Label Name 5
-      xmp_ics_parent_reference_5: ics:Parent Reference 5
-      xmp_ics_reference_5: ics:Reference 5
-      xmp_ics_label_name_6: ics:Label Name 6
-      xmp_ics_parent_reference_6: ics:Parent Reference 6
-      xmp_ics_reference_6: ics:Reference 6
-      xmp_ics_time_stamp: ics:Time Stamp
-      xmp_iptc_core_country_code: iptcCore:Country Code
-      xmp_iptc_core_creator_city: iptcCore:Creator City
-      xmp_iptc_core_creator_country: iptcCore:Creator Country
-      xmp_iptc_core_creator_address: iptcCore:Creator Address
-      xmp_iptc_core_creator_postal_code: iptcCore:Creator Postal Code
-      xmp_iptc_core_creator_region: iptcCore:Creator Region
-      xmp_iptc_core_creator_work_email: iptcCore:Creator Work Email
-      xmp_iptc_core_creator_work_telephone: iptcCore:Creator Work Telephone
-      xmp_iptc_core_creator_work_url: iptcCore:Creator Work URL
-      xmp_iptc_core_intellectual_genre: iptcCore:Intellectual Genre
-      xmp_iptc_core_location: iptcCore:Location
-      xmp_iptc_core_scene: iptcCore:Scene
-      xmp_iptc_core_subject_code: iptcCore:Subject Code
-      xmp_iptc_ext_about_cv_term_cv_id: iptcExt:About Cv Term Cv Id
-      xmp_iptc_ext_about_cv_term_id: iptcExt:About Cv Term Id
-      xmp_iptc_ext_about_cv_term_name: iptcExt:About Cv Term Name
-      xmp_iptc_ext_about_cv_term_refined_about: iptcExt:About Cv Term Refined About
-      xmp_iptc_ext_additional_model_information: iptcExt:Additional Model Information
-      xmp_iptc_ext_artwork_circa_date_created: iptcExt:Artwork Circa Date Created
-      xmp_iptc_ext_artwork_content_description: iptcExt:Artwork Content Description
-      xmp_iptc_ext_artwork_contribution_description: iptcExt:Artwork Contribution Description
-      xmp_iptc_ext_artwork_copyright_notice: iptcExt:Artwork Copyright Notice
-      xmp_iptc_ext_artwork_creator: iptcExt:Artwork Creator
-      xmp_iptc_ext_artwork_creator_id: iptcExt:Artwork Creator ID
-      xmp_iptc_ext_artwork_copyright_owner_id: iptcExt:Artwork Copyright Owner ID
-      xmp_iptc_ext_artwork_copyright_owner_name: iptcExt:Artwork Copyright Owner Name
-      xmp_iptc_ext_artwork_licensor_id: iptcExt:Artwork Licensor ID
-      xmp_iptc_ext_artwork_licensor_name: iptcExt:Artwork Licensor Name
-      xmp_iptc_ext_artwork_date_created: iptcExt:Artwork Date Created
-      xmp_iptc_ext_artwork_physical_description: iptcExt:Artwork Physical Description
-      xmp_iptc_ext_artwork_source: iptcExt:Artwork Source
-      xmp_iptc_ext_artwork_source_inventory_no: iptcExt:Artwork Source Inventory No
-      xmp_iptc_ext_artwork_source_inv_url: iptcExt:Artwork Source Inv URL
-      xmp_iptc_ext_artwork_style_period: iptcExt:Artwork Style Period
-      xmp_iptc_ext_artwork_title: iptcExt:Artwork Title
-      xmp_iptc_ext_audio_bitrate: iptcExt:Audio Bitrate
-      xmp_iptc_ext_audio_bitrate_mode: iptcExt:Audio Bitrate Mode
+      xmp_exif_ex_standard_output_sensitivity: Standard Output Sensitivity
+      xmp_exif_ex_ambient_temperature: Ambient Temperature
+      xmp_exif_ex_water_depth: Water Depth
+      xmp_ics_app_version: App Version
+      xmp_ics_image_ref: Image Ref
+      xmp_ics_sub_version_file_name: Sub Version File Name
+      xmp_ics_sub_version_reference: Sub Version Reference
+      xmp_ics_label_name_1: Label Name 1
+      xmp_ics_parent_reference_1: Parent Reference 1
+      xmp_ics_reference_1: Reference 1
+      xmp_ics_label_name_2: Label Name 2
+      xmp_ics_parent_reference_2: Parent Reference 2
+      xmp_ics_reference_2: Reference 2
+      xmp_ics_label_name_3: Label Name 3
+      xmp_ics_parent_reference_3: Parent Reference 3
+      xmp_ics_reference_3: Reference 3
+      xmp_ics_label_name_4: Label Name 4
+      xmp_ics_parent_reference_4: Parent Reference 4
+      xmp_ics_reference_4: Reference 4
+      xmp_ics_label_name_5: Label Name 5
+      xmp_ics_parent_reference_5: Parent Reference 5
+      xmp_ics_reference_5: Reference 5
+      xmp_ics_label_name_6: Label Name 6
+      xmp_ics_parent_reference_6: Parent Reference 6
+      xmp_ics_reference_6: Reference 6
+      xmp_ics_time_stamp: Time Stamp
+      xmp_iptc_core_country_code: Country Code
+      xmp_iptc_core_creator_city: Creator City
+      xmp_iptc_core_creator_country: Creator Country
+      xmp_iptc_core_creator_address: Creator Address
+      xmp_iptc_core_creator_postal_code: Creator Postal Code
+      xmp_iptc_core_creator_region: Creator Region
+      xmp_iptc_core_creator_work_email: Creator Work Email
+      xmp_iptc_core_creator_work_telephone: Creator Work Telephone
+      xmp_iptc_core_creator_work_url: Creator Work URL
+      xmp_iptc_core_intellectual_genre: Intellectual Genre
+      xmp_iptc_core_location: Location
+      xmp_iptc_core_scene: Scene
+      xmp_iptc_core_subject_code: Subject Code
+      xmp_iptc_ext_about_cv_term_cv_id: About Cv Term Cv Id
+      xmp_iptc_ext_about_cv_term_id: About Cv Term Id
+      xmp_iptc_ext_about_cv_term_name: About Cv Term Name
+      xmp_iptc_ext_about_cv_term_refined_about: About Cv Term Refined About
+      xmp_iptc_ext_additional_model_information: Additional Model Information
+      xmp_iptc_ext_artwork_circa_date_created: Artwork Circa Date Created
+      xmp_iptc_ext_artwork_content_description: Artwork Content Description
+      xmp_iptc_ext_artwork_contribution_description: Artwork Contribution Description
+      xmp_iptc_ext_artwork_copyright_notice: Artwork Copyright Notice
+      xmp_iptc_ext_artwork_creator: Artwork Creator
+      xmp_iptc_ext_artwork_creator_id: Artwork Creator ID
+      xmp_iptc_ext_artwork_copyright_owner_id: Artwork Copyright Owner ID
+      xmp_iptc_ext_artwork_copyright_owner_name: Artwork Copyright Owner Name
+      xmp_iptc_ext_artwork_licensor_id: Artwork Licensor ID
+      xmp_iptc_ext_artwork_licensor_name: Artwork Licensor Name
+      xmp_iptc_ext_artwork_date_created: Artwork Date Created
+      xmp_iptc_ext_artwork_physical_description: Artwork Physical Description
+      xmp_iptc_ext_artwork_source: Artwork Source
+      xmp_iptc_ext_artwork_source_inventory_no: Artwork Source Inventory No
+      xmp_iptc_ext_artwork_source_inv_url: Artwork Source Inv URL
+      xmp_iptc_ext_artwork_style_period: Artwork Style Period
+      xmp_iptc_ext_artwork_title: Artwork Title
+      xmp_iptc_ext_audio_bitrate: Audio Bitrate
+      xmp_iptc_ext_audio_bitrate_mode: Audio Bitrate Mode
       xmp_iptc_ext_audio_bitrate_mode_values:
         fixed: Fixed
         variable: Variable
-      xmp_iptc_ext_audio_bits_per_sample: iptcExt:Audio Bits Per Sample
-      xmp_iptc_ext_audio_channel_count: iptcExt:Audio Channel Count
-      xmp_iptc_ext_circa_date_created: iptcExt:Circa Date Created
-      xmp_iptc_ext_container_format_identifier: iptcExt:Container Format Identifier
-      xmp_iptc_ext_container_format_name: iptcExt:Container Format Name
-      xmp_iptc_ext_contributor_identifier: iptcExt:Contributor Identifier
-      xmp_iptc_ext_contributor_name: iptcExt:Contributor Name
-      xmp_iptc_ext_contributor_role: iptcExt:Contributor Role
-      xmp_iptc_ext_copyright_year: iptcExt:Copyright Year
-      xmp_iptc_ext_creator_identifier: iptcExt:Creator Identifier
-      xmp_iptc_ext_creator_name: iptcExt:Creator Name
-      xmp_iptc_ext_creator_role: iptcExt:Creator Role
-      xmp_iptc_ext_controlled_vocabulary_term: iptcExt:Controlled Vocabulary Term
-      xmp_iptc_ext_data_on_screen_region_d: iptcExt:Data On Screen Region D
-      xmp_iptc_ext_data_on_screen_region_h: iptcExt:Data On Screen Region H
-      xmp_iptc_ext_data_on_screen_region_text: iptcExt:Data On Screen Region Text
-      xmp_iptc_ext_data_on_screen_region_unit: iptcExt:Data On Screen Region Unit
-      xmp_iptc_ext_data_on_screen_region_w: iptcExt:Data On Screen Region W
-      xmp_iptc_ext_data_on_screen_region_x: iptcExt:Data On Screen Region X
-      xmp_iptc_ext_data_on_screen_region_y: iptcExt:Data On Screen Region Y
-      xmp_iptc_ext_digital_image_guid: iptcExt:Digital Image GUID
-      xmp_iptc_ext_digital_source_file_type: iptcExt:Digital Source File Type
-      xmp_iptc_ext_digital_source_type: iptcExt:Digital Source Type
-      xmp_iptc_ext_dopesheet: iptcExt:Dopesheet
-      xmp_iptc_ext_dopesheet_link_link: iptcExt:Dopesheet Link Link
-      xmp_iptc_ext_dopesheet_link_link_qualifier: iptcExt:Dopesheet Link Link Qualifier
-      xmp_iptc_ext_embedded_encoded_rights_expr: iptcExt:Embedded Encoded Rights Expr
-      xmp_iptc_ext_embedded_encoded_rights_expr_type: iptcExt:Embedded Encoded Rights Expr Type
-      xmp_iptc_ext_embedded_encoded_rights_expr_lang_id: iptcExt:Embedded Encoded Rights Expr Lang ID
-      xmp_iptc_ext_episode_identifier: iptcExt:Episode Identifier
-      xmp_iptc_ext_episode_name: iptcExt:Episode Name
-      xmp_iptc_ext_episode_number: iptcExt:Episode Number
-      xmp_iptc_ext_event: iptcExt:Event
-      xmp_iptc_ext_shown_event_identifier: iptcExt:Shown Event Identifier
-      xmp_iptc_ext_shown_event_name: iptcExt:Shown Event Name
-      xmp_iptc_ext_external_metadata_link: iptcExt:External Metadata Link
-      xmp_iptc_ext_feed_identifier: iptcExt:Feed Identifier
-      xmp_iptc_ext_genre_cv_id: iptcExt:Genre Cv Id
-      xmp_iptc_ext_genre_cv_term_id: iptcExt:Genre Cv Term Id
-      xmp_iptc_ext_genre_cv_term_name: iptcExt:Genre Cv Term Name
-      xmp_iptc_ext_genre_cv_term_refined_about: iptcExt:Genre Cv Term Refined About
-      xmp_iptc_ext_headline: iptcExt:Headline
-      xmp_iptc_ext_image_region_name: iptcExt:Image Region Name
-      xmp_iptc_ext_image_region_ctype_identifier: iptcExt:Image Region Ctype Identifier
-      xmp_iptc_ext_image_region_ctype_name: iptcExt:Image Region Ctype Name
-      xmp_iptc_ext_image_region_boundary_h: iptcExt:Image Region Boundary H
-      xmp_iptc_ext_image_region_boundary_rx: iptcExt:Image Region Boundary Rx
-      xmp_iptc_ext_image_region_boundary_shape: iptcExt:Image Region Boundary Shape
+      xmp_iptc_ext_audio_bits_per_sample: Audio Bits Per Sample
+      xmp_iptc_ext_audio_channel_count: Audio Channel Count
+      xmp_iptc_ext_circa_date_created: Circa Date Created
+      xmp_iptc_ext_container_format_identifier: Container Format Identifier
+      xmp_iptc_ext_container_format_name: Container Format Name
+      xmp_iptc_ext_contributor_identifier: Contributor Identifier
+      xmp_iptc_ext_contributor_name: Contributor Name
+      xmp_iptc_ext_contributor_role: Contributor Role
+      xmp_iptc_ext_copyright_year: Copyright Year
+      xmp_iptc_ext_creator_identifier: Creator Identifier
+      xmp_iptc_ext_creator_name: Creator Name
+      xmp_iptc_ext_creator_role: Creator Role
+      xmp_iptc_ext_controlled_vocabulary_term: Controlled Vocabulary Term
+      xmp_iptc_ext_data_on_screen_region_d: Data On Screen Region D
+      xmp_iptc_ext_data_on_screen_region_h: Data On Screen Region H
+      xmp_iptc_ext_data_on_screen_region_text: Data On Screen Region Text
+      xmp_iptc_ext_data_on_screen_region_unit: Data On Screen Region Unit
+      xmp_iptc_ext_data_on_screen_region_w: Data On Screen Region W
+      xmp_iptc_ext_data_on_screen_region_x: Data On Screen Region X
+      xmp_iptc_ext_data_on_screen_region_y: Data On Screen Region Y
+      xmp_iptc_ext_digital_image_guid: Digital Image GUID
+      xmp_iptc_ext_digital_source_file_type: Digital Source File Type
+      xmp_iptc_ext_digital_source_type: Digital Source Type
+      xmp_iptc_ext_dopesheet: Dopesheet
+      xmp_iptc_ext_dopesheet_link_link: Dopesheet Link Link
+      xmp_iptc_ext_dopesheet_link_link_qualifier: Dopesheet Link Link Qualifier
+      xmp_iptc_ext_embedded_encoded_rights_expr: Embedded Encoded Rights Expr
+      xmp_iptc_ext_embedded_encoded_rights_expr_type: Embedded Encoded Rights Expr Type
+      xmp_iptc_ext_embedded_encoded_rights_expr_lang_id: Embedded Encoded Rights Expr Lang ID
+      xmp_iptc_ext_episode_identifier: Episode Identifier
+      xmp_iptc_ext_episode_name: Episode Name
+      xmp_iptc_ext_episode_number: Episode Number
+      xmp_iptc_ext_event: Event
+      xmp_iptc_ext_shown_event_identifier: Shown Event Identifier
+      xmp_iptc_ext_shown_event_name: Shown Event Name
+      xmp_iptc_ext_external_metadata_link: External Metadata Link
+      xmp_iptc_ext_feed_identifier: Feed Identifier
+      xmp_iptc_ext_genre_cv_id: Genre Cv Id
+      xmp_iptc_ext_genre_cv_term_id: Genre Cv Term Id
+      xmp_iptc_ext_genre_cv_term_name: Genre Cv Term Name
+      xmp_iptc_ext_genre_cv_term_refined_about: Genre Cv Term Refined About
+      xmp_iptc_ext_headline: Headline
+      xmp_iptc_ext_image_region_name: Image Region Name
+      xmp_iptc_ext_image_region_ctype_identifier: Image Region Ctype Identifier
+      xmp_iptc_ext_image_region_ctype_name: Image Region Ctype Name
+      xmp_iptc_ext_image_region_boundary_h: Image Region Boundary H
+      xmp_iptc_ext_image_region_boundary_rx: Image Region Boundary Rx
+      xmp_iptc_ext_image_region_boundary_shape: Image Region Boundary Shape
       xmp_iptc_ext_image_region_boundary_shape_values:
         circle: Circle
         polygon: Polygon
         rectangle: Rectangle
-      xmp_iptc_ext_image_region_boundary_unit: iptcExt:Image Region Boundary Unit
+      xmp_iptc_ext_image_region_boundary_unit: Image Region Boundary Unit
       xmp_iptc_ext_image_region_boundary_unit_values:
         pixel: Pixel
         relative: Relative
-      xmp_iptc_ext_image_region_boundary_vertices_x: iptcExt:Image Region Boundary Vertices X
-      xmp_iptc_ext_image_region_boundary_vertices_y: iptcExt:Image Region Boundary Vertices Y
-      xmp_iptc_ext_image_region_boundary_w: iptcExt:Image Region Boundary W
-      xmp_iptc_ext_image_region_boundary_x: iptcExt:Image Region Boundary X
-      xmp_iptc_ext_image_region_boundary_y: iptcExt:Image Region Boundary Y
-      xmp_iptc_ext_image_region_id: iptcExt:Image Region ID
-      xmp_iptc_ext_image_region_role_identifier: iptcExt:Image Region Role Identifier
-      xmp_iptc_ext_image_region_role_name: iptcExt:Image Region Role Name
-      xmp_iptc_ext_iptc_last_edited: iptcExt:IPTC Last Edited
-      xmp_iptc_ext_linked_encoded_rights_expr: iptcExt:Linked Encoded Rights Expr
-      xmp_iptc_ext_linked_encoded_rights_expr_type: iptcExt:Linked Encoded Rights Expr Type
-      xmp_iptc_ext_linked_encoded_rights_expr_lang_id: iptcExt:Linked Encoded Rights Expr Lang ID
-      xmp_iptc_ext_location_created_city: iptcExt:Location Created City
-      xmp_iptc_ext_location_created_country_code: iptcExt:Location Created Country Code
-      xmp_iptc_ext_location_created_country_name: iptcExt:Location Created Country Name
-      xmp_iptc_ext_location_created_gps_altitude: iptcExt:Location Created GPS Altitude
-      xmp_iptc_ext_location_created_gps_latitude: iptcExt:Location Created GPS Latitude
-      xmp_iptc_ext_location_created_gps_longitude: iptcExt:Location Created GPS Longitude
-      xmp_iptc_ext_location_created_identifier: iptcExt:Location Created Identifier
-      xmp_iptc_ext_location_created_location_id: iptcExt:Location Created Location Id
-      xmp_iptc_ext_location_created_location_name: iptcExt:Location Created Location Name
-      xmp_iptc_ext_location_created_province_state: iptcExt:Location Created Province State
-      xmp_iptc_ext_location_created_sublocation: iptcExt:Location Created Sublocation
-      xmp_iptc_ext_location_created_world_region: iptcExt:Location Created World Region
-      xmp_iptc_ext_location_shown_city: iptcExt:Location Shown City
-      xmp_iptc_ext_location_shown_country_code: iptcExt:Location Shown Country Code
-      xmp_iptc_ext_location_shown_country_name: iptcExt:Location Shown Country Name
-      xmp_iptc_ext_location_shown_gps_altitude: iptcExt:Location Shown GPS Altitude
-      xmp_iptc_ext_location_shown_gps_latitude: iptcExt:Location Shown GPS Latitude
-      xmp_iptc_ext_location_shown_gps_longitude: iptcExt:Location Shown GPS Longitude
-      xmp_iptc_ext_location_shown_identifier: iptcExt:Location Shown Identifier
-      xmp_iptc_ext_location_shown_location_id: iptcExt:Location Shown Location Id
-      xmp_iptc_ext_location_shown_location_name: iptcExt:Location Shown Location Name
-      xmp_iptc_ext_location_shown_province_state: iptcExt:Location Shown Province State
-      xmp_iptc_ext_location_shown_sublocation: iptcExt:Location Shown Sublocation
-      xmp_iptc_ext_location_shown_world_region: iptcExt:Location Shown World Region
-      xmp_iptc_ext_max_avail_height: iptcExt:Max Avail Height
-      xmp_iptc_ext_max_avail_width: iptcExt:Max Avail Width
-      xmp_iptc_ext_model_age: iptcExt:Model Age
-      xmp_iptc_ext_organisation_in_image_code: iptcExt:Organisation In Image Code
-      xmp_iptc_ext_organisation_in_image_name: iptcExt:Organisation In Image Name
-      xmp_iptc_ext_person_heard_identifier: iptcExt:Person Heard Identifier
-      xmp_iptc_ext_person_heard_name: iptcExt:Person Heard Name
-      xmp_iptc_ext_person_in_image: iptcExt:Person In Image
-      xmp_iptc_ext_person_in_image_cv_term_cv_id: iptcExt:Person In Image Cv Term Cv Id
-      xmp_iptc_ext_person_in_image_cv_term_id: iptcExt:Person In Image Cv Term Id
-      xmp_iptc_ext_person_in_image_cv_term_name: iptcExt:Person In Image Cv Term Name
-      xmp_iptc_ext_person_in_image_cv_term_refined_about: iptcExt:Person In Image Cv Term Refined About
-      xmp_iptc_ext_person_in_image_description: iptcExt:Person In Image Description
-      xmp_iptc_ext_person_in_image_id: iptcExt:Person In Image Id
-      xmp_iptc_ext_person_in_image_name: iptcExt:Person In Image Name
-      xmp_iptc_ext_planning_ref_identifier: iptcExt:Planning Ref Identifier
-      xmp_iptc_ext_planning_ref_name: iptcExt:Planning Ref Name
-      xmp_iptc_ext_planning_ref_role: iptcExt:Planning Ref Role
-      xmp_iptc_ext_product_in_image_description: iptcExt:Product In Image Description
-      xmp_iptc_ext_product_in_image_gtin: iptcExt:Product In Image GTIN
-      xmp_iptc_ext_product_in_image_name: iptcExt:Product In Image Name
-      xmp_iptc_ext_publication_event_date: iptcExt:Publication Event Date
-      xmp_iptc_ext_publication_event_identifier: iptcExt:Publication Event Identifier
-      xmp_iptc_ext_publication_event_name: iptcExt:Publication Event Name
-      xmp_iptc_ext_rating_region_city: iptcExt:Rating Region City
-      xmp_iptc_ext_rating_region_country_code: iptcExt:Rating Region Country Code
-      xmp_iptc_ext_rating_region_country_name: iptcExt:Rating Region Country Name
-      xmp_iptc_ext_rating_region_gps_altitude: iptcExt:Rating Region GPS Altitude
-      xmp_iptc_ext_rating_region_gps_latitude: iptcExt:Rating Region GPS Latitude
-      xmp_iptc_ext_rating_region_gps_longitude: iptcExt:Rating Region GPS Longitude
-      xmp_iptc_ext_rating_region_identifier: iptcExt:Rating Region Identifier
-      xmp_iptc_ext_rating_region_location_id: iptcExt:Rating Region Location Id
-      xmp_iptc_ext_rating_region_location_name: iptcExt:Rating Region Location Name
-      xmp_iptc_ext_rating_region_province_state: iptcExt:Rating Region Province State
-      xmp_iptc_ext_rating_region_sublocation: iptcExt:Rating Region Sublocation
-      xmp_iptc_ext_rating_region_world_region: iptcExt:Rating Region World Region
-      xmp_iptc_ext_rating_scale_max_value: iptcExt:Rating Scale Max Value
-      xmp_iptc_ext_rating_scale_min_value: iptcExt:Rating Scale Min Value
-      xmp_iptc_ext_rating_source_link: iptcExt:Rating Source Link
-      xmp_iptc_ext_rating_value: iptcExt:Rating Value
-      xmp_iptc_ext_rating_value_logo_link: iptcExt:Rating Value Logo Link
-      xmp_iptc_ext_rec_device_att_lens_description: iptcExt:Rec Device Att Lens Description
-      xmp_iptc_ext_rec_device_manufacturer: iptcExt:Rec Device Manufacturer
-      xmp_iptc_ext_rec_device_model_name: iptcExt:Rec Device Model Name
-      xmp_iptc_ext_rec_device_owners_device_id: iptcExt:Rec Device Owners Device Id
-      xmp_iptc_ext_rec_device_serial_number: iptcExt:Rec Device Serial Number
-      xmp_iptc_ext_registry_entry_role: iptcExt:Registry Entry Role
-      xmp_iptc_ext_registry_item_id: iptcExt:Registry Item ID
-      xmp_iptc_ext_registry_organisation_id: iptcExt:Registry Organisation ID
-      xmp_iptc_ext_release_ready: iptcExt:Release Ready
-      xmp_iptc_ext_season_identifier: iptcExt:Season Identifier
-      xmp_iptc_ext_season_name: iptcExt:Season Name
-      xmp_iptc_ext_season_number: iptcExt:Season Number
-      xmp_iptc_ext_series_identifier: iptcExt:Series Identifier
-      xmp_iptc_ext_series_name: iptcExt:Series Name
-      xmp_iptc_ext_snapshot_format: iptcExt:Snapshot Format
-      xmp_iptc_ext_snapshot_height_pixels: iptcExt:Snapshot Height Pixels
-      xmp_iptc_ext_snapshot_image_role: iptcExt:Snapshot Image Role
-      xmp_iptc_ext_snapshot_link: iptcExt:Snapshot Link
-      xmp_iptc_ext_snapshot_link_qualifier: iptcExt:Snapshot Link Qualifier
-      xmp_iptc_ext_snapshot_used_video_frame_time_format: iptcExt:Snapshot Used Video Frame Time Format
+      xmp_iptc_ext_image_region_boundary_vertices_x: Image Region Boundary Vertices X
+      xmp_iptc_ext_image_region_boundary_vertices_y: Image Region Boundary Vertices Y
+      xmp_iptc_ext_image_region_boundary_w: Image Region Boundary W
+      xmp_iptc_ext_image_region_boundary_x: Image Region Boundary X
+      xmp_iptc_ext_image_region_boundary_y: Image Region Boundary Y
+      xmp_iptc_ext_image_region_id: Image Region ID
+      xmp_iptc_ext_image_region_role_identifier: Image Region Role Identifier
+      xmp_iptc_ext_image_region_role_name: Image Region Role Name
+      xmp_iptc_ext_iptc_last_edited: IPTC Last Edited
+      xmp_iptc_ext_linked_encoded_rights_expr: Linked Encoded Rights Expr
+      xmp_iptc_ext_linked_encoded_rights_expr_type: Linked Encoded Rights Expr Type
+      xmp_iptc_ext_linked_encoded_rights_expr_lang_id: Linked Encoded Rights Expr Lang ID
+      xmp_iptc_ext_location_created_city: Location Created City
+      xmp_iptc_ext_location_created_country_code: Location Created Country Code
+      xmp_iptc_ext_location_created_country_name: Location Created Country Name
+      xmp_iptc_ext_location_created_gps_altitude: Location Created GPS Altitude
+      xmp_iptc_ext_location_created_gps_latitude: Location Created GPS Latitude
+      xmp_iptc_ext_location_created_gps_longitude: Location Created GPS Longitude
+      xmp_iptc_ext_location_created_identifier: Location Created Identifier
+      xmp_iptc_ext_location_created_location_id: Location Created Location Id
+      xmp_iptc_ext_location_created_location_name: Location Created Location Name
+      xmp_iptc_ext_location_created_province_state: Location Created Province State
+      xmp_iptc_ext_location_created_sublocation: Location Created Sublocation
+      xmp_iptc_ext_location_created_world_region: Location Created World Region
+      xmp_iptc_ext_location_shown_city: Location Shown City
+      xmp_iptc_ext_location_shown_country_code: Location Shown Country Code
+      xmp_iptc_ext_location_shown_country_name: Location Shown Country Name
+      xmp_iptc_ext_location_shown_gps_altitude: Location Shown GPS Altitude
+      xmp_iptc_ext_location_shown_gps_latitude: Location Shown GPS Latitude
+      xmp_iptc_ext_location_shown_gps_longitude: Location Shown GPS Longitude
+      xmp_iptc_ext_location_shown_identifier: Location Shown Identifier
+      xmp_iptc_ext_location_shown_location_id: Location Shown Location Id
+      xmp_iptc_ext_location_shown_location_name: Location Shown Location Name
+      xmp_iptc_ext_location_shown_province_state: Location Shown Province State
+      xmp_iptc_ext_location_shown_sublocation: Location Shown Sublocation
+      xmp_iptc_ext_location_shown_world_region: Location Shown World Region
+      xmp_iptc_ext_max_avail_height: Max Avail Height
+      xmp_iptc_ext_max_avail_width: Max Avail Width
+      xmp_iptc_ext_model_age: Model Age
+      xmp_iptc_ext_organisation_in_image_code: Organisation In Image Code
+      xmp_iptc_ext_organisation_in_image_name: Organisation In Image Name
+      xmp_iptc_ext_person_heard_identifier: Person Heard Identifier
+      xmp_iptc_ext_person_heard_name: Person Heard Name
+      xmp_iptc_ext_person_in_image: Person In Image
+      xmp_iptc_ext_person_in_image_cv_term_cv_id: Person In Image Cv Term Cv Id
+      xmp_iptc_ext_person_in_image_cv_term_id: Person In Image Cv Term Id
+      xmp_iptc_ext_person_in_image_cv_term_name: Person In Image Cv Term Name
+      xmp_iptc_ext_person_in_image_cv_term_refined_about: Person In Image Cv Term Refined About
+      xmp_iptc_ext_person_in_image_description: Person In Image Description
+      xmp_iptc_ext_person_in_image_id: Person In Image Id
+      xmp_iptc_ext_person_in_image_name: Person In Image Name
+      xmp_iptc_ext_planning_ref_identifier: Planning Ref Identifier
+      xmp_iptc_ext_planning_ref_name: Planning Ref Name
+      xmp_iptc_ext_planning_ref_role: Planning Ref Role
+      xmp_iptc_ext_product_in_image_description: Product In Image Description
+      xmp_iptc_ext_product_in_image_gtin: Product In Image GTIN
+      xmp_iptc_ext_product_in_image_name: Product In Image Name
+      xmp_iptc_ext_publication_event_date: Publication Event Date
+      xmp_iptc_ext_publication_event_identifier: Publication Event Identifier
+      xmp_iptc_ext_publication_event_name: Publication Event Name
+      xmp_iptc_ext_rating_region_city: Rating Region City
+      xmp_iptc_ext_rating_region_country_code: Rating Region Country Code
+      xmp_iptc_ext_rating_region_country_name: Rating Region Country Name
+      xmp_iptc_ext_rating_region_gps_altitude: Rating Region GPS Altitude
+      xmp_iptc_ext_rating_region_gps_latitude: Rating Region GPS Latitude
+      xmp_iptc_ext_rating_region_gps_longitude: Rating Region GPS Longitude
+      xmp_iptc_ext_rating_region_identifier: Rating Region Identifier
+      xmp_iptc_ext_rating_region_location_id: Rating Region Location Id
+      xmp_iptc_ext_rating_region_location_name: Rating Region Location Name
+      xmp_iptc_ext_rating_region_province_state: Rating Region Province State
+      xmp_iptc_ext_rating_region_sublocation: Rating Region Sublocation
+      xmp_iptc_ext_rating_region_world_region: Rating Region World Region
+      xmp_iptc_ext_rating_scale_max_value: Rating Scale Max Value
+      xmp_iptc_ext_rating_scale_min_value: Rating Scale Min Value
+      xmp_iptc_ext_rating_source_link: Rating Source Link
+      xmp_iptc_ext_rating_value: Rating Value
+      xmp_iptc_ext_rating_value_logo_link: Rating Value Logo Link
+      xmp_iptc_ext_rec_device_att_lens_description: Rec Device Att Lens Description
+      xmp_iptc_ext_rec_device_manufacturer: Rec Device Manufacturer
+      xmp_iptc_ext_rec_device_model_name: Rec Device Model Name
+      xmp_iptc_ext_rec_device_owners_device_id: Rec Device Owners Device Id
+      xmp_iptc_ext_rec_device_serial_number: Rec Device Serial Number
+      xmp_iptc_ext_registry_entry_role: Registry Entry Role
+      xmp_iptc_ext_registry_item_id: Registry Item ID
+      xmp_iptc_ext_registry_organisation_id: Registry Organisation ID
+      xmp_iptc_ext_release_ready: Release Ready
+      xmp_iptc_ext_season_identifier: Season Identifier
+      xmp_iptc_ext_season_name: Season Name
+      xmp_iptc_ext_season_number: Season Number
+      xmp_iptc_ext_series_identifier: Series Identifier
+      xmp_iptc_ext_series_name: Series Name
+      xmp_iptc_ext_snapshot_format: Snapshot Format
+      xmp_iptc_ext_snapshot_height_pixels: Snapshot Height Pixels
+      xmp_iptc_ext_snapshot_image_role: Snapshot Image Role
+      xmp_iptc_ext_snapshot_link: Snapshot Link
+      xmp_iptc_ext_snapshot_link_qualifier: Snapshot Link Qualifier
+      xmp_iptc_ext_snapshot_used_video_frame_time_format: Snapshot Used Video Frame Time Format
       xmp_iptc_ext_snapshot_used_video_frame_time_format_values:
         23_976_fps: 23.976 fps
         24_fps: 24 fps
@@ -1374,46 +1374,46 @@ en:
         59_94_fps_drop: 59.94 fps (drop)
         59_94_fps_non_drop: 59.94 fps (non-drop)
         60_fps: 60 fps
-      xmp_iptc_ext_snapshot_used_video_frame_time_value: iptcExt:Snapshot Used Video Frame Time Value
-      xmp_iptc_ext_snapshot_used_video_frame_value: iptcExt:Snapshot Used Video Frame Value
-      xmp_iptc_ext_snapshot_width_pixels: iptcExt:Snapshot Width Pixels
-      xmp_iptc_ext_storyline_identifier: iptcExt:Storyline Identifier
-      xmp_iptc_ext_stream_ready: iptcExt:Stream Ready
+      xmp_iptc_ext_snapshot_used_video_frame_time_value: Snapshot Used Video Frame Time Value
+      xmp_iptc_ext_snapshot_used_video_frame_value: Snapshot Used Video Frame Value
+      xmp_iptc_ext_snapshot_width_pixels: Snapshot Width Pixels
+      xmp_iptc_ext_storyline_identifier: Storyline Identifier
+      xmp_iptc_ext_stream_ready: Stream Ready
       xmp_iptc_ext_stream_ready_values:
         'false': 'False'
         'true': 'True'
         unknown: Unknown
-      xmp_iptc_ext_style_period: iptcExt:Style Period
-      xmp_iptc_ext_supply_chain_source_identifier: iptcExt:Supply Chain Source Identifier
-      xmp_iptc_ext_supply_chain_source_name: iptcExt:Supply Chain Source Name
-      xmp_iptc_ext_temporal_coverage_from: iptcExt:Temporal Coverage From
-      xmp_iptc_ext_temporal_coverage_to: iptcExt:Temporal Coverage To
-      xmp_iptc_ext_transcript: iptcExt:Transcript
-      xmp_iptc_ext_transcript_link_link: iptcExt:Transcript Link Link
-      xmp_iptc_ext_transcript_link_link_qualifier: iptcExt:Transcript Link Link Qualifier
-      xmp_iptc_ext_video_bitrate: iptcExt:Video Bitrate
-      xmp_iptc_ext_video_bitrate_mode: iptcExt:Video Bitrate Mode
+      xmp_iptc_ext_style_period: Style Period
+      xmp_iptc_ext_supply_chain_source_identifier: Supply Chain Source Identifier
+      xmp_iptc_ext_supply_chain_source_name: Supply Chain Source Name
+      xmp_iptc_ext_temporal_coverage_from: Temporal Coverage From
+      xmp_iptc_ext_temporal_coverage_to: Temporal Coverage To
+      xmp_iptc_ext_transcript: Transcript
+      xmp_iptc_ext_transcript_link_link: Transcript Link Link
+      xmp_iptc_ext_transcript_link_link_qualifier: Transcript Link Link Qualifier
+      xmp_iptc_ext_video_bitrate: Video Bitrate
+      xmp_iptc_ext_video_bitrate_mode: Video Bitrate Mode
       xmp_iptc_ext_video_bitrate_mode_values:
         fixed: Fixed
         variable: Variable
-      xmp_iptc_ext_video_display_aspect_ratio: iptcExt:Video Display Aspect Ratio
-      xmp_iptc_ext_video_encoding_profile: iptcExt:Video Encoding Profile
-      xmp_iptc_ext_video_shot_type_identifier: iptcExt:Video Shot Type Identifier
-      xmp_iptc_ext_video_shot_type_name: iptcExt:Video Shot Type Name
-      xmp_iptc_ext_video_streams_count: iptcExt:Video Streams Count
-      xmp_iptc_ext_visual_color: iptcExt:Visual Color
+      xmp_iptc_ext_video_display_aspect_ratio: Video Display Aspect Ratio
+      xmp_iptc_ext_video_encoding_profile: Video Encoding Profile
+      xmp_iptc_ext_video_shot_type_identifier: Video Shot Type Identifier
+      xmp_iptc_ext_video_shot_type_name: Video Shot Type Name
+      xmp_iptc_ext_video_streams_count: Video Streams Count
+      xmp_iptc_ext_visual_color: Visual Color
       xmp_iptc_ext_visual_color_values:
         monochrome: Monochrome
         color: Color
-      xmp_iptc_ext_workflow_tag_cv_id: iptcExt:Workflow Tag Cv Id
-      xmp_iptc_ext_workflow_tag_cv_term_id: iptcExt:Workflow Tag Cv Term Id
-      xmp_iptc_ext_workflow_tag_cv_term_name: iptcExt:Workflow Tag Cv Term Name
-      xmp_iptc_ext_workflow_tag_cv_term_refined_about: iptcExt:Workflow Tag Cv Term Refined About
-      xmp_photoshop_authors_position: photoshop:Authors Position
-      xmp_photoshop_caption_writer: photoshop:Caption Writer
-      xmp_photoshop_category: photoshop:Category
-      xmp_photoshop_city: photoshop:City
-      xmp_photoshop_color_mode: photoshop:Color Mode
+      xmp_iptc_ext_workflow_tag_cv_id: Workflow Tag Cv Id
+      xmp_iptc_ext_workflow_tag_cv_term_id: Workflow Tag Cv Term Id
+      xmp_iptc_ext_workflow_tag_cv_term_name: Workflow Tag Cv Term Name
+      xmp_iptc_ext_workflow_tag_cv_term_refined_about: Workflow Tag Cv Term Refined About
+      xmp_photoshop_authors_position: Authors Position
+      xmp_photoshop_caption_writer: Caption Writer
+      xmp_photoshop_category: Category
+      xmp_photoshop_city: City
+      xmp_photoshop_color_mode: Color Mode
       xmp_photoshop_color_mode_values:
         bitmap: Bitmap
         grayscale: Grayscale
@@ -1423,24 +1423,24 @@ en:
         multichannel: Multichannel
         duotone: Duotone
         lab: Lab
-      xmp_photoshop_country: photoshop:Country
-      xmp_photoshop_credit: photoshop:Credit
-      xmp_photoshop_date_created: photoshop:Date Created
-      xmp_photoshop_document_ancestors: photoshop:Document Ancestors
-      xmp_photoshop_embedded_xmp_digest: photoshop:Embedded XMP Digest
-      xmp_photoshop_headline: photoshop:Headline
-      xmp_photoshop_history: photoshop:History
-      xmp_photoshop_icc_profile_name: photoshop:ICC Profile Name
-      xmp_photoshop_instructions: photoshop:Instructions
-      xmp_photoshop_legacy_iptc_digest: photoshop:Legacy IPTC Digest
-      xmp_photoshop_sidecar_for_extension: photoshop:Sidecar For Extension
-      xmp_photoshop_source: photoshop:Source
-      xmp_photoshop_state: photoshop:State
-      xmp_photoshop_supplemental_categories: photoshop:Supplemental Categories
-      xmp_photoshop_text_layer_name: photoshop:Text Layer Name
-      xmp_photoshop_text_layer_text: photoshop:Text Layer Text
-      xmp_photoshop_transmission_reference: photoshop:Transmission Reference
-      xmp_photoshop_urgency: photoshop:Urgency
+      xmp_photoshop_country: Country
+      xmp_photoshop_credit: Credit
+      xmp_photoshop_date_created: Date Created
+      xmp_photoshop_document_ancestors: Document Ancestors
+      xmp_photoshop_embedded_xmp_digest: Embedded XMP Digest
+      xmp_photoshop_headline: Headline
+      xmp_photoshop_history: History
+      xmp_photoshop_icc_profile_name: ICC Profile Name
+      xmp_photoshop_instructions: Instructions
+      xmp_photoshop_legacy_iptc_digest: Legacy IPTC Digest
+      xmp_photoshop_sidecar_for_extension: Sidecar For Extension
+      xmp_photoshop_source: Source
+      xmp_photoshop_state: State
+      xmp_photoshop_supplemental_categories: Supplemental Categories
+      xmp_photoshop_text_layer_name: Text Layer Name
+      xmp_photoshop_text_layer_text: Text Layer Text
+      xmp_photoshop_transmission_reference: Transmission Reference
+      xmp_photoshop_urgency: Urgency
       xmp_photoshop_urgency_values:
         '2': '2'
         '3': '3'
@@ -1452,113 +1452,113 @@ en:
         5_normal_urgency: 5 (normal urgency)
         8_least_urgent: 8 (least urgent)
         9_user_defined_priority: 9 (user-defined priority)
-      xmp_xmp_advisory: xmp:Advisory
-      xmp_xmp_author: xmp:Author
-      xmp_xmp_base_url: xmp:Base URL
-      xmp_xmp_create_date: xmp:Create Date
-      xmp_xmp_creator_tool: xmp:Creator Tool
-      xmp_xmp_description: xmp:Description
-      xmp_xmp_format: xmp:Format
-      xmp_xmp_identifier: xmp:Identifier
-      xmp_xmp_keywords: xmp:Keywords
-      xmp_xmp_label: xmp:Label
-      xmp_xmp_metadata_date: xmp:Metadata Date
-      xmp_xmp_modify_date: xmp:Modify Date
-      xmp_xmp_nickname: xmp:Nickname
-      xmp_xmp_page_image_format: xmp:Page Image Format
-      xmp_xmp_page_image_height: xmp:Page Image Height
-      xmp_xmp_page_image: xmp:Page Image
-      xmp_xmp_page_image_page_number: xmp:Page Image Page Number
-      xmp_xmp_page_image_width: xmp:Page Image Width
-      xmp_xmp_rating: xmp:Rating
-      xmp_xmp_rating_percent: xmp:Rating Percent
-      xmp_xmp_thumbnail_format: xmp:Thumbnail Format
-      xmp_xmp_thumbnail_height: xmp:Thumbnail Height
-      xmp_xmp_thumbnail_image: xmp:Thumbnail Image
-      xmp_xmp_thumbnail_width: xmp:Thumbnail Width
-      xmp_xmp_title: xmp:Title
-      xmp_xmp_rights_certificate: xmpRights:Certificate
-      xmp_xmp_rights_marked: xmpRights:Marked
-      xmp_xmp_rights_owner: xmpRights:Owner
-      xmp_xmp_rights_usage_terms: xmpRights:Usage Terms
-      xmp_xmp_rights_web_statement: xmpRights:Web Statement
+      xmp_xmp_advisory: Advisory
+      xmp_xmp_author: Author
+      xmp_xmp_base_url: Base URL
+      xmp_xmp_create_date: Create Date
+      xmp_xmp_creator_tool: Creator Tool
+      xmp_xmp_description: Description
+      xmp_xmp_format: Format
+      xmp_xmp_identifier: Identifier
+      xmp_xmp_keywords: Keywords
+      xmp_xmp_label: Label
+      xmp_xmp_metadata_date: Metadata Date
+      xmp_xmp_modify_date: Modify Date
+      xmp_xmp_nickname: Nickname
+      xmp_xmp_page_image_format: Page Image Format
+      xmp_xmp_page_image_height: Page Image Height
+      xmp_xmp_page_image: Page Image
+      xmp_xmp_page_image_page_number: Page Image Page Number
+      xmp_xmp_page_image_width: Page Image Width
+      xmp_xmp_rating: Rating
+      xmp_xmp_rating_percent: Rating Percent
+      xmp_xmp_thumbnail_format: Thumbnail Format
+      xmp_xmp_thumbnail_height: Thumbnail Height
+      xmp_xmp_thumbnail_image: Thumbnail Image
+      xmp_xmp_thumbnail_width: Thumbnail Width
+      xmp_xmp_title: Title
+      xmp_xmp_rights_certificate: Certificate
+      xmp_xmp_rights_marked: Marked
+      xmp_xmp_rights_owner: Owner
+      xmp_xmp_rights_usage_terms: Usage Terms
+      xmp_xmp_rights_web_statement: Web Statement
 de:
   metadata:
     iptc:
-      iptc_object_type_reference: IPTC:Objekttypreferenz
-      iptc_object_attribute_reference: IPTC:Gattung
-      iptc_object_name: IPTC:Titel
-      iptc_edit_status: IPTC:Bearbeitungsstatus
-      iptc_subject_reference: IPTC:Themencode
-      iptc_category: IPTC:Kategorie
-      iptc_supplemental_categories: IPTC:Zusätzliche Kategorien
-      iptc_fixture_identifier: IPTC:Kennzeichnung
-      iptc_keywords: IPTC:Schlüsselwörter
-      iptc_content_location_code: IPTC:Inhaltspositionscode
-      iptc_content_location_name: IPTC:Inhaltspositionsname
-      iptc_release_time: IPTC:Veröffentlichungszeit
-      iptc_expiration_time: IPTC:Ablaufzeit
-      iptc_special_instructions: IPTC:Anweisungen
-      iptc_reference_service: IPTC:Referenzdienst
-      iptc_time_created: IPTC:Erstellungszeit
-      iptc_digital_creation_time: IPTC:Digitalisierungszeit
-      iptc_originating_program: IPTC:Erstellungsprogramm
-      iptc_program_version: IPTC:Programmversion
-      iptc_object_cycle: IPTC:Objektzyklus
+      iptc_object_type_reference: Objekttypreferenz
+      iptc_object_attribute_reference: Gattung
+      iptc_object_name: Titel
+      iptc_edit_status: Bearbeitungsstatus
+      iptc_subject_reference: Themencode
+      iptc_category: Kategorie
+      iptc_supplemental_categories: Zusätzliche Kategorien
+      iptc_fixture_identifier: Kennzeichnung
+      iptc_keywords: Schlüsselwörter
+      iptc_content_location_code: Inhaltspositionscode
+      iptc_content_location_name: Inhaltspositionsname
+      iptc_release_time: Veröffentlichungszeit
+      iptc_expiration_time: Ablaufzeit
+      iptc_special_instructions: Anweisungen
+      iptc_reference_service: Referenzdienst
+      iptc_time_created: Erstellungszeit
+      iptc_digital_creation_time: Digitalisierungszeit
+      iptc_originating_program: Erstellungsprogramm
+      iptc_program_version: Programmversion
+      iptc_object_cycle: Objektzyklus
       iptc_object_cycle_values:
         morning: Morgens
         both_morning_and_evening: Beides
         evening: Abends
-      iptc_by_line: IPTC:Ersteller
-      iptc_by_line_title: IPTC:Beruf des Erstellers
-      iptc_city: IPTC:Stadt/Ort
-      iptc_sub_location: IPTC:Ort des Motivs
-      iptc_province_state: IPTC:Bundesland/Kanton
-      iptc_country_primary_location_code: IPTC:ISO-Ländercode
-      iptc_country_primary_location_name: IPTC:Land
-      iptc_original_transmission_reference: IPTC:Anbietervermerk Verweis
-      iptc_headline: IPTC:Überschrift
-      iptc_credit: IPTC:Anbieter
-      iptc_source: IPTC:Quelle
-      iptc_copyright_notice: IPTC:Urheberrechtsvermerk
-      iptc_contact: IPTC:Kontakt
-      iptc_caption_abstract: IPTC:Beschreibung/Zusammenfassung
-      iptc_writer_editor: IPTC:Verfasser der Beschreibung
-      iptc_image_type: IPTC:Bildtyp
-      iptc_image_orientation: IPTC:Bildausrichtung
+      iptc_by_line: Ersteller
+      iptc_by_line_title: Beruf des Erstellers
+      iptc_city: Stadt/Ort
+      iptc_sub_location: Ort des Motivs
+      iptc_province_state: Bundesland/Kanton
+      iptc_country_primary_location_code: ISO-Ländercode
+      iptc_country_primary_location_name: Land
+      iptc_original_transmission_reference: Anbietervermerk Verweis
+      iptc_headline: Überschrift
+      iptc_credit: Anbieter
+      iptc_source: Quelle
+      iptc_copyright_notice: Urheberrechtsvermerk
+      iptc_contact: Kontakt
+      iptc_caption_abstract: Beschreibung/Zusammenfassung
+      iptc_writer_editor: Verfasser der Beschreibung
+      iptc_image_type: Bildtyp
+      iptc_image_orientation: Bildausrichtung
       iptc_image_orientation_values:
         landscape: Querformat
         portrait: Porträt
         square: Quadratisch
-      iptc_language_identifier: IPTC:Sprachkennung
-      iptc_audio_type: IPTC:Audiotyp
-      iptc_audio_outcue: IPTC:Audio-Outcue
-      iptc_job_id: IPTC:Job-Kennung
-      iptc_master_document_id: IPTC:ID des Originaldokuments
-      iptc_short_document_id: IPTC:Kurze Bild-ID
-      iptc_unique_document_id: IPTC:Eindeutige Bild-ID
-      iptc_owner_id: IPTC:Besitzer-ID
-      iptc_classify_state: IPTC:Klassifizierungs-Status
-      iptc_similarity_index: IPTC:Bildgleichheits-Index
-      iptc_document_notes: IPTC:Notizen zum Dokument
-      iptc_document_history: IPTC:Historie des Dokuments
-      iptc_exif_camera_info: IPTC:Exif Kamerainformationen
-      iptc_catalog_sets: IPTC:Katalogzusammenstellungen
-      iptc_iptc_picture_number: IPTC:IPTC Bildnummer
+      iptc_language_identifier: Sprachkennung
+      iptc_audio_type: Audiotyp
+      iptc_audio_outcue: Audio-Outcue
+      iptc_job_id: Job-Kennung
+      iptc_master_document_id: ID des Originaldokuments
+      iptc_short_document_id: Kurze Bild-ID
+      iptc_unique_document_id: Eindeutige Bild-ID
+      iptc_owner_id: Besitzer-ID
+      iptc_classify_state: Klassifizierungs-Status
+      iptc_similarity_index: Bildgleichheits-Index
+      iptc_document_notes: Notizen zum Dokument
+      iptc_document_history: Historie des Dokuments
+      iptc_exif_camera_info: Exif Kamerainformationen
+      iptc_catalog_sets: Katalogzusammenstellungen
+      iptc_iptc_picture_number: IPTC Bildnummer
     exif:
-      ifd_0_interop_index: IFD0:Interoperabilität Identifikation
+      ifd_0_interop_index: Interoperabilität Identifikation
       ifd_0_interop_index_values:
         r_03_dcf_option_file_adobe_rgb: 'R03: DCF Option-Format (Adobe RGB)'
         r_98_dcf_basic_file_s_rgb: 'R98: DCF Basic-Format (sRGB)'
         thm_dcf_thumbnail_file: 'THM: DCF Miniaturbild-Format'
-      ifd_0_processing_software: IFD0:Verarbeitungssoftware
-      ifd_0_old_subfile_type: IFD0:Unterdatei-Typ
+      ifd_0_processing_software: Verarbeitungssoftware
+      ifd_0_old_subfile_type: Unterdatei-Typ
       ifd_0_old_subfile_type_values:
         full_resolution_image: Bild in voller Auflösung
         reduced_resolution_image: Bild in reduzierter Auflösung
         single_page_of_multi_page_image: Einzelbild eines mehrseitigen Bildes
-      ifd_0_bits_per_sample: IFD0:Anzahl der Bits pro Komponente
-      ifd_0_compression: IFD0:Komprimierungsschema
+      ifd_0_bits_per_sample: Anzahl der Bits pro Komponente
+      ifd_0_compression: Komprimierungsschema
       ifd_0_compression_values:
         uncompressed: Nicht komprimiert
         jpeg_old_style: JPEG (alte Version)
@@ -1575,7 +1575,7 @@ de:
         png: PNG-Komprimierung
         kodak_dcr_compressed: Kodak DCR-Komprimierung
         pentax_pef_compressed: Pentax PEF-Komprimierung
-      ifd_0_photometric_interpretation: IFD0:Pixel-Schema
+      ifd_0_photometric_interpretation: Pixel-Schema
       ifd_0_photometric_interpretation_values:
         white_is_zero: Weiß ist Null
         black_is_zero: Schwarz ist Null
@@ -1583,11 +1583,11 @@ de:
         color_filter_array: CFA (Farbfiltermatrix)
         pixar_log_l: CIE Log2(L) (Log Luminanz)
         pixar_log_luv: CIE Log2(L)(u',v') (Log Luminanz und Chrominanz)
-      ifd_0_document_name: IFD0:Dokumentenname
-      ifd_0_image_description: IFD0:Bildbeschreibung
-      ifd_0_make: IFD0:Gerätehersteller
-      ifd_0_model: IFD0:Kameramodell
-      ifd_0_orientation: IFD0:Ausrichtung
+      ifd_0_document_name: Dokumentenname
+      ifd_0_image_description: Bildbeschreibung
+      ifd_0_make: Gerätehersteller
+      ifd_0_model: Kameramodell
+      ifd_0_orientation: Ausrichtung
       ifd_0_orientation_values:
         mirror_horizontal: Horizontal gespiegelt
         rotate_180: 180° gedreht
@@ -1596,58 +1596,58 @@ de:
         rotate_90_cw: 90° im Uhrzeigersinn
         mirror_horizontal_and_rotate_90_cw: Horizontal gespiegelt und 90° im Uhrzeigersinn
         rotate_270_cw: 90° gegen den Uhrzeigersinn
-      ifd_0_samples_per_pixel: IFD0:Anzahl der Komponenten
-      ifd_0_min_sample_value: IFD0:Kleinster Sample Wert
-      ifd_0_max_sample_value: IFD0:Größter Sample Wert
-      ifd_0_x_resolution: IFD0:Horizontale Bildauflösung
-      ifd_0_y_resolution: IFD0:Vertikale Bildauflösung
-      ifd_0_planar_configuration: IFD0:Bilddatenausrichtung
+      ifd_0_samples_per_pixel: Anzahl der Komponenten
+      ifd_0_min_sample_value: Kleinster Sample Wert
+      ifd_0_max_sample_value: Größter Sample Wert
+      ifd_0_x_resolution: Horizontale Bildauflösung
+      ifd_0_y_resolution: Vertikale Bildauflösung
+      ifd_0_planar_configuration: Bilddatenausrichtung
       ifd_0_planar_configuration_values:
         chunky: Kompaktformat
         planar: Ebenes Format
-      ifd_0_page_name: IFD0:Seitenname
+      ifd_0_page_name: Seitenname
       ifd_0_gray_response_unit_values:
         '0_1': Nummer stellt ein 10tel einer Einheit dar
         '0_001': Nummer stellt ein 100tel einer Einheit dar
         '0_0001': Nummer stellt ein 1000tel einer Einheit dar
         1_e_05: Nummer stellt ein 10000tel einer Einheit dar
         1_e_06: Nummer stellt ein 100000tel einer Einheit dar
-      ifd_0_resolution_unit: IFD0:Einheit der X- und Y-Auflösung
+      ifd_0_resolution_unit: Einheit der X- und Y-Auflösung
       ifd_0_resolution_unit_values:
         none: Keine
         inches: Zoll
-      ifd_0_page_number: IFD0:Seitenummer
-      ifd_0_modify_date: IFD0:Änderungsdatum
-      ifd_0_artist: IFD0:Künstler
-      ifd_0_predictor: IFD0:Prädiktor
+      ifd_0_page_number: Seitenummer
+      ifd_0_modify_date: Änderungsdatum
+      ifd_0_artist: Künstler
+      ifd_0_predictor: Prädiktor
       ifd_0_predictor_values:
         none: Kein Prädiktor-Schema in Benutzung
         horizontal_differencing: Horizontale Differenzierung
-      ifd_0_white_point: IFD0:Weißpunkt-Chromatizität
-      ifd_0_primary_chromaticities: IFD0:Chromatizität der Primärfarben
-      ifd_0_y_cb_cr_coefficients: IFD0:YCbCr-Koeffizienten
-      ifd_0_y_cb_cr_sub_sampling: IFD0:Subsampling Rate von Y bis C
-      ifd_0_y_cb_cr_positioning: IFD0:Y und C Ausrichtung
+      ifd_0_white_point: Weißpunkt-Chromatizität
+      ifd_0_primary_chromaticities: Chromatizität der Primärfarben
+      ifd_0_y_cb_cr_coefficients: YCbCr-Koeffizienten
+      ifd_0_y_cb_cr_sub_sampling: Subsampling Rate von Y bis C
+      ifd_0_y_cb_cr_positioning: Y und C Ausrichtung
       ifd_0_y_cb_cr_positioning_values:
         centered: Zentriert
         co_sited: Benachbart
-      ifd_0_reference_black_white: IFD0:Schwarz-Weiß-Referenzpunkte
-      ifd_0_related_image_file_format: IFD0:Dateiformat der Bilddaten
-      ifd_0_related_image_width: IFD0:Bildbreite
-      ifd_0_related_image_height: IFD0:Bildhöhe
-      ifd_0_rating: IFD0:Bewertung
-      ifd_0_rating_percent: IFD0:Bewertung in Prozent
-      ifd_0_chromatic_aberration_correction: IFD0:Farbabweichung Korrektur
+      ifd_0_reference_black_white: Schwarz-Weiß-Referenzpunkte
+      ifd_0_related_image_file_format: Dateiformat der Bilddaten
+      ifd_0_related_image_width: Bildbreite
+      ifd_0_related_image_height: Bildhöhe
+      ifd_0_rating: Bewertung
+      ifd_0_rating_percent: Bewertung in Prozent
+      ifd_0_chromatic_aberration_correction: Farbabweichung Korrektur
       ifd_0_chromatic_aberration_correction_values:
         'off': Aus
-      ifd_0_distortion_correction: IFD0:Verzeichnungskorrektur
+      ifd_0_distortion_correction: Verzeichnungskorrektur
       ifd_0_distortion_correction_values:
         'off': Aus
-      ifd_0_cfa_repeat_pattern_dim: IFD0:Farbfiltermatrix-Größe
-      ifd_0_copyright: IFD0:Urheberrechtsvermerk
-      ifd_0_exposure_time: IFD0:Belichtungsdauer
-      ifd_0_f_number: IFD0:F-Wert
-      ifd_0_exposure_program: IFD0:Belichtungsprogramm
+      ifd_0_cfa_repeat_pattern_dim: Farbfiltermatrix-Größe
+      ifd_0_copyright: Urheberrechtsvermerk
+      ifd_0_exposure_time: Belichtungsdauer
+      ifd_0_f_number: F-Wert
+      ifd_0_exposure_program: Belichtungsprogramm
       ifd_0_exposure_program_values:
         not_defined: Nicht definiert
         manual: Manuell
@@ -1658,11 +1658,11 @@ de:
         action_high_speed: Kreativ-Programm (ausgerichtet auf schnelle Verschlussgeschwindigkeit)
         portrait: Porträt
         landscape: Landschaft
-      ifd_0_spectral_sensitivity: IFD0:Spektralempfindlichkeit
-      ifd_0_iso: IFD0:ISO-Empfindlichkeit
-      ifd_0_time_zone_offset: IFD0:Zeitzonen-Offset
-      ifd_0_self_timer_mode: IFD0:Selbstauslösermodus
-      ifd_0_sensitivity_type: IFD0:Art der Empfindlichkeit
+      ifd_0_spectral_sensitivity: Spektralempfindlichkeit
+      ifd_0_iso: ISO-Empfindlichkeit
+      ifd_0_time_zone_offset: Zeitzonen-Offset
+      ifd_0_self_timer_mode: Selbstauslösermodus
+      ifd_0_sensitivity_type: Art der Empfindlichkeit
       ifd_0_sensitivity_type_values:
         unknown: Unbekannt
         standard_output_sensitivity: Standard Ausgabeempfindlichkeit
@@ -1674,16 +1674,16 @@ de:
         standard_output_sensitivity_recommended_exposure_index_and_iso_speed: >-
           Standard Ausgabeempfindlichkeit,empfohlener Belichtungsindex und ISO
           Empfindlichkeit
-      ifd_0_date_time_original: IFD0:Erstellungsdatum/-uhrzeit
-      ifd_0_create_date: IFD0:Digitalisierungsdatum/-uhrzeit
-      ifd_0_compressed_bits_per_pixel: IFD0:Bildkomprimierungsmodus
-      ifd_0_shutter_speed_value: IFD0:Belichtungszeit
-      ifd_0_aperture_value: IFD0:Blende
-      ifd_0_brightness_value: IFD0:Helligkeit
-      ifd_0_exposure_compensation: IFD0:Belichtungskorrektur
-      ifd_0_max_aperture_value: IFD0:Größtmögliche Blende
-      ifd_0_subject_distance: IFD0:Objektentfernung
-      ifd_0_metering_mode: IFD0:Belichtungsmessmethode
+      ifd_0_date_time_original: Erstellungsdatum/-uhrzeit
+      ifd_0_create_date: Digitalisierungsdatum/-uhrzeit
+      ifd_0_compressed_bits_per_pixel: Bildkomprimierungsmodus
+      ifd_0_shutter_speed_value: Belichtungszeit
+      ifd_0_aperture_value: Blende
+      ifd_0_brightness_value: Helligkeit
+      ifd_0_exposure_compensation: Belichtungskorrektur
+      ifd_0_max_aperture_value: Größtmögliche Blende
+      ifd_0_subject_distance: Objektentfernung
+      ifd_0_metering_mode: Belichtungsmessmethode
       ifd_0_metering_mode_values:
         unknown: Unbekannt
         average: Integralmessung
@@ -1693,7 +1693,7 @@ de:
         multi_segment: Multi-Segment
         partial: Teilbild
         other: Andere
-      ifd_0_light_source: IFD0:Lichtquelle
+      ifd_0_light_source: Lichtquelle
       ifd_0_light_source_values:
         unknown: Unbekannt
         daylight: Tageslicht
@@ -1713,7 +1713,7 @@ de:
         standard_light_c: Standard-Licht C
         iso_studio_tungsten: ISO Studio-Kunstlicht (Glühbirne)
         other: Andere Lichtquelle
-      ifd_0_flash: IFD0:Blitzmodus
+      ifd_0_flash: Blitzmodus
       ifd_0_flash_values:
         no_flash: Blitz wurde nicht ausgelöst
         fired: Blitz wurde ausgelöst
@@ -1760,37 +1760,37 @@ de:
         auto_fired_red_eye_reduction_return_detected: >-
           Blitz wurde ausgelöst, Automodus, Messblitz-Licht zurückgeworfen,
           Rote-Augen-Reduzierung
-      ifd_0_focal_length: IFD0:Brennweite
-      ifd_0_security_classification: IFD0:Sicherheitsklassifizierung
+      ifd_0_focal_length: Brennweite
+      ifd_0_security_classification: Sicherheitsklassifizierung
       ifd_0_security_classification_values:
         confidential: Vertraulich
         restricted: Eingeschränkt
         secret: Geheim
         top_secret: Streng geheim
         unclassified: Nicht klassifiziert
-      ifd_0_image_history: IFD0:Bild-Historie
-      ifd_0_subject_area: IFD0:Hauptobjektposition
-      ifd_0_sub_sec_time: IFD0:Datum/Uhrzeit 1/100 Sekunden
-      ifd_0_sub_sec_time_original: IFD0:Erstellungsdatum/-uhrzeit 1/100 Sekunden
-      ifd_0_sub_sec_time_digitized: IFD0:Digitalisierungsdatum/-uhrzeit 1/100 Sekunden
-      ifd_0_color_space: IFD0:Farbraum
+      ifd_0_image_history: Bild-Historie
+      ifd_0_subject_area: Hauptobjektposition
+      ifd_0_sub_sec_time: Datum/Uhrzeit 1/100 Sekunden
+      ifd_0_sub_sec_time_original: Erstellungsdatum/-uhrzeit 1/100 Sekunden
+      ifd_0_sub_sec_time_digitized: Digitalisierungsdatum/-uhrzeit 1/100 Sekunden
+      ifd_0_color_space: Farbraum
       ifd_0_color_space_values:
         icc_profile: ICC-Profil
         uncalibrated: Nicht festgelegt
-      ifd_0_exif_image_width: IFD0:Exif-Bildbreite
-      ifd_0_exif_image_height: IFD0:Exif-Bildhöhe
-      ifd_0_related_sound_file: IFD0:Zugehörige Audio-Datei
-      ifd_0_flash_energy: IFD0:Blitzstärke
-      ifd_0_focal_plane_x_resolution: IFD0:Sensorauflösung horizontal
-      ifd_0_focal_plane_y_resolution: IFD0:Sensorauflösung vertikal
-      ifd_0_focal_plane_resolution_unit: IFD0:Einheit der Sensorauflösung
+      ifd_0_exif_image_width: Exif-Bildbreite
+      ifd_0_exif_image_height: Exif-Bildhöhe
+      ifd_0_related_sound_file: Zugehörige Audio-Datei
+      ifd_0_flash_energy: Blitzstärke
+      ifd_0_focal_plane_x_resolution: Sensorauflösung horizontal
+      ifd_0_focal_plane_y_resolution: Sensorauflösung vertikal
+      ifd_0_focal_plane_resolution_unit: Einheit der Sensorauflösung
       ifd_0_focal_plane_resolution_unit_values:
         none: Keine
         inches: Zoll
         um: µm (Mikrometer)
-      ifd_0_subject_location: IFD0:Hauptobjektposition
-      ifd_0_exposure_index: IFD0:Belichtungsindex
-      ifd_0_sensing_method: IFD0:Messmethode
+      ifd_0_subject_location: Hauptobjektposition
+      ifd_0_exposure_index: Belichtungsindex
+      ifd_0_sensing_method: Messmethode
       ifd_0_sensing_method_values:
         not_defined: Nicht definiert
         one_chip_color_area: Ein-Chip-Farbsensor
@@ -1799,84 +1799,84 @@ de:
         color_sequential_area: Color-Sequential-Area-Sensor
         trilinear: Trilinearer Sensor
         color_sequential_linear: Color-Sequential-Linear-Sensor
-      ifd_0_custom_rendered: IFD0:Benutzerdefinierte Bildverarbeitung
+      ifd_0_custom_rendered: Benutzerdefinierte Bildverarbeitung
       ifd_0_custom_rendered_values:
         normal: Standard-Prozess
         custom: Benutzerdefinierter Prozess
-      ifd_0_exposure_mode: IFD0:Belichtungsmodus
+      ifd_0_exposure_mode: Belichtungsmodus
       ifd_0_exposure_mode_values:
         auto: Automatische Belichtung
         manual: Manuelle Belichtung
         auto_bracket: Belichtungsreihe
-      ifd_0_white_balance: IFD0:Weißabgleich
+      ifd_0_white_balance: Weißabgleich
       ifd_0_white_balance_values:
         auto: Automatisch
         manual: Manuell
-      ifd_0_digital_zoom_ratio: IFD0:Digitaler Zoom-Faktor
-      ifd_0_focal_length_in_35_mm_format: IFD0:Brennweite in 35 mm-Kleinbildformat
-      ifd_0_scene_capture_type: IFD0:Szenenaufnahmetyp
+      ifd_0_digital_zoom_ratio: Digitaler Zoom-Faktor
+      ifd_0_focal_length_in_35_mm_format: Brennweite in 35 mm-Kleinbildformat
+      ifd_0_scene_capture_type: Szenenaufnahmetyp
       ifd_0_scene_capture_type_values:
         landscape: Landschaft
         portrait: Porträt
         night: Nachtszene
-      ifd_0_gain_control: IFD0:Belichtungsverstärkung
+      ifd_0_gain_control: Belichtungsverstärkung
       ifd_0_gain_control_values:
         none: Keine
         low_gain_up: Geringe Helligkeitsverstärkung
         high_gain_up: Hohe Helligkeitsverstärkung
         low_gain_down: Geringe Helligkeitsminderung
         high_gain_down: Hohe Helligkeitsminderung
-      ifd_0_contrast: IFD0:Kontrast
+      ifd_0_contrast: Kontrast
       ifd_0_contrast_values:
         low: Leicht
         high: Stark
-      ifd_0_saturation: IFD0:Farbsättigung
+      ifd_0_saturation: Farbsättigung
       ifd_0_saturation_values:
         low: Geringe Farbsättigung
         high: Hohe Farbsättigung
-      ifd_0_sharpness: IFD0:Schärfe
+      ifd_0_sharpness: Schärfe
       ifd_0_sharpness_values:
         soft: Leicht
         hard: Stark
-      ifd_0_subject_distance_range: IFD0:Objektdistanzbereich
+      ifd_0_subject_distance_range: Objektdistanzbereich
       ifd_0_subject_distance_range_values:
         unknown: Unbekannt
         macro: Makro
         close: Nahaufnahme
         distant: Fernaufnahme
-      ifd_0_image_unique_id: IFD0:Eindeutige Bild-ID
-      ifd_0_owner_name: IFD0:Name des Besitzers
-      ifd_0_serial_number: IFD0:Seriennummer
-      ifd_0_lens_info: IFD0:Objektiv-Informationen
-      ifd_0_lens_make: IFD0:Objektivhersteller
-      ifd_0_lens_model: IFD0:Objektiv-Typ
-      ifd_0_lens_serial_number: IFD0:Objektiv-Seriennummer
-      ifd_0_unique_camera_model: IFD0:Eindeutige Kamerabezeichnung
-      ifd_0_localized_camera_model: IFD0:Lokalisiertes Kameramodell
-      ifd_0_black_level: IFD0:Schwarzwert
-      ifd_0_black_level_delta_h: IFD0:Schwarzwert Delta H
-      ifd_0_black_level_delta_v: IFD0:Schwarzwert Delta V
-      ifd_0_default_scale: IFD0:Systemmaß
-      ifd_0_color_matrix_1: IFD0:Farbmatrix 1
-      ifd_0_color_matrix_2: IFD0:Farbmatrix 2
-      ifd_0_camera_calibration_1: IFD0:Kamerakalibrierung 1
-      ifd_0_camera_calibration_2: IFD0:Kamerakalibrierung 2
-      ifd_0_reduction_matrix_1: IFD0:Reduktionsmatrix 1
-      ifd_0_reduction_matrix_2: IFD0:Reduktionsmatrix 2
-      ifd_0_analog_balance: IFD0:Analog-Balance
-      ifd_0_as_shot_neutral: IFD0:Aufnahme Neutral
-      ifd_0_as_shot_white_xy: IFD0:Aufnahme Weiß XY
-      ifd_0_baseline_exposure: IFD0:Referenzbelichtung
-      ifd_0_baseline_noise: IFD0:Grundrauschen
-      ifd_0_baseline_sharpness: IFD0:Referenzschärfe
-      ifd_0_camera_serial_number: IFD0:Kamera-Seriennummer
-      ifd_0_dng_lens_info: IFD0:DNG Objektiv-Informationen
-      ifd_0_anti_alias_strength: IFD0:Anti-Aliasing Stärke
-      ifd_0_maker_note_safety: IFD0:Sicherheit der Hersteller-Informationsdaten
+      ifd_0_image_unique_id: Eindeutige Bild-ID
+      ifd_0_owner_name: Name des Besitzers
+      ifd_0_serial_number: Seriennummer
+      ifd_0_lens_info: Objektiv-Informationen
+      ifd_0_lens_make: Objektivhersteller
+      ifd_0_lens_model: Objektiv-Typ
+      ifd_0_lens_serial_number: Objektiv-Seriennummer
+      ifd_0_unique_camera_model: Eindeutige Kamerabezeichnung
+      ifd_0_localized_camera_model: Lokalisiertes Kameramodell
+      ifd_0_black_level: Schwarzwert
+      ifd_0_black_level_delta_h: Schwarzwert Delta H
+      ifd_0_black_level_delta_v: Schwarzwert Delta V
+      ifd_0_default_scale: Systemmaß
+      ifd_0_color_matrix_1: Farbmatrix 1
+      ifd_0_color_matrix_2: Farbmatrix 2
+      ifd_0_camera_calibration_1: Kamerakalibrierung 1
+      ifd_0_camera_calibration_2: Kamerakalibrierung 2
+      ifd_0_reduction_matrix_1: Reduktionsmatrix 1
+      ifd_0_reduction_matrix_2: Reduktionsmatrix 2
+      ifd_0_analog_balance: Analog-Balance
+      ifd_0_as_shot_neutral: Aufnahme Neutral
+      ifd_0_as_shot_white_xy: Aufnahme Weiß XY
+      ifd_0_baseline_exposure: Referenzbelichtung
+      ifd_0_baseline_noise: Grundrauschen
+      ifd_0_baseline_sharpness: Referenzschärfe
+      ifd_0_camera_serial_number: Kamera-Seriennummer
+      ifd_0_dng_lens_info: DNG Objektiv-Informationen
+      ifd_0_anti_alias_strength: Anti-Aliasing Stärke
+      ifd_0_maker_note_safety: Sicherheit der Hersteller-Informationsdaten
       ifd_0_maker_note_safety_values:
         unsafe: Unsicher
         safe: Sicher
-      ifd_0_calibration_illuminant_1: IFD0:Lichtquellenkalibrierung 1
+      ifd_0_calibration_illuminant_1: Lichtquellenkalibrierung 1
       ifd_0_calibration_illuminant_1_values:
         unknown: Unbekannt
         daylight: Tageslicht
@@ -1896,7 +1896,7 @@ de:
         standard_light_c: Standard-Licht C
         iso_studio_tungsten: ISO Studio-Kunstlicht (Glühbirne)
         other: Andere Lichtquelle
-      ifd_0_calibration_illuminant_2: IFD0:Lichtquellenkalibrierung 2
+      ifd_0_calibration_illuminant_2: Lichtquellenkalibrierung 2
       ifd_0_calibration_illuminant_2_values:
         unknown: Unbekannt
         daylight: Tageslicht
@@ -1916,135 +1916,135 @@ de:
         standard_light_c: Standard-Licht C
         iso_studio_tungsten: ISO Studio-Kunstlicht (Glühbirne)
         other: Andere Lichtquelle
-      ifd_0_original_raw_file_name: IFD0:Original Raw Dateiname
-      ifd_0_as_shot_pre_profile_matrix: IFD0:Aufnahme Pre Profil Matrix
-      ifd_0_colorimetric_reference: IFD0:Farbmetrische Referenz
-      ifd_0_as_shot_profile_name: IFD0:Aufnahme Pre Profilname
-      ifd_0_profile_copyright: IFD0:Urheberrechtsvermerk
-      ifd_0_frame_rate: IFD0:Bildwechselfrequenz
-      ifd_0_baseline_exposure_offset: IFD0:Referenzbelichtung Abweichung
-      ifd_0_lens: IFD0:Objektiv
-      ifd_0_raw_file: IFD0:RAW Datei
-      ifd_0_converter: IFD0:Konverter
-      ifd_0_exposure: IFD0:Belichtung
-      ifd_0_shadows: IFD0:Schatten
-      ifd_0_brightness: IFD0:Helligkeit
-      gps_gps_latitude_ref: GPS:Nördl. oder südl. Breite
+      ifd_0_original_raw_file_name: Original Raw Dateiname
+      ifd_0_as_shot_pre_profile_matrix: Aufnahme Pre Profil Matrix
+      ifd_0_colorimetric_reference: Farbmetrische Referenz
+      ifd_0_as_shot_profile_name: Aufnahme Pre Profilname
+      ifd_0_profile_copyright: Urheberrechtsvermerk
+      ifd_0_frame_rate: Bildwechselfrequenz
+      ifd_0_baseline_exposure_offset: Referenzbelichtung Abweichung
+      ifd_0_lens: Objektiv
+      ifd_0_raw_file: RAW Datei
+      ifd_0_converter: Konverter
+      ifd_0_exposure: Belichtung
+      ifd_0_shadows: Schatten
+      ifd_0_brightness: Helligkeit
+      gps_gps_latitude_ref: Nördl. oder südl. Breite
       gps_gps_latitude_ref_values:
         north: Nördliche Breite
         south: Südliche Breite
-      gps_gps_latitude: GPS:Geografische Breite
-      gps_gps_longitude_ref: GPS:östl. oder westl. Länge
+      gps_gps_latitude: Geografische Breite
+      gps_gps_longitude_ref: östl. oder westl. Länge
       gps_gps_longitude_ref_values:
         east: Östliche Länge
         west: Westliche Länge
-      gps_gps_longitude: GPS:Geografische Länge
-      gps_gps_altitude: GPS:GPS Höhe
-      gps_gps_time_stamp: GPS:GPS-Zeit UTC
-      gps_gps_satellites: GPS:Für die Messung verwendete Satelliten
-      gps_gps_status: GPS:GPS-Empfänger Status
+      gps_gps_longitude: Geografische Länge
+      gps_gps_altitude: GPS Höhe
+      gps_gps_time_stamp: GPS-Zeit UTC
+      gps_gps_satellites: Für die Messung verwendete Satelliten
+      gps_gps_status: GPS-Empfänger Status
       gps_gps_status_values:
         measurement_active: Messung aktiv
         measurement_void: Messung ungültig
-      gps_gps_measure_mode: GPS:GPS Messverfahren
+      gps_gps_measure_mode: GPS Messverfahren
       gps_gps_measure_mode_values:
         2_dimensional_measurement: 2-Dimensionale Messung
         3_dimensional_measurement: 3-Dimensionale Messung
-      gps_gpsdop: GPS:Messgenauigkeit
-      gps_gps_speed_ref: GPS:Geschwindigkeitseinheit
+      gps_gpsdop: Messgenauigkeit
+      gps_gps_speed_ref: Geschwindigkeitseinheit
       gps_gps_speed_ref_values:
         km_h: Kilometer pro Stunde
         mph: Meilen pro Stunde
         knots: Knoten
-      gps_gps_speed: GPS:Geschwindigkeit des GPS-Empfängers
-      gps_gps_track_ref: GPS:Referenz für Bewegungsrichtung
+      gps_gps_speed: Geschwindigkeit des GPS-Empfängers
+      gps_gps_track_ref: Referenz für Bewegungsrichtung
       gps_gps_track_ref_values:
         magnetic_north: Magnetische Ausrichtung
         true_north: Geographische Ausrichtung
-      gps_gps_track: GPS:Bewegungsrichtung
-      gps_gps_img_direction_ref: GPS:Referenz für die Ausrichtung des Bildes
+      gps_gps_track: Bewegungsrichtung
+      gps_gps_img_direction_ref: Referenz für die Ausrichtung des Bildes
       gps_gps_img_direction_ref_values:
         magnetic_north: Magnetische Ausrichtung
         true_north: Geographische Ausrichtung
-      gps_gps_img_direction: GPS:Bildrichtung
-      gps_gps_map_datum: GPS:Geodätisches Datum
-      gps_gps_dest_latitude_ref: GPS:Referenz für die Breite des Zieles
+      gps_gps_img_direction: Bildrichtung
+      gps_gps_map_datum: Geodätisches Datum
+      gps_gps_dest_latitude_ref: Referenz für die Breite des Zieles
       gps_gps_dest_latitude_ref_values:
         north: Nördliche Breite
         south: Südliche Breite
-      gps_gps_dest_latitude: GPS:Breite des Zieles
-      gps_gps_dest_longitude_ref: GPS:Referenz für die Länge des Zieles
+      gps_gps_dest_latitude: Breite des Zieles
+      gps_gps_dest_longitude_ref: Referenz für die Länge des Zieles
       gps_gps_dest_longitude_ref_values:
         east: Östliche Länge
         west: Westliche Länge
-      gps_gps_dest_longitude: GPS:Längengrad des Ziels
-      gps_gps_dest_bearing_ref: GPS:Referenz für Motivrichtung
+      gps_gps_dest_longitude: Längengrad des Ziels
+      gps_gps_dest_bearing_ref: Referenz für Motivrichtung
       gps_gps_dest_bearing_ref_values:
         magnetic_north: Magnetische Ausrichtung
         true_north: Geographische Ausrichtung
-      gps_gps_dest_bearing: GPS:Motivrichtung
-      gps_gps_dest_distance_ref: GPS:GPS-Zielentfernung Maßeinheit
+      gps_gps_dest_bearing: Motivrichtung
+      gps_gps_dest_distance_ref: GPS-Zielentfernung Maßeinheit
       gps_gps_dest_distance_ref_values:
         kilometers: Kilometer
         miles: Meilen
         nautical_miles: Knoten
-      gps_gps_dest_distance: GPS:GPS Zielentfernung
-      gps_gps_date_stamp: GPS:GPS Datum
-      gps_gps_differential: GPS:GPS Differentialkorrektur
+      gps_gps_dest_distance: GPS Zielentfernung
+      gps_gps_date_stamp: GPS Datum
+      gps_gps_differential: GPS Differentialkorrektur
       gps_gps_differential_values:
         no_correction: Messung ohne Differentialkorrektur
         differential_corrected: Differentialkorrektur angewandt
     xmp:
-      xmp_device_profile_type: Device:Profiltyp
-      xmp_cc_license: cc:Lizenz
+      xmp_device_profile_type: Profiltyp
+      xmp_cc_license: Lizenz
       xmp_cc_permits_values:
         distribution: Verteilung
         reproduction: Reproduktion
-      xmp_cc_prohibits: cc:Verbote
+      xmp_cc_prohibits: Verbote
       xmp_cc_prohibits_values:
         commercial_use: Kommerzielle Verwendung
-      xmp_dc_contributor: dc:Mitwirkender
-      xmp_dc_coverage: dc:Anwendungsbereich
-      xmp_dc_creator: dc:Ersteller
-      xmp_dc_date: dc:Datum
-      xmp_dc_description: dc:Beschreibung
-      xmp_dc_language: dc:Sprache
-      xmp_dc_publisher: dc:Herausgeber
-      xmp_dc_rights: dc:Rechte
-      xmp_dc_source: dc:Quelle
-      xmp_dc_subject: dc:Themen/Schlüsselwörter
-      xmp_dc_title: dc:Titel
-      xmp_dc_type: dc:Typ
-      xmp_exif_aperture_value: exif:Blende
-      xmp_exif_brightness_value: exif:Helligkeit
-      xmp_exif_cfa_pattern_columns: exif:Farbfiltermatrix Spalten
-      xmp_exif_cfa_pattern_rows: exif:Farbfiltermatrix Zeilen
-      xmp_exif_cfa_pattern_values: exif:Farbfiltermatrix Werte
-      xmp_exif_color_space: exif:Farbraum
+      xmp_dc_contributor: Mitwirkender
+      xmp_dc_coverage: Anwendungsbereich
+      xmp_dc_creator: Ersteller
+      xmp_dc_date: Datum
+      xmp_dc_description: Beschreibung
+      xmp_dc_language: Sprache
+      xmp_dc_publisher: Herausgeber
+      xmp_dc_rights: Rechte
+      xmp_dc_source: Quelle
+      xmp_dc_subject: Themen/Schlüsselwörter
+      xmp_dc_title: Titel
+      xmp_dc_type: Typ
+      xmp_exif_aperture_value: Blende
+      xmp_exif_brightness_value: Helligkeit
+      xmp_exif_cfa_pattern_columns: Farbfiltermatrix Spalten
+      xmp_exif_cfa_pattern_rows: Farbfiltermatrix Zeilen
+      xmp_exif_cfa_pattern_values: Farbfiltermatrix Werte
+      xmp_exif_color_space: Farbraum
       xmp_exif_color_space_values:
         uncalibrated: Nicht festgelegt
-      xmp_exif_components_configuration: exif:Bedeutung jeder Komponente
-      xmp_exif_compressed_bits_per_pixel: exif:Bildkomprimierungsmodus
-      xmp_exif_contrast: exif:Kontrast
+      xmp_exif_components_configuration: Bedeutung jeder Komponente
+      xmp_exif_compressed_bits_per_pixel: Bildkomprimierungsmodus
+      xmp_exif_contrast: Kontrast
       xmp_exif_contrast_values:
         low: Leicht
         high: Stark
-      xmp_exif_custom_rendered: exif:Benutzerdefinierte Bildverarbeitung
+      xmp_exif_custom_rendered: Benutzerdefinierte Bildverarbeitung
       xmp_exif_custom_rendered_values:
         normal: Standard-Prozess
         custom: Benutzerdefinierter Prozess
-      xmp_exif_date_time_digitized: exif:Datum/Uhrzeit der Digitalisierung
-      xmp_exif_date_time_original: exif:Erstellungsdatum/-uhrzeit
-      xmp_exif_digital_zoom_ratio: exif:Digitaler Zoom-Faktor
-      xmp_exif_exif_version: exif:Exif-Version
-      xmp_exif_exposure_compensation: exif:Belichtungskorrektur
-      xmp_exif_exposure_index: exif:Belichtungsindex
-      xmp_exif_exposure_mode: exif:Belichtungsmodus
+      xmp_exif_date_time_digitized: Datum/Uhrzeit der Digitalisierung
+      xmp_exif_date_time_original: Erstellungsdatum/-uhrzeit
+      xmp_exif_digital_zoom_ratio: Digitaler Zoom-Faktor
+      xmp_exif_exif_version: Exif-Version
+      xmp_exif_exposure_compensation: Belichtungskorrektur
+      xmp_exif_exposure_index: Belichtungsindex
+      xmp_exif_exposure_mode: Belichtungsmodus
       xmp_exif_exposure_mode_values:
         auto: Automatische Belichtung
         manual: Manuelle Belichtung
         auto_bracket: Belichtungsreihe
-      xmp_exif_exposure_program: exif:Belichtungsprogramm
+      xmp_exif_exposure_program: Belichtungsprogramm
       xmp_exif_exposure_program_values:
         not_defined: Nicht definiert
         manual: Manuell
@@ -2055,112 +2055,112 @@ de:
         action_high_speed: Kreativ-Programm (ausgerichtet auf schnelle Verschlussgeschwindigkeit)
         portrait: Porträt
         landscape: Landschaft
-      xmp_exif_exposure_time: exif:Belichtungsdauer
-      xmp_exif_file_source: exif:Dateiquelle
+      xmp_exif_exposure_time: Belichtungsdauer
+      xmp_exif_file_source: Dateiquelle
       xmp_exif_file_source_values:
         film_scanner: Film-Scanner
         reflection_print_scanner: Scanner
         digital_camera: Digital-Kamera
-      xmp_exif_flash_energy: exif:Blitzstärke
-      xmp_exif_flash_fired: exif:Blitz wurde ausgelöst
+      xmp_exif_flash_energy: Blitzstärke
+      xmp_exif_flash_fired: Blitz wurde ausgelöst
       xmp_exif_flash_fired_values:
         'false': Nein
         'true': Ja
-      xmp_exif_flash_function: exif:Blitzfunktion
+      xmp_exif_flash_function: Blitzfunktion
       xmp_exif_flash_function_values:
         'false': Nein
         'true': Ja
-      xmp_exif_flash_mode: exif:Blitz-Modus
+      xmp_exif_flash_mode: Blitz-Modus
       xmp_exif_flash_mode_values:
         unknown: Unbekannt
         'on': Ein
         'off': Aus
         auto: Automatisch
-      xmp_exif_flashpix_version: exif:Unterstützte Flashpix-Version
-      xmp_exif_flash_red_eye_mode: exif:Blitz Rote-Augen-Modus
+      xmp_exif_flashpix_version: Unterstützte Flashpix-Version
+      xmp_exif_flash_red_eye_mode: Blitz Rote-Augen-Modus
       xmp_exif_flash_red_eye_mode_values:
         'false': Nein
         'true': Ja
-      xmp_exif_flash_return: exif:Blitz Reflexion
+      xmp_exif_flash_return: Blitz Reflexion
       xmp_exif_flash_return_values:
         no_return_detection: Keine Erkennung
         return_not_detected: Reflexion nicht erkannt
         return_detected: Reflexion erkannt
-      xmp_exif_f_number: exif:F-Wert
-      xmp_exif_focal_length: exif:Brennweite
-      xmp_exif_focal_length_in_35_mm_format: exif:Brennweite in 35 mm-Kleinbildformat
-      xmp_exif_focal_plane_resolution_unit: exif:Einheit der Sensorauflösung
+      xmp_exif_f_number: F-Wert
+      xmp_exif_focal_length: Brennweite
+      xmp_exif_focal_length_in_35_mm_format: Brennweite in 35 mm-Kleinbildformat
+      xmp_exif_focal_plane_resolution_unit: Einheit der Sensorauflösung
       xmp_exif_focal_plane_resolution_unit_values:
         none: Keine
         inches: Zoll
         um: µm (Mikrometer)
-      xmp_exif_focal_plane_x_resolution: exif:Sensorauflösung horizontal
-      xmp_exif_focal_plane_y_resolution: exif:Sensorauflösung vertikal
-      xmp_exif_gain_control: exif:Belichtungsverstärkung
+      xmp_exif_focal_plane_x_resolution: Sensorauflösung horizontal
+      xmp_exif_focal_plane_y_resolution: Sensorauflösung vertikal
+      xmp_exif_gain_control: Belichtungsverstärkung
       xmp_exif_gain_control_values:
         none: Keine
         low_gain_up: Geringe Helligkeitsverstärkung
         high_gain_up: Hohe Helligkeitsverstärkung
         low_gain_down: Geringe Helligkeitsminderung
         high_gain_down: Hohe Helligkeitsminderung
-      xmp_exif_gps_altitude: exif:GPS Höhe
-      xmp_exif_gps_altitude_ref: exif:GPS-Höhe Bezug
+      xmp_exif_gps_altitude: GPS Höhe
+      xmp_exif_gps_altitude_ref: GPS-Höhe Bezug
       xmp_exif_gps_altitude_ref_values:
         above_sea_level: Höhe über Normal-Null (Meeresspiegel)
         below_sea_level: Höhe unter Normal-Null (Meeresspiegel)
-      xmp_exif_gps_area_information: exif:Name des GPS-Gebietes
-      xmp_exif_gps_dest_bearing: exif:Motivrichtung
-      xmp_exif_gps_dest_bearing_ref: exif:Referenz für Motivrichtung
+      xmp_exif_gps_area_information: Name des GPS-Gebietes
+      xmp_exif_gps_dest_bearing: Motivrichtung
+      xmp_exif_gps_dest_bearing_ref: Referenz für Motivrichtung
       xmp_exif_gps_dest_bearing_ref_values:
         magnetic_north: Magnetische Ausrichtung
         true_north: Geographische Ausrichtung
-      xmp_exif_gps_dest_distance: exif:GPS Zielentfernung
-      xmp_exif_gps_dest_distance_ref: exif:GPS-Zielentfernung Maßeinheit
+      xmp_exif_gps_dest_distance: GPS Zielentfernung
+      xmp_exif_gps_dest_distance_ref: GPS-Zielentfernung Maßeinheit
       xmp_exif_gps_dest_distance_ref_values:
         kilometers: Kilometer
         miles: Meilen
         nautical_miles: Knoten
-      xmp_exif_gps_dest_latitude: exif:Breite des Zieles
-      xmp_exif_gps_dest_longitude: exif:Längengrad des Ziels
-      xmp_exif_gps_differential: exif:GPS Differentialkorrektur
+      xmp_exif_gps_dest_latitude: Breite des Zieles
+      xmp_exif_gps_dest_longitude: Längengrad des Ziels
+      xmp_exif_gps_differential: GPS Differentialkorrektur
       xmp_exif_gps_differential_values:
         no_correction: Messung ohne Differentialkorrektur
         differential_corrected: Differentialkorrektur angewandt
-      xmp_exif_gpsdop: exif:Messgenauigkeit
-      xmp_exif_gps_img_direction: exif:Bildrichtung
-      xmp_exif_gps_img_direction_ref: exif:Referenz für die Ausrichtung des Bildes
+      xmp_exif_gpsdop: Messgenauigkeit
+      xmp_exif_gps_img_direction: Bildrichtung
+      xmp_exif_gps_img_direction_ref: Referenz für die Ausrichtung des Bildes
       xmp_exif_gps_img_direction_ref_values:
         magnetic_north: Magnetische Ausrichtung
         true_north: Geographische Ausrichtung
-      xmp_exif_gps_latitude: exif:Geografische Breite
-      xmp_exif_gps_longitude: exif:Geografische Länge
-      xmp_exif_gps_map_datum: exif:Geodätisches Datum
-      xmp_exif_gps_measure_mode: exif:GPS Messverfahren
+      xmp_exif_gps_latitude: Geografische Breite
+      xmp_exif_gps_longitude: Geografische Länge
+      xmp_exif_gps_map_datum: Geodätisches Datum
+      xmp_exif_gps_measure_mode: GPS Messverfahren
       xmp_exif_gps_measure_mode_values:
         2_dimensional: 2-Dimensionale Messung
         3_dimensional: 3-Dimensionale Messung
-      xmp_exif_gps_processing_method: exif:Name der GPS-Verarbeitungsmethode
-      xmp_exif_gps_satellites: exif:Für die Messung verwendete Satelliten
-      xmp_exif_gps_speed: exif:Geschwindigkeit des GPS-Empfängers
-      xmp_exif_gps_speed_ref: exif:Geschwindigkeitseinheit
+      xmp_exif_gps_processing_method: Name der GPS-Verarbeitungsmethode
+      xmp_exif_gps_satellites: Für die Messung verwendete Satelliten
+      xmp_exif_gps_speed: Geschwindigkeit des GPS-Empfängers
+      xmp_exif_gps_speed_ref: Geschwindigkeitseinheit
       xmp_exif_gps_speed_ref_values:
         km_h: Kilometer pro Stunde
         mph: Meilen pro Stunde
         knots: Knoten
-      xmp_exif_gps_status: exif:GPS-Empfänger Status
+      xmp_exif_gps_status: GPS-Empfänger Status
       xmp_exif_gps_status_values:
         measurement_active: Messung aktiv
         measurement_void: Messung ungültig
-      xmp_exif_gps_date_time: exif:GPS Zeitstempel
-      xmp_exif_gps_track: exif:Bewegungsrichtung
-      xmp_exif_gps_track_ref: exif:Referenz für Bewegungsrichtung
+      xmp_exif_gps_date_time: GPS Zeitstempel
+      xmp_exif_gps_track: Bewegungsrichtung
+      xmp_exif_gps_track_ref: Referenz für Bewegungsrichtung
       xmp_exif_gps_track_ref_values:
         magnetic_north: Magnetische Ausrichtung
         true_north: Geographische Ausrichtung
-      xmp_exif_gps_version_id: exif:GPS-Tag-Version
-      xmp_exif_image_unique_id: exif:Eindeutige Bild-ID
-      xmp_exif_iso: exif:ISO-Empfindlichkeit
-      xmp_exif_light_source: exif:Lichtquelle
+      xmp_exif_gps_version_id: GPS-Tag-Version
+      xmp_exif_image_unique_id: Eindeutige Bild-ID
+      xmp_exif_iso: ISO-Empfindlichkeit
+      xmp_exif_light_source: Lichtquelle
       xmp_exif_light_source_values:
         unknown: Unbekannt
         daylight: Tageslicht
@@ -2180,9 +2180,9 @@ de:
         standard_light_c: Standard-Licht C
         iso_studio_tungsten: ISO Studio-Kunstlicht (Glühbirne)
         other: Andere Lichtquelle
-      xmp_exif_maker_note: exif:Hersteller-eigene Daten
-      xmp_exif_max_aperture_value: exif:Größtmögliche Blende
-      xmp_exif_metering_mode: exif:Belichtungsmessmethode
+      xmp_exif_maker_note: Hersteller-eigene Daten
+      xmp_exif_max_aperture_value: Größtmögliche Blende
+      xmp_exif_metering_mode: Belichtungsmessmethode
       xmp_exif_metering_mode_values:
         average: Integralmessung
         center_weighted_average: Mittenbetont
@@ -2191,23 +2191,23 @@ de:
         multi_segment: Multi-Segment
         partial: Teilbild
         other: Andere
-      xmp_exif_native_digest: exif:EXIF Kennwert
-      xmp_exif_exif_image_width: exif:Exif-Bildbreite
-      xmp_exif_exif_image_height: exif:Exif-Bildhöhe
-      xmp_exif_related_sound_file: exif:Zugehörige Audio-Datei
-      xmp_exif_saturation: exif:Farbsättigung
+      xmp_exif_native_digest: EXIF Kennwert
+      xmp_exif_exif_image_width: Exif-Bildbreite
+      xmp_exif_exif_image_height: Exif-Bildhöhe
+      xmp_exif_related_sound_file: Zugehörige Audio-Datei
+      xmp_exif_saturation: Farbsättigung
       xmp_exif_saturation_values:
         low: Geringe Farbsättigung
         high: Hohe Farbsättigung
-      xmp_exif_scene_capture_type: exif:Szenenaufnahmetyp
+      xmp_exif_scene_capture_type: Szenenaufnahmetyp
       xmp_exif_scene_capture_type_values:
         landscape: Landschaft
         portrait: Porträt
         night: Nachtszene
-      xmp_exif_scene_type: exif:Szenentyp
+      xmp_exif_scene_type: Szenentyp
       xmp_exif_scene_type_values:
         directly_photographed: Direkt aufgenommenes Bild
-      xmp_exif_sensing_method: exif:Messmethode
+      xmp_exif_sensing_method: Messmethode
       xmp_exif_sensing_method_values:
         monochrome_area: Monochrom-Sensor
         one_chip_color_area: Ein-Chip-Farbsensor
@@ -2217,38 +2217,38 @@ de:
         monochrome_linear: Monochrom-linearer Sensor
         trilinear: Trilinearer Sensor
         color_sequential_linear: Color-Sequential-Linear-Sensor
-      xmp_exif_sharpness: exif:Schärfe
+      xmp_exif_sharpness: Schärfe
       xmp_exif_sharpness_values:
         soft: Leicht
         hard: Stark
-      xmp_exif_shutter_speed_value: exif:Belichtungszeit
-      xmp_exif_spectral_sensitivity: exif:Spektralempfindlichkeit
-      xmp_exif_subject_area: exif:Hauptobjektposition
-      xmp_exif_subject_distance: exif:Objektentfernung
-      xmp_exif_subject_distance_range: exif:Objektdistanzbereich
+      xmp_exif_shutter_speed_value: Belichtungszeit
+      xmp_exif_spectral_sensitivity: Spektralempfindlichkeit
+      xmp_exif_subject_area: Hauptobjektposition
+      xmp_exif_subject_distance: Objektentfernung
+      xmp_exif_subject_distance_range: Objektdistanzbereich
       xmp_exif_subject_distance_range_values:
         unknown: Unbekannt
         macro: Makro
         close: Nahaufnahme
         distant: Fernaufnahme
-      xmp_exif_subject_location: exif:Hauptobjektposition
-      xmp_exif_user_comment: exif:Benutzerkommentar
-      xmp_exif_white_balance: exif:Weißabgleich
+      xmp_exif_subject_location: Hauptobjektposition
+      xmp_exif_user_comment: Benutzerkommentar
+      xmp_exif_white_balance: Weißabgleich
       xmp_exif_white_balance_values:
         auto: Automatisch
         manual: Manuell
-      xmp_exif_ex_serial_number: exifEX:Seriennummer
-      xmp_exif_ex_owner_name: exifEX:Name des Besitzers
-      xmp_exif_ex_interop_index: exifEX:Interoperabilität Identifikation
+      xmp_exif_ex_serial_number: Seriennummer
+      xmp_exif_ex_owner_name: Name des Besitzers
+      xmp_exif_ex_interop_index: Interoperabilität Identifikation
       xmp_exif_ex_interop_index_values:
         r_03_dcf_option_file_adobe_rgb: 'R03: DCF Option-Format (Adobe RGB)'
         r_98_dcf_basic_file_s_rgb: 'R98: DCF Basic-Format (sRGB)'
         thm_dcf_thumbnail_file: 'THM: DCF Miniaturbild-Format'
-      xmp_exif_ex_lens_make: exifEX:Objektivhersteller
-      xmp_exif_ex_lens_model: exifEX:Objektiv-Typ
-      xmp_exif_ex_lens_serial_number: exifEX:Objektiv-Seriennummer
-      xmp_exif_ex_lens_info: exifEX:Objektiv-Informationen
-      xmp_exif_ex_sensitivity_type: exifEX:Art der Empfindlichkeit
+      xmp_exif_ex_lens_make: Objektivhersteller
+      xmp_exif_ex_lens_model: Objektiv-Typ
+      xmp_exif_ex_lens_serial_number: Objektiv-Seriennummer
+      xmp_exif_ex_lens_info: Objektiv-Informationen
+      xmp_exif_ex_sensitivity_type: Art der Empfindlichkeit
       xmp_exif_ex_sensitivity_type_values:
         unknown: Unbekannt
         standard_output_sensitivity: Standard Ausgabeempfindlichkeit
@@ -2260,67 +2260,67 @@ de:
         standard_output_sensitivity_recommended_exposure_index_and_iso_speed: >-
           Standard Ausgabeempfindlichkeit,empfohlener Belichtungsindex und ISO
           Empfindlichkeit
-      xmp_ics_time_stamp: ics:Zeitstempel
-      xmp_iptc_core_country_code: iptcCore:ISO-Ländercode
-      xmp_iptc_core_creator_city: iptcCore:Ersteller - Ort
-      xmp_iptc_core_creator_country: iptcCore:Ersteller - Land
-      xmp_iptc_core_creator_address: iptcCore:Ersteller - Adresse
-      xmp_iptc_core_creator_postal_code: iptcCore:Ersteller - PLZ
-      xmp_iptc_core_creator_region: iptcCore:Ersteller - Bundesland/Kanton
-      xmp_iptc_core_creator_work_email: iptcCore:Ersteller - E-Mail
-      xmp_iptc_core_creator_work_telephone: iptcCore:Ersteller - Telefon
-      xmp_iptc_core_creator_work_url: iptcCore:Ersteller - Webseite(n)
-      xmp_iptc_core_intellectual_genre: iptcCore:Intellektuelles Genre
-      xmp_iptc_core_location: iptcCore:Aufnahmeort
-      xmp_iptc_core_scene: iptcCore:Szene
-      xmp_iptc_core_subject_code: iptcCore:IPTC Themencode
-      xmp_iptc_ext_artwork_creator: iptcExt:Artwork Ersteller
-      xmp_iptc_ext_headline: iptcExt:Überschrift
-      xmp_photoshop_authors_position: photoshop:Autorenposition
-      xmp_photoshop_caption_writer: photoshop:Bildtextautor
-      xmp_photoshop_category: photoshop:Kategorie
-      xmp_photoshop_city: photoshop:Stadt/Ort
-      xmp_photoshop_color_mode: photoshop:Farbmodus
+      xmp_ics_time_stamp: Zeitstempel
+      xmp_iptc_core_country_code: ISO-Ländercode
+      xmp_iptc_core_creator_city: Ersteller - Ort
+      xmp_iptc_core_creator_country: Ersteller - Land
+      xmp_iptc_core_creator_address: Ersteller - Adresse
+      xmp_iptc_core_creator_postal_code: Ersteller - PLZ
+      xmp_iptc_core_creator_region: Ersteller - Bundesland/Kanton
+      xmp_iptc_core_creator_work_email: Ersteller - E-Mail
+      xmp_iptc_core_creator_work_telephone: Ersteller - Telefon
+      xmp_iptc_core_creator_work_url: Ersteller - Webseite(n)
+      xmp_iptc_core_intellectual_genre: Intellektuelles Genre
+      xmp_iptc_core_location: Aufnahmeort
+      xmp_iptc_core_scene: Szene
+      xmp_iptc_core_subject_code: IPTC Themencode
+      xmp_iptc_ext_artwork_creator: Artwork Ersteller
+      xmp_iptc_ext_headline: Überschrift
+      xmp_photoshop_authors_position: Autorenposition
+      xmp_photoshop_caption_writer: Bildtextautor
+      xmp_photoshop_category: Kategorie
+      xmp_photoshop_city: Stadt/Ort
+      xmp_photoshop_color_mode: Farbmodus
       xmp_photoshop_color_mode_values:
         grayscale: Graustufen
         indexed: Indiziert
         multichannel: Mehrkanal
         duotone: Zweiton
-      xmp_photoshop_country: photoshop:Land
-      xmp_photoshop_credit: photoshop:Anbieter
-      xmp_photoshop_date_created: photoshop:Erstellungsdatum
-      xmp_photoshop_headline: photoshop:Überschrift
-      xmp_photoshop_icc_profile_name: photoshop:ICC-Profil Name
-      xmp_photoshop_instructions: photoshop:Anweisungen
-      xmp_photoshop_legacy_iptc_digest: photoshop:Bisheriger IPTC Kennwert
-      xmp_photoshop_source: photoshop:Quelle
-      xmp_photoshop_state: photoshop:Bundesland/Kanton
-      xmp_photoshop_supplemental_categories: photoshop:Zusätzliche Kategorien
-      xmp_photoshop_transmission_reference: photoshop:Anbietervermerk
-      xmp_photoshop_urgency: photoshop:Dringlichkeit
+      xmp_photoshop_country: Land
+      xmp_photoshop_credit: Anbieter
+      xmp_photoshop_date_created: Erstellungsdatum
+      xmp_photoshop_headline: Überschrift
+      xmp_photoshop_icc_profile_name: ICC-Profil Name
+      xmp_photoshop_instructions: Anweisungen
+      xmp_photoshop_legacy_iptc_digest: Bisheriger IPTC Kennwert
+      xmp_photoshop_source: Quelle
+      xmp_photoshop_state: Bundesland/Kanton
+      xmp_photoshop_supplemental_categories: Zusätzliche Kategorien
+      xmp_photoshop_transmission_reference: Anbietervermerk
+      xmp_photoshop_urgency: Dringlichkeit
       xmp_photoshop_urgency_values:
         0_reserved: 0 (reserviert)
         1_most_urgent: 1 (sehr dringend)
         5_normal_urgency: 5 (normale Dringlichkeit)
         8_least_urgent: 8 (geringe Dringlichkeit)
         9_user_defined_priority: 9 (benutzerdefinierte Priorität)
-      xmp_xmp_author: xmp:Autor
-      xmp_xmp_base_url: xmp:Basis URL
-      xmp_xmp_create_date: xmp:Digitalisierungsdatum/-uhrzeit
-      xmp_xmp_creator_tool: xmp:Erstellertool
-      xmp_xmp_description: xmp:Beschreibung
-      xmp_xmp_keywords: xmp:Schlüsselwörter
-      xmp_xmp_label: xmp:Beschriftung
-      xmp_xmp_metadata_date: xmp:Datum der Metadaten
-      xmp_xmp_modify_date: xmp:Änderungsdatum
-      xmp_xmp_rating: xmp:Bewertung
-      xmp_xmp_rating_percent: xmp:Bewertung in Prozent
-      xmp_xmp_thumbnail_format: xmp:Miniaturbild-Format
-      xmp_xmp_thumbnail_height: xmp:Miniaturbild-Höhe
-      xmp_xmp_thumbnail_image: xmp:Miniaturbild
-      xmp_xmp_thumbnail_width: xmp:Miniaturbild-Breite
-      xmp_xmp_title: xmp:Titel
-      xmp_xmp_rights_certificate: xmpRights:Zertifikat
-      xmp_xmp_rights_marked: xmpRights:Markiert
-      xmp_xmp_rights_owner: xmpRights:Besitzer
-      xmp_xmp_rights_usage_terms: xmpRights:Nutzungsbedingungen
+      xmp_xmp_author: Autor
+      xmp_xmp_base_url: Basis URL
+      xmp_xmp_create_date: Digitalisierungsdatum/-uhrzeit
+      xmp_xmp_creator_tool: Erstellertool
+      xmp_xmp_description: Beschreibung
+      xmp_xmp_keywords: Schlüsselwörter
+      xmp_xmp_label: Beschriftung
+      xmp_xmp_metadata_date: Datum der Metadaten
+      xmp_xmp_modify_date: Änderungsdatum
+      xmp_xmp_rating: Bewertung
+      xmp_xmp_rating_percent: Bewertung in Prozent
+      xmp_xmp_thumbnail_format: Miniaturbild-Format
+      xmp_xmp_thumbnail_height: Miniaturbild-Höhe
+      xmp_xmp_thumbnail_image: Miniaturbild
+      xmp_xmp_thumbnail_width: Miniaturbild-Breite
+      xmp_xmp_title: Titel
+      xmp_xmp_rights_certificate: Zertifikat
+      xmp_xmp_rights_marked: Markiert
+      xmp_xmp_rights_owner: Besitzer
+      xmp_xmp_rights_usage_terms: Nutzungsbedingungen
